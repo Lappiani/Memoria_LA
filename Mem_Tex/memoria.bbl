@@ -1,0 +1,1681 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global}
+    \entry{bariviera2017inefficiency}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6e3a35f37dd6e45c99bb928b7a463493}{%
+           family={Bariviera},
+           familyi={B\bibinitperiod},
+           given={Aurelio\bibnamedelima F},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \strng{fullhash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \strng{bibnamehash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \strng{authorbibnamehash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \strng{authornamehash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \strng{authorfullhash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economics Letters}
+      \field{title}{The inefficiency of Bitcoin revisited: A dynamic approach}
+      \field{volume}{161}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+    \endentry
+    \entry{Bennett2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8a9be9fc58b07af834e94746b8a47e75}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Donyetta},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf548967fcb4f962fb45459eeefb3372}{%
+           family={Mekelburg},
+           familyi={M\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5a3415257cfcc3e25874decbd4bd026}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={T.H.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3450e9c7ae3dc7889343e704c2915c47}
+      \strng{fullhash}{537aebdfed1e81ef9f3fdbc3f8f2f1e5}
+      \strng{bibnamehash}{537aebdfed1e81ef9f3fdbc3f8f2f1e5}
+      \strng{authorbibnamehash}{537aebdfed1e81ef9f3fdbc3f8f2f1e5}
+      \strng{authornamehash}{3450e9c7ae3dc7889343e704c2915c47}
+      \strng{authorfullhash}{537aebdfed1e81ef9f3fdbc3f8f2f1e5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research in International Business and Finance}
+      \field{source}{Scopus}
+      \field{title}{BeFi meets DeFi: A behavioral finance approach to decentralized finance asset pricing}
+      \field{type}{Article}
+      \field{volume}{65}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1016/j.ribaf.2023.101939
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85151511244&doi=10.1016%2fj.ribaf.2023.101939&partnerID=40&md5=6505f7c9fd9d4a70a8b30e2fc7ef7ec7
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85151511244&doi=10.1016%2fj.ribaf.2023.101939&partnerID=40&md5=6505f7c9fd9d4a70a8b30e2fc7ef7ec7
+      \endverb
+    \endentry
+    \entry{carhart1997}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8a76f68a24fc2415999589b4429d26d1}{%
+           family={Carhart},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{8a76f68a24fc2415999589b4429d26d1}
+      \strng{fullhash}{8a76f68a24fc2415999589b4429d26d1}
+      \strng{bibnamehash}{8a76f68a24fc2415999589b4429d26d1}
+      \strng{authorbibnamehash}{8a76f68a24fc2415999589b4429d26d1}
+      \strng{authornamehash}{8a76f68a24fc2415999589b4429d26d1}
+      \strng{authorfullhash}{8a76f68a24fc2415999589b4429d26d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of finance}
+      \field{number}{1}
+      \field{title}{On persistence in mutual fund performance}
+      \field{volume}{52}
+      \field{year}{1997}
+      \field{pages}{57\bibrangedash 82}
+      \range{pages}{26}
+    \endentry
+    \entry{10.1371/journal.pone.0264522}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fe0e6be8581c2ec1c65e6b0bd5d1b237}{%
+           family={Diaconaşu},
+           familyi={D\bibinitperiod},
+           given={Delia-Elena},
+           giveni={D\bibinithyphendelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06ee8f8f824ad78a121611121bbf435a}{%
+           family={Mehdian},
+           familyi={M\bibinitperiod},
+           given={Seyed},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=450556487a8899fa0a11d4b9f742dfd1}{%
+           family={Stoica},
+           familyi={S\bibinitperiod},
+           given={Ovidiu},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{f9dfdd1edd3e83dc372edf25205ee25e}
+      \strng{fullhash}{1cf360884a07c11db1acf50ec56ae14c}
+      \strng{bibnamehash}{1cf360884a07c11db1acf50ec56ae14c}
+      \strng{authorbibnamehash}{1cf360884a07c11db1acf50ec56ae14c}
+      \strng{authornamehash}{f9dfdd1edd3e83dc372edf25205ee25e}
+      \strng{authorfullhash}{1cf360884a07c11db1acf50ec56ae14c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{03}
+      \field{number}{3}
+      \field{title}{An analysis of investors’ behavior in Bitcoin market}
+      \field{volume}{17}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0264522
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pone.0264522
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pone.0264522
+      \endverb
+    \endentry
+    \entry{Erfanian2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=84db8a233bd72c84e7c13aa4d786541f}{%
+           family={Erfanian},
+           familyi={E\bibinitperiod},
+           given={Sahar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5591fab0dd67f59784d7e4df2903eb6c}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yewang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b33a813433a785e365f2266f43749ed}{%
+           family={Razzaq},
+           familyi={R\bibinitperiod},
+           given={Amar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78102ebd429c52bed3c69d42d734aa9c}{%
+           family={Abbas},
+           familyi={A\bibinitperiod},
+           given={Azhar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0a251dca6dd28c949db675c2a62277f}{%
+           family={Safeer},
+           familyi={S\bibinitperiod},
+           given={Asif\bibnamedelima Ali},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14ca7e9fff3d2b975deaa6956febc897}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Teng},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2f4cd2908075f9028eb85c1c7b966ea8}
+      \strng{fullhash}{889fd718125df250a28cb9671421e350}
+      \strng{bibnamehash}{889fd718125df250a28cb9671421e350}
+      \strng{authorbibnamehash}{889fd718125df250a28cb9671421e350}
+      \strng{authornamehash}{2f4cd2908075f9028eb85c1c7b966ea8}
+      \strng{authorfullhash}{889fd718125df250a28cb9671421e350}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Entropy}
+      \field{number}{10}
+      \field{source}{Scopus}
+      \field{title}{Predicting Bitcoin (BTC) Price in the Context of Economic Theories: A Machine Learning Approach}
+      \field{type}{Article}
+      \field{volume}{24}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.3390/e24101487
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85140587325&doi=10.3390%2fe24101487&partnerID=40&md5=b789aa472de524a7c86808639d1e4eac
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85140587325&doi=10.3390%2fe24101487&partnerID=40&md5=b789aa472de524a7c86808639d1e4eac
+      \endverb
+    \endentry
+    \entry{fama1993}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cf1dad75742cba1f00261a0ee70e7ba2}{%
+           family={Fama},
+           familyi={F\bibinitperiod},
+           given={Eugene\bibnamedelima F},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ca55f4db61ae3245d066a218dca72c8}{%
+           family={French},
+           familyi={F\bibinitperiod},
+           given={Kenneth\bibnamedelima R},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{fullhash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{bibnamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authorbibnamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authornamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authorfullhash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of financial economics}
+      \field{number}{1}
+      \field{title}{Common risk factors in the returns on stocks and bonds}
+      \field{volume}{33}
+      \field{year}{1993}
+      \field{pages}{3\bibrangedash 56}
+      \range{pages}{54}
+    \endentry
+    \entry{fama2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cf1dad75742cba1f00261a0ee70e7ba2}{%
+           family={Fama},
+           familyi={F\bibinitperiod},
+           given={Eugene\bibnamedelima F},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ca55f4db61ae3245d066a218dca72c8}{%
+           family={French},
+           familyi={F\bibinitperiod},
+           given={Kenneth\bibnamedelima R},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{fullhash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{bibnamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authorbibnamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authornamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authorfullhash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of financial economics}
+      \field{number}{1}
+      \field{title}{A five-factor asset pricing model}
+      \field{volume}{116}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+    \endentry
+    \entry{gregoriou2019cryptocurrencies}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=007ae62b4f04da98f05814d93691f3f8}{%
+           family={Gregoriou},
+           familyi={G\bibinitperiod},
+           given={Andros},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{007ae62b4f04da98f05814d93691f3f8}
+      \strng{fullhash}{007ae62b4f04da98f05814d93691f3f8}
+      \strng{bibnamehash}{007ae62b4f04da98f05814d93691f3f8}
+      \strng{authorbibnamehash}{007ae62b4f04da98f05814d93691f3f8}
+      \strng{authornamehash}{007ae62b4f04da98f05814d93691f3f8}
+      \strng{authorfullhash}{007ae62b4f04da98f05814d93691f3f8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Economics Letters}
+      \field{number}{12}
+      \field{title}{Cryptocurrencies and asset pricing}
+      \field{volume}{26}
+      \field{year}{2019}
+      \field{pages}{995\bibrangedash 998}
+      \range{pages}{4}
+    \endentry
+    \entry{GROBYS20196}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bfc2654081b3a25a9e9f70ba82879b9d}{%
+           family={Grobys},
+           familyi={G\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1001d6f730a12c9c73e4cda7a95a7e8b}{%
+           family={Sapkota},
+           familyi={S\bibinitperiod},
+           given={Niranjan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \strng{fullhash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \strng{bibnamehash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \strng{authorbibnamehash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \strng{authornamehash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \strng{authorfullhash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0165-1765}
+      \field{journaltitle}{Economics Letters}
+      \field{title}{Cryptocurrencies and momentum}
+      \field{volume}{180}
+      \field{year}{2019}
+      \field{pages}{6\bibrangedash 10}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.econlet.2019.03.028
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165176519301077
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165176519301077
+      \endverb
+      \keyw{Asset pricing,Momentum,Cryptocurrencies,Bitcoin}
+    \endentry
+    \entry{HAYES20171308}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=655c44f57561afc2dd9c73686b0f5e8f}{%
+           family={Hayes},
+           familyi={H\bibinitperiod},
+           given={Adam\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \strng{fullhash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \strng{bibnamehash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \strng{authorbibnamehash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \strng{authornamehash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \strng{authorfullhash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0736-5853}
+      \field{journaltitle}{Telematics and Informatics}
+      \field{number}{7}
+      \field{title}{Cryptocurrency value formation: An empirical study leading to a cost of production model for valuing bitcoin}
+      \field{volume}{34}
+      \field{year}{2017}
+      \field{pages}{1308\bibrangedash 1321}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.tele.2016.05.005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0736585315301118
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0736585315301118
+      \endverb
+      \keyw{Bitcoin,Cryptocurrencies,Digital currencies,Blockchain,Asset pricing,Altcoins}
+    \endentry
+    \entry{CFI_nodate}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c92a27cd26c9e2de13c2aa8b1aab2cc}{%
+           family={Institute},
+           familyi={I\bibinitperiod},
+           given={Corporate\bibnamedelima Finance},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \strng{fullhash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \strng{bibnamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \strng{authorbibnamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \strng{authornamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \strng{authorfullhash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://corporatefinanceinstitute.com/resources/cryptocurrency/liquidity-in-cryptocurrency/}}
+      \field{title}{Liquidity in Cryptocurrency - Overview, Importance}
+    \endentry
+    \entry{Investopedia2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=abcdb78a564e00abcb81ee953f22cf04}{%
+           family={Investopedia},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{fullhash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{bibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorbibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authornamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorfullhash}{abcdb78a564e00abcb81ee953f22cf04}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Is a Convenience Yield? Definition and How to Calculate}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb [1](https://www.investopedia.com/terms/c/convenienceyield.asp)
+      \endverb
+      \verb{url}
+      \verb [1](https://www.investopedia.com/terms/c/convenienceyield.asp)
+      \endverb
+    \endentry
+    \entry{koutmos2021intertemporal}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=03b25fb6369ad69c408ec5caab4e6ccd}{%
+           family={Koutmos},
+           familyi={K\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18fcb5101a20f844b54f1eb77ea73e4f}{%
+           family={Payne},
+           familyi={P\bibinitperiod},
+           given={James\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{010ccb217140a5c0f36c2c4123909ec2}
+      \strng{fullhash}{010ccb217140a5c0f36c2c4123909ec2}
+      \strng{bibnamehash}{010ccb217140a5c0f36c2c4123909ec2}
+      \strng{authorbibnamehash}{010ccb217140a5c0f36c2c4123909ec2}
+      \strng{authornamehash}{010ccb217140a5c0f36c2c4123909ec2}
+      \strng{authorfullhash}{010ccb217140a5c0f36c2c4123909ec2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Quantitative Finance and Accounting}
+      \field{title}{Intertemporal asset pricing with bitcoin}
+      \field{volume}{56}
+      \field{year}{2021}
+      \field{pages}{619\bibrangedash 645}
+      \range{pages}{27}
+    \endentry
+    \entry{Lintner1965}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5abe640305d81308b73b9051f8c6e0fe}{%
+           family={Lintner},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5abe640305d81308b73b9051f8c6e0fe}
+      \strng{fullhash}{5abe640305d81308b73b9051f8c6e0fe}
+      \strng{bibnamehash}{5abe640305d81308b73b9051f8c6e0fe}
+      \strng{authorbibnamehash}{5abe640305d81308b73b9051f8c6e0fe}
+      \strng{authornamehash}{5abe640305d81308b73b9051f8c6e0fe}
+      \strng{authorfullhash}{5abe640305d81308b73b9051f8c6e0fe}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Finance}
+      \field{number}{4}
+      \field{title}{Security Prices, Risk, and Maximal Gains from Diversification}
+      \field{volume}{20}
+      \field{year}{1965}
+      \field{pages}{587\bibrangedash 615}
+      \range{pages}{29}
+    \endentry
+    \entry{liu2022common}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d46adf09de85159f9c000335d863fe4a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yukun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d2683c18d6df763e9f2fa0c05f7f47c}{%
+           family={Tsyvinski},
+           familyi={T\bibinitperiod},
+           given={Aleh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6d2842a409b18480cca37c254fecdef}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{3ed939cd7955769b39aa572cd9289a59}
+      \strng{fullhash}{6ca9618e868d0aef11f57e915224b9bc}
+      \strng{bibnamehash}{6ca9618e868d0aef11f57e915224b9bc}
+      \strng{authorbibnamehash}{6ca9618e868d0aef11f57e915224b9bc}
+      \strng{authornamehash}{3ed939cd7955769b39aa572cd9289a59}
+      \strng{authorfullhash}{6ca9618e868d0aef11f57e915224b9bc}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{2}
+      \field{title}{Common risk factors in cryptocurrency}
+      \field{volume}{77}
+      \field{year}{2022}
+      \field{pages}{1133\bibrangedash 1177}
+      \range{pages}{45}
+    \endentry
+    \entry{Long2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=36ead61a1ec2a5031922f643bf524194}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Huaigang},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f65db4bb797c7df24d2ce7b2782cb90}{%
+           family={Zaremba},
+           familyi={Z\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6b121bc29d8d6f05e8f768ee92c427f}{%
+           family={Demir},
+           familyi={D\bibinitperiod},
+           given={Ender},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b43493f92b55f363c5a82e3a5152c905}{%
+           family={Szczygielski},
+           familyi={S\bibinitperiod},
+           given={Jan\bibnamedelima Jakub},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f85d0d346f7d498aa4a2c82389c9ea2d}{%
+           family={Vasenin},
+           familyi={V\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{05e2a00619f5d991027e7388e1983e7b}
+      \strng{fullhash}{1b84115eca7ddd13e53fd28fb7a16c2b}
+      \strng{bibnamehash}{1b84115eca7ddd13e53fd28fb7a16c2b}
+      \strng{authorbibnamehash}{1b84115eca7ddd13e53fd28fb7a16c2b}
+      \strng{authornamehash}{05e2a00619f5d991027e7388e1983e7b}
+      \strng{authorfullhash}{1b84115eca7ddd13e53fd28fb7a16c2b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Finance Research Letters}
+      \field{source}{Scopus}
+      \field{title}{Seasonality in the Cross-Section of Cryptocurrency Returns}
+      \field{type}{Article}
+      \field{volume}{35}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1016/j.frl.2020.101566
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85085158906&doi=10.1016%2fj.frl.2020.101566&partnerID=40&md5=b5c86e42ff1b6671caeca26266a6b184
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85085158906&doi=10.1016%2fj.frl.2020.101566&partnerID=40&md5=b5c86e42ff1b6671caeca26266a6b184
+      \endverb
+    \endentry
+    \entry{mossin1966equilibrium}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c62853668bdb2e78376578bdeb97ab6d}{%
+           family={Mossin},
+           familyi={M\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{c62853668bdb2e78376578bdeb97ab6d}
+      \strng{fullhash}{c62853668bdb2e78376578bdeb97ab6d}
+      \strng{bibnamehash}{c62853668bdb2e78376578bdeb97ab6d}
+      \strng{authorbibnamehash}{c62853668bdb2e78376578bdeb97ab6d}
+      \strng{authornamehash}{c62853668bdb2e78376578bdeb97ab6d}
+      \strng{authorfullhash}{c62853668bdb2e78376578bdeb97ab6d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica: Journal of the econometric society}
+      \field{title}{Equilibrium in a capital asset market}
+      \field{year}{1966}
+      \field{pages}{768\bibrangedash 783}
+      \range{pages}{16}
+    \endentry
+    \entry{sharpe1964}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7713eaeb6845785b0f6bb5cffab120d1}{%
+           family={Sharpe},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima F},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{fullhash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{bibnamehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{authorbibnamehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{authornamehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{authorfullhash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The journal of finance}
+      \field{number}{3}
+      \field{title}{Capital asset prices: A theory of market equilibrium under conditions of risk}
+      \field{volume}{19}
+      \field{year}{1964}
+      \field{pages}{425\bibrangedash 442}
+      \range{pages}{18}
+    \endentry
+    \entry{Shen2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3c0a210a6b09c7a48de3f8adbd5461fc}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Dehua},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7dfe834c28fd909ef75bc79549a84309}{%
+           family={Urquhart},
+           familyi={U\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3bba33b51acaa0a272de7a2f6dfa233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Pengfei},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{512b929bccf24eaf6e01ef057949056f}
+      \strng{fullhash}{f54ce51bd0e1fcfbfbcf8b2ba3580646}
+      \strng{bibnamehash}{f54ce51bd0e1fcfbfbcf8b2ba3580646}
+      \strng{authorbibnamehash}{f54ce51bd0e1fcfbfbcf8b2ba3580646}
+      \strng{authornamehash}{512b929bccf24eaf6e01ef057949056f}
+      \strng{authorfullhash}{f54ce51bd0e1fcfbfbcf8b2ba3580646}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Finance Research Letters}
+      \field{source}{Scopus}
+      \field{title}{A three-factor pricing model for cryptocurrencies}
+      \field{type}{Article}
+      \field{volume}{34}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1016/j.frl.2019.07.021
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85069963134&doi=10.1016%2fj.frl.2019.07.021&partnerID=40&md5=22c41da331ca948941ae37d4ea07b210
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85069963134&doi=10.1016%2fj.frl.2019.07.021&partnerID=40&md5=22c41da331ca948941ae37d4ea07b210
+      \endverb
+    \endentry
+    \entry{Statista2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={Statista},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.statista.com/topics/4495/cryptocurrencies/}}
+      \field{title}{Cryptocurrency statistics \& facts}
+    \endentry
+    \entry{thoma2020prospect}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a508946921431eb192cdd34fb2625b70}{%
+           family={Thoma},
+           familyi={T\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a508946921431eb192cdd34fb2625b70}
+      \strng{fullhash}{a508946921431eb192cdd34fb2625b70}
+      \strng{bibnamehash}{a508946921431eb192cdd34fb2625b70}
+      \strng{authorbibnamehash}{a508946921431eb192cdd34fb2625b70}
+      \strng{authornamehash}{a508946921431eb192cdd34fb2625b70}
+      \strng{authorfullhash}{a508946921431eb192cdd34fb2625b70}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Available at SSRN 3753530}
+      \field{title}{A prospect theory model for predicting cryptocurrency returns}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global}
+    \entry{bariviera2017inefficiency}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6e3a35f37dd6e45c99bb928b7a463493}{%
+           family={Bariviera},
+           familyi={B\bibinitperiod},
+           given={Aurelio\bibnamedelima F},
+           giveni={A\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \strng{fullhash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \strng{bibnamehash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \strng{authorbibnamehash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \strng{authornamehash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \strng{authorfullhash}{6e3a35f37dd6e45c99bb928b7a463493}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economics Letters}
+      \field{title}{The inefficiency of Bitcoin revisited: A dynamic approach}
+      \field{volume}{161}
+      \field{year}{2017}
+      \field{pages}{1\bibrangedash 4}
+      \range{pages}{4}
+    \endentry
+    \entry{Bennett2023}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=8a9be9fc58b07af834e94746b8a47e75}{%
+           family={Bennett},
+           familyi={B\bibinitperiod},
+           given={Donyetta},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=cf548967fcb4f962fb45459eeefb3372}{%
+           family={Mekelburg},
+           familyi={M\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b5a3415257cfcc3e25874decbd4bd026}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={T.H.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3450e9c7ae3dc7889343e704c2915c47}
+      \strng{fullhash}{537aebdfed1e81ef9f3fdbc3f8f2f1e5}
+      \strng{bibnamehash}{537aebdfed1e81ef9f3fdbc3f8f2f1e5}
+      \strng{authorbibnamehash}{537aebdfed1e81ef9f3fdbc3f8f2f1e5}
+      \strng{authornamehash}{3450e9c7ae3dc7889343e704c2915c47}
+      \strng{authorfullhash}{537aebdfed1e81ef9f3fdbc3f8f2f1e5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research in International Business and Finance}
+      \field{source}{Scopus}
+      \field{title}{BeFi meets DeFi: A behavioral finance approach to decentralized finance asset pricing}
+      \field{type}{Article}
+      \field{volume}{65}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1016/j.ribaf.2023.101939
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85151511244&doi=10.1016%2fj.ribaf.2023.101939&partnerID=40&md5=6505f7c9fd9d4a70a8b30e2fc7ef7ec7
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85151511244&doi=10.1016%2fj.ribaf.2023.101939&partnerID=40&md5=6505f7c9fd9d4a70a8b30e2fc7ef7ec7
+      \endverb
+    \endentry
+    \entry{carhart1997}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8a76f68a24fc2415999589b4429d26d1}{%
+           family={Carhart},
+           familyi={C\bibinitperiod},
+           given={Mark\bibnamedelima M},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{8a76f68a24fc2415999589b4429d26d1}
+      \strng{fullhash}{8a76f68a24fc2415999589b4429d26d1}
+      \strng{bibnamehash}{8a76f68a24fc2415999589b4429d26d1}
+      \strng{authorbibnamehash}{8a76f68a24fc2415999589b4429d26d1}
+      \strng{authornamehash}{8a76f68a24fc2415999589b4429d26d1}
+      \strng{authorfullhash}{8a76f68a24fc2415999589b4429d26d1}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of finance}
+      \field{number}{1}
+      \field{title}{On persistence in mutual fund performance}
+      \field{volume}{52}
+      \field{year}{1997}
+      \field{pages}{57\bibrangedash 82}
+      \range{pages}{26}
+    \endentry
+    \entry{10.1371/journal.pone.0264522}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fe0e6be8581c2ec1c65e6b0bd5d1b237}{%
+           family={Diaconaşu},
+           familyi={D\bibinitperiod},
+           given={Delia-Elena},
+           giveni={D\bibinithyphendelim E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06ee8f8f824ad78a121611121bbf435a}{%
+           family={Mehdian},
+           familyi={M\bibinitperiod},
+           given={Seyed},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=450556487a8899fa0a11d4b9f742dfd1}{%
+           family={Stoica},
+           familyi={S\bibinitperiod},
+           given={Ovidiu},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Public Library of Science}%
+      }
+      \strng{namehash}{f9dfdd1edd3e83dc372edf25205ee25e}
+      \strng{fullhash}{1cf360884a07c11db1acf50ec56ae14c}
+      \strng{bibnamehash}{1cf360884a07c11db1acf50ec56ae14c}
+      \strng{authorbibnamehash}{1cf360884a07c11db1acf50ec56ae14c}
+      \strng{authornamehash}{f9dfdd1edd3e83dc372edf25205ee25e}
+      \strng{authorfullhash}{1cf360884a07c11db1acf50ec56ae14c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS ONE}
+      \field{month}{03}
+      \field{number}{3}
+      \field{title}{An analysis of investors’ behavior in Bitcoin market}
+      \field{volume}{17}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 18}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1371/journal.pone.0264522
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1371/journal.pone.0264522
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1371/journal.pone.0264522
+      \endverb
+    \endentry
+    \entry{Erfanian2022}{article}{}
+      \name{author}{6}{}{%
+        {{un=0,uniquepart=base,hash=84db8a233bd72c84e7c13aa4d786541f}{%
+           family={Erfanian},
+           familyi={E\bibinitperiod},
+           given={Sahar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5591fab0dd67f59784d7e4df2903eb6c}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Yewang},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1b33a813433a785e365f2266f43749ed}{%
+           family={Razzaq},
+           familyi={R\bibinitperiod},
+           given={Amar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=78102ebd429c52bed3c69d42d734aa9c}{%
+           family={Abbas},
+           familyi={A\bibinitperiod},
+           given={Azhar},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0a251dca6dd28c949db675c2a62277f}{%
+           family={Safeer},
+           familyi={S\bibinitperiod},
+           given={Asif\bibnamedelima Ali},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=14ca7e9fff3d2b975deaa6956febc897}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Teng},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2f4cd2908075f9028eb85c1c7b966ea8}
+      \strng{fullhash}{889fd718125df250a28cb9671421e350}
+      \strng{bibnamehash}{889fd718125df250a28cb9671421e350}
+      \strng{authorbibnamehash}{889fd718125df250a28cb9671421e350}
+      \strng{authornamehash}{2f4cd2908075f9028eb85c1c7b966ea8}
+      \strng{authorfullhash}{889fd718125df250a28cb9671421e350}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Entropy}
+      \field{number}{10}
+      \field{source}{Scopus}
+      \field{title}{Predicting Bitcoin (BTC) Price in the Context of Economic Theories: A Machine Learning Approach}
+      \field{type}{Article}
+      \field{volume}{24}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.3390/e24101487
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85140587325&doi=10.3390%2fe24101487&partnerID=40&md5=b789aa472de524a7c86808639d1e4eac
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85140587325&doi=10.3390%2fe24101487&partnerID=40&md5=b789aa472de524a7c86808639d1e4eac
+      \endverb
+    \endentry
+    \entry{fama1993}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cf1dad75742cba1f00261a0ee70e7ba2}{%
+           family={Fama},
+           familyi={F\bibinitperiod},
+           given={Eugene\bibnamedelima F},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ca55f4db61ae3245d066a218dca72c8}{%
+           family={French},
+           familyi={F\bibinitperiod},
+           given={Kenneth\bibnamedelima R},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{fullhash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{bibnamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authorbibnamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authornamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authorfullhash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of financial economics}
+      \field{number}{1}
+      \field{title}{Common risk factors in the returns on stocks and bonds}
+      \field{volume}{33}
+      \field{year}{1993}
+      \field{pages}{3\bibrangedash 56}
+      \range{pages}{54}
+    \endentry
+    \entry{fama2015}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=cf1dad75742cba1f00261a0ee70e7ba2}{%
+           family={Fama},
+           familyi={F\bibinitperiod},
+           given={Eugene\bibnamedelima F},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ca55f4db61ae3245d066a218dca72c8}{%
+           family={French},
+           familyi={F\bibinitperiod},
+           given={Kenneth\bibnamedelima R},
+           giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{fullhash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{bibnamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authorbibnamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authornamehash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \strng{authorfullhash}{ac5c181ffbfa45c593cd5483bcb59bd3}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of financial economics}
+      \field{number}{1}
+      \field{title}{A five-factor asset pricing model}
+      \field{volume}{116}
+      \field{year}{2015}
+      \field{pages}{1\bibrangedash 22}
+      \range{pages}{22}
+    \endentry
+    \entry{gregoriou2019cryptocurrencies}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=007ae62b4f04da98f05814d93691f3f8}{%
+           family={Gregoriou},
+           familyi={G\bibinitperiod},
+           given={Andros},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{007ae62b4f04da98f05814d93691f3f8}
+      \strng{fullhash}{007ae62b4f04da98f05814d93691f3f8}
+      \strng{bibnamehash}{007ae62b4f04da98f05814d93691f3f8}
+      \strng{authorbibnamehash}{007ae62b4f04da98f05814d93691f3f8}
+      \strng{authornamehash}{007ae62b4f04da98f05814d93691f3f8}
+      \strng{authorfullhash}{007ae62b4f04da98f05814d93691f3f8}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Applied Economics Letters}
+      \field{number}{12}
+      \field{title}{Cryptocurrencies and asset pricing}
+      \field{volume}{26}
+      \field{year}{2019}
+      \field{pages}{995\bibrangedash 998}
+      \range{pages}{4}
+    \endentry
+    \entry{GROBYS20196}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=bfc2654081b3a25a9e9f70ba82879b9d}{%
+           family={Grobys},
+           familyi={G\bibinitperiod},
+           given={Klaus},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1001d6f730a12c9c73e4cda7a95a7e8b}{%
+           family={Sapkota},
+           familyi={S\bibinitperiod},
+           given={Niranjan},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \strng{fullhash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \strng{bibnamehash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \strng{authorbibnamehash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \strng{authornamehash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \strng{authorfullhash}{bfa3986a281ef068b1fa6555a4e75fdd}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0165-1765}
+      \field{journaltitle}{Economics Letters}
+      \field{title}{Cryptocurrencies and momentum}
+      \field{volume}{180}
+      \field{year}{2019}
+      \field{pages}{6\bibrangedash 10}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.econlet.2019.03.028
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165176519301077
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0165176519301077
+      \endverb
+      \keyw{Asset pricing,Momentum,Cryptocurrencies,Bitcoin}
+    \endentry
+    \entry{HAYES20171308}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=655c44f57561afc2dd9c73686b0f5e8f}{%
+           family={Hayes},
+           familyi={H\bibinitperiod},
+           given={Adam\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \strng{fullhash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \strng{bibnamehash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \strng{authorbibnamehash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \strng{authornamehash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \strng{authorfullhash}{655c44f57561afc2dd9c73686b0f5e8f}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0736-5853}
+      \field{journaltitle}{Telematics and Informatics}
+      \field{number}{7}
+      \field{title}{Cryptocurrency value formation: An empirical study leading to a cost of production model for valuing bitcoin}
+      \field{volume}{34}
+      \field{year}{2017}
+      \field{pages}{1308\bibrangedash 1321}
+      \range{pages}{14}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.tele.2016.05.005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0736585315301118
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0736585315301118
+      \endverb
+      \keyw{Bitcoin,Cryptocurrencies,Digital currencies,Blockchain,Asset pricing,Altcoins}
+    \endentry
+    \entry{CFI_nodate}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5c92a27cd26c9e2de13c2aa8b1aab2cc}{%
+           family={Institute},
+           familyi={I\bibinitperiod},
+           given={Corporate\bibnamedelima Finance},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \strng{fullhash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \strng{bibnamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \strng{authorbibnamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \strng{authornamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \strng{authorfullhash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://corporatefinanceinstitute.com/resources/cryptocurrency/liquidity-in-cryptocurrency/}}
+      \field{title}{Liquidity in Cryptocurrency - Overview, Importance}
+    \endentry
+    \entry{Investopedia2021}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=abcdb78a564e00abcb81ee953f22cf04}{%
+           family={Investopedia},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{fullhash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{bibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorbibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authornamehash}{abcdb78a564e00abcb81ee953f22cf04}
+      \strng{authorfullhash}{abcdb78a564e00abcb81ee953f22cf04}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What Is a Convenience Yield? Definition and How to Calculate}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb [1](https://www.investopedia.com/terms/c/convenienceyield.asp)
+      \endverb
+      \verb{url}
+      \verb [1](https://www.investopedia.com/terms/c/convenienceyield.asp)
+      \endverb
+    \endentry
+    \entry{koutmos2021intertemporal}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=03b25fb6369ad69c408ec5caab4e6ccd}{%
+           family={Koutmos},
+           familyi={K\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=18fcb5101a20f844b54f1eb77ea73e4f}{%
+           family={Payne},
+           familyi={P\bibinitperiod},
+           given={James\bibnamedelima E},
+           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{010ccb217140a5c0f36c2c4123909ec2}
+      \strng{fullhash}{010ccb217140a5c0f36c2c4123909ec2}
+      \strng{bibnamehash}{010ccb217140a5c0f36c2c4123909ec2}
+      \strng{authorbibnamehash}{010ccb217140a5c0f36c2c4123909ec2}
+      \strng{authornamehash}{010ccb217140a5c0f36c2c4123909ec2}
+      \strng{authorfullhash}{010ccb217140a5c0f36c2c4123909ec2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Review of Quantitative Finance and Accounting}
+      \field{title}{Intertemporal asset pricing with bitcoin}
+      \field{volume}{56}
+      \field{year}{2021}
+      \field{pages}{619\bibrangedash 645}
+      \range{pages}{27}
+    \endentry
+    \entry{Lintner1965}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5abe640305d81308b73b9051f8c6e0fe}{%
+           family={Lintner},
+           familyi={L\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{5abe640305d81308b73b9051f8c6e0fe}
+      \strng{fullhash}{5abe640305d81308b73b9051f8c6e0fe}
+      \strng{bibnamehash}{5abe640305d81308b73b9051f8c6e0fe}
+      \strng{authorbibnamehash}{5abe640305d81308b73b9051f8c6e0fe}
+      \strng{authornamehash}{5abe640305d81308b73b9051f8c6e0fe}
+      \strng{authorfullhash}{5abe640305d81308b73b9051f8c6e0fe}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Finance}
+      \field{number}{4}
+      \field{title}{Security Prices, Risk, and Maximal Gains from Diversification}
+      \field{volume}{20}
+      \field{year}{1965}
+      \field{pages}{587\bibrangedash 615}
+      \range{pages}{29}
+    \endentry
+    \entry{liu2022common}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d46adf09de85159f9c000335d863fe4a}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Yukun},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4d2683c18d6df763e9f2fa0c05f7f47c}{%
+           family={Tsyvinski},
+           familyi={T\bibinitperiod},
+           given={Aleh},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a6d2842a409b18480cca37c254fecdef}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Xi},
+           giveni={X\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{3ed939cd7955769b39aa572cd9289a59}
+      \strng{fullhash}{6ca9618e868d0aef11f57e915224b9bc}
+      \strng{bibnamehash}{6ca9618e868d0aef11f57e915224b9bc}
+      \strng{authorbibnamehash}{6ca9618e868d0aef11f57e915224b9bc}
+      \strng{authornamehash}{3ed939cd7955769b39aa572cd9289a59}
+      \strng{authorfullhash}{6ca9618e868d0aef11f57e915224b9bc}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Finance}
+      \field{number}{2}
+      \field{title}{Common risk factors in cryptocurrency}
+      \field{volume}{77}
+      \field{year}{2022}
+      \field{pages}{1133\bibrangedash 1177}
+      \range{pages}{45}
+    \endentry
+    \entry{Long2020}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=36ead61a1ec2a5031922f643bf524194}{%
+           family={Long},
+           familyi={L\bibinitperiod},
+           given={Huaigang},
+           giveni={H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f65db4bb797c7df24d2ce7b2782cb90}{%
+           family={Zaremba},
+           familyi={Z\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6b121bc29d8d6f05e8f768ee92c427f}{%
+           family={Demir},
+           familyi={D\bibinitperiod},
+           given={Ender},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b43493f92b55f363c5a82e3a5152c905}{%
+           family={Szczygielski},
+           familyi={S\bibinitperiod},
+           given={Jan\bibnamedelima Jakub},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f85d0d346f7d498aa4a2c82389c9ea2d}{%
+           family={Vasenin},
+           familyi={V\bibinitperiod},
+           given={Mikhail},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{05e2a00619f5d991027e7388e1983e7b}
+      \strng{fullhash}{1b84115eca7ddd13e53fd28fb7a16c2b}
+      \strng{bibnamehash}{1b84115eca7ddd13e53fd28fb7a16c2b}
+      \strng{authorbibnamehash}{1b84115eca7ddd13e53fd28fb7a16c2b}
+      \strng{authornamehash}{05e2a00619f5d991027e7388e1983e7b}
+      \strng{authorfullhash}{1b84115eca7ddd13e53fd28fb7a16c2b}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Finance Research Letters}
+      \field{source}{Scopus}
+      \field{title}{Seasonality in the Cross-Section of Cryptocurrency Returns}
+      \field{type}{Article}
+      \field{volume}{35}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1016/j.frl.2020.101566
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85085158906&doi=10.1016%2fj.frl.2020.101566&partnerID=40&md5=b5c86e42ff1b6671caeca26266a6b184
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85085158906&doi=10.1016%2fj.frl.2020.101566&partnerID=40&md5=b5c86e42ff1b6671caeca26266a6b184
+      \endverb
+    \endentry
+    \entry{mossin1966equilibrium}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c62853668bdb2e78376578bdeb97ab6d}{%
+           family={Mossin},
+           familyi={M\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{c62853668bdb2e78376578bdeb97ab6d}
+      \strng{fullhash}{c62853668bdb2e78376578bdeb97ab6d}
+      \strng{bibnamehash}{c62853668bdb2e78376578bdeb97ab6d}
+      \strng{authorbibnamehash}{c62853668bdb2e78376578bdeb97ab6d}
+      \strng{authornamehash}{c62853668bdb2e78376578bdeb97ab6d}
+      \strng{authorfullhash}{c62853668bdb2e78376578bdeb97ab6d}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica: Journal of the econometric society}
+      \field{title}{Equilibrium in a capital asset market}
+      \field{year}{1966}
+      \field{pages}{768\bibrangedash 783}
+      \range{pages}{16}
+    \endentry
+    \entry{sharpe1964}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7713eaeb6845785b0f6bb5cffab120d1}{%
+           family={Sharpe},
+           familyi={S\bibinitperiod},
+           given={William\bibnamedelima F},
+           giveni={W\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley Online Library}%
+      }
+      \strng{namehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{fullhash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{bibnamehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{authorbibnamehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{authornamehash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \strng{authorfullhash}{7713eaeb6845785b0f6bb5cffab120d1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The journal of finance}
+      \field{number}{3}
+      \field{title}{Capital asset prices: A theory of market equilibrium under conditions of risk}
+      \field{volume}{19}
+      \field{year}{1964}
+      \field{pages}{425\bibrangedash 442}
+      \range{pages}{18}
+    \endentry
+    \entry{Shen2020}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3c0a210a6b09c7a48de3f8adbd5461fc}{%
+           family={Shen},
+           familyi={S\bibinitperiod},
+           given={Dehua},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7dfe834c28fd909ef75bc79549a84309}{%
+           family={Urquhart},
+           familyi={U\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3bba33b51acaa0a272de7a2f6dfa233}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Pengfei},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{512b929bccf24eaf6e01ef057949056f}
+      \strng{fullhash}{f54ce51bd0e1fcfbfbcf8b2ba3580646}
+      \strng{bibnamehash}{f54ce51bd0e1fcfbfbcf8b2ba3580646}
+      \strng{authorbibnamehash}{f54ce51bd0e1fcfbfbcf8b2ba3580646}
+      \strng{authornamehash}{512b929bccf24eaf6e01ef057949056f}
+      \strng{authorfullhash}{f54ce51bd0e1fcfbfbcf8b2ba3580646}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Finance Research Letters}
+      \field{source}{Scopus}
+      \field{title}{A three-factor pricing model for cryptocurrencies}
+      \field{type}{Article}
+      \field{volume}{34}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.1016/j.frl.2019.07.021
+      \endverb
+      \verb{urlraw}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85069963134&doi=10.1016%2fj.frl.2019.07.021&partnerID=40&md5=22c41da331ca948941ae37d4ea07b210
+      \endverb
+      \verb{url}
+      \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85069963134&doi=10.1016%2fj.frl.2019.07.021&partnerID=40&md5=22c41da331ca948941ae37d4ea07b210
+      \endverb
+    \endentry
+    \entry{Statista2023}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
+           family={Statista},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeldatesource}{nodate}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.statista.com/topics/4495/cryptocurrencies/}}
+      \field{title}{Cryptocurrency statistics \& facts}
+    \endentry
+    \entry{thoma2020prospect}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a508946921431eb192cdd34fb2625b70}{%
+           family={Thoma},
+           familyi={T\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a508946921431eb192cdd34fb2625b70}
+      \strng{fullhash}{a508946921431eb192cdd34fb2625b70}
+      \strng{bibnamehash}{a508946921431eb192cdd34fb2625b70}
+      \strng{authorbibnamehash}{a508946921431eb192cdd34fb2625b70}
+      \strng{authornamehash}{a508946921431eb192cdd34fb2625b70}
+      \strng{authorfullhash}{a508946921431eb192cdd34fb2625b70}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Available at SSRN 3753530}
+      \field{title}{A prospect theory model for predicting cryptocurrency returns}
+      \field{year}{2020}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

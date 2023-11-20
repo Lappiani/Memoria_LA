@@ -1,0 +1,134 @@
+% Plantilla de memoria Universidad de los Andes
+% para usuarios de pdfLaTeX.
+%
+% Jaime Cisternas, Santiago, junio de 2004, agosto 2010
+%
+% Necesita todos los archivos *.tex llamados en las
+% sentencias \input{} (cap1, cap2,...)
+% ademas de buc.bib y las figuras.
+%
+% El archivo setspace.sty permite especificar el espaciado
+% entre las lineas. Los archivos newapa.sty y newapa.bst
+% especifican el formato de la bibliografia.
+%
+% Para compilar :                    pdflatex memoria
+% Para generar la bibliografia :     bibtex memoria, pdflatex memoria.tex (dos veces)
+
+\documentclass[12pt]{report}
+
+% El archivo siguiente contiene todos los detalles
+% finos del formato de la memoria.
+% No es necesario modificarlo.
+
+
+\input{core/preambulo.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% LAS SIGUIENTES LINEAS DEBEN SER MODIFICADAS POR EL AUTOR DE LA MEMORIA
+% SI EL TITULO ES MUY LARGO PUEDE SER CORTADO CON \linebreak
+
+\newcommand{\nombreautor}{Luca Appiani Caro}
+\newcommand{\mes}{\monthname}
+\newcommand{\anio}{\the\year}
+\newcommand{\titulo}{Formulation of an asset pricing model for cryptocurrencies}
+\newcommand{\nombreprofuno}{Javier Mella}
+\newcommand{\nombreprofdos}{Nombre Representante del Decano}
+\newcommand{\nombreproftres}{Nombre Profesor Invitado}
+\newcommand{\codigo}{ING-IN-001/11}
+
+% LAS SIGUIENTES DEFINICIONES TAMBIEN SON NECESARIAS.
+% ES FUNDAMENTAL QUE EL TEXTO ESTE ENCERRADO ENTRE
+% PARENTESIS DE LLAVE.
+
+\newcommand{\resumen}{
+% El resumen no debe ocupar más de una página y se escribe
+% al igual que el resto de la memoria en primera persona plural
+% (``en este estudio hemos desarrollado...'', ``consideramos...'')
+% o en voz pasiva (``el modelo ha sido analizado...'', ``será simulado...''),
+% tratando de ser consistente en el uso de una de estas opciones.
+
+% El resumen debe ser simple, fácilmente leible por cualquier persona.
+% Se recomienda no incluir siglas (aún aquellas de uso habitual),
+% símbolos matemáticos, ecuaciones o palabras en otro idioma.
+
+% La estructura de la memoria ha de ser la siguiente:
+% páginas de título, resumen, índice, listas de ilustraciones
+% y tablas, capítulos, anexos y bibliografía.
+
+% El formato mínimo especifica cuatro márgenes de 2.5 cm,
+% tipo de letra Times de tamaño 12 puntos y un espaciado entre líneas
+% parecido a 0.6 cm (1.5 veces el espaciado normal).
+
+% Se recomienda vivamente usar esta plantilla \LaTeX{}
+% ya que con ella el autor puede despreocuparse de muchos detalles
+% de la edición y concentrarse en el contenido de la memoria y
+% en la claridad de la exposición.
+}
+
+\newcommand{\agradecimientos}{
+% Muchas gracias a todas aquellas personas que quizás
+% sin saberlo y sin mala voluntad de su parte
+% colaboraron a la finalización de esta investigación... 
+
+%En esta página se puede nombrar a toda clase de personas,
+%amigos y parientes, sin olvidar al profesor guía y
+%a la secretaria de la Facultad.
+}
+
+\newcommand{\dedicatoria}{\it
+I dedicate this work to ...
+% mis papás, a mis abuelitos,
+% a mi nana y a mi tía del Kinder.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Por favor coloque todas las definiciones de simbolos a continuacion
+% y no en los archivos de capitulos. Esto evitara la  existencia de
+% multiples definiciones para las mismas palabras.
+
+\newcommand{\mydef}
+	{\stackrel{\mathrm{def}}{=}}
+\newcommand{\e}
+	{\hbox{\large{e}}}
+\newcommand{\mi}
+	{\hbox{\large{i}}}
+\newcommand{\RR}{\mathbb{R}}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\refname}{References}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\label{start}
+
+% Genera las paginas de titulo, copyright, resumen,
+% agradecimientos, dedicatoria, indices,...
+
+% No es necesario modificar
+
+\input{core/primeras_paginas.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{chapters/chapter01.tex}  
+\cleardoublepage
+
+% Bibliography
+\printbibliography[heading=bibintoc, title = {References}]
+
+
+
+\appendix % seguido de archivos de apendices
+
+\cleardoublepage
+
+% Escribe 'Anexos' en el Indice General
+\addcontentsline{toc}{chapter}{Appendix}
+
+\input{attachements/anexo_a}    % archivo de apendice
+
+%\input{apendice_b}    % otro archivo de apendice
+
+\label{end}
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

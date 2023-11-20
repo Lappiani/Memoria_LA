@@ -1,0 +1,74 @@
+% anexo_a.tex
+
+\chapter{Technical details, tables, and others}
+\label{app_a}
+
+% Conviene dejar en los anexos toda aquella información
+% suplementaria cuya extensión o complejidad (tablas, figuras,
+% láminas en papel fotogrífico, programas,...)
+% no conviene incluir en el texto principal.
+
+% Tambiín conviene dejar en los anexos material que no fue
+% desarrollado por el alumno pero que conviene incluir en la memoria
+% para facilitar su lectura.
+
+% Otra posibilidad es incluir un CD con la tesis, y así no
+% sobrecargar la versión impresa, cuya extensión no debiera
+% superar las 80 píginas.
+
+% Para los programas (C/C++, Fortran, Matlab...),
+% es conveniente distinguir entre:
+% \begin{itemize}
+% \item Pseudo-código: descripción general de un algoritmo,
+% ocupa una mezcla de lenguage convencional y matemático,
+% y cuya extensión no sobrepasa una página.
+% \item Programas cortos: no más de 10 páginas en total.
+% \item Programas largos: no conviene incluir en la versión
+% impresa, mejor incluir código fuente en CD.
+% \end{itemize}
+
+% Para los programas cortos, es posible obtener una impresión
+% excelente usando el programa Emacs o los editores de Microsoft
+% o Borland, en la cual las palabras claves
+% (for, print,...) aparecen en negrita o en colores.
+% No es recomendable incorporar el código fuente directamente al archivo tex,
+% debido a las posibles incompatibilidades entre las dos sintáxis
+% (símbolos de uso comín en C o Matlab pueden confundir al
+% programa \LaTeX{}).
+% Se subentiende que los programas deben estar muy bien escritos
+% para su fácil lectura.
+
+% \pagebreak
+
+% Ejemplo de como puede ser editado un algoritmo en pseudo-código:
+
+% \begin{algorithm}\em\textbf{nsolg} $(x, F, \tau_a, \tau_r)$ \\
+% \\
+% \noindent
+% Evalua $F(x)$; $\tau \leftarrow \tau_r |F(x)| + \tau_a$. \\
+% \bfWHILE $||F(x) || > \tau$ \bfDO \\
+% \tab Encuentra $d$ tal que $|| F'(x)d+F(x)|| \le \eta || F(x) ||$ \\
+% \tab Si no puede encontrar semejante $d$, termina con error. \\
+% \tab $\lambda=1$ \\
+% \tab \bfWHILE $||F(x+\lambda d)||>(1-\alpha \lambda)||F(x)||$ \bfDO \\
+% \tab \tab $\lambda\leftarrow \sigma \lambda$ donde $\sigma \in [1/10, 1/2]$ es calculado \\
+% \tab \tab minimizando el modelo polinomial de $||F(x_n+\lambda d)||^2$. \\
+% \tab \bfEND \bfWHILE \\
+% \tab $x \leftarrow x+\lambda d$ \\
+% \bfEND \bfWHILE
+
+% \end{algorithm}
+
+% %No se me ocurrií nada mís que colocar en este anexo.
+
+% A continuación algunos ejemplos de referencias a sitios en Internet:
+% Ver \href{http://www.uandes.cl}{sitio web}.
+% Contactarse con \href{mailto:juanito@yahoo.com}{\texttt{juanito@yahoo.com}}.
+% Estos se incluyen como muestra de las posibilidades de
+% \LaTeX{}, aunque tratándose de una memoria que ha de perdurar
+% en el tiempo, es aconsejable
+% usar solamente vínculos {\em estables} y reservarlos
+% a la Bibliografía.
+
+% Ejemplo de referencia a otra parte de la memoria:
+% Ir al capítulo \ref{c1}.
