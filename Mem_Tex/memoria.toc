@@ -1,0 +1,8 @@
+\contentsline {section}{Summary}{iv}{dummy.1}%
+\contentsline {section}{Acknowledgements}{v}{dummy.1}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Literature review}{1}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Initial proposal of factors}{6}{subsection.1.1.1}%
+\contentsline {chapter}{References}{8}{chapter*.6}%
+\contentsline {chapter}{Appendix}{10}{chapter*.6}%
+\contentsline {chapter}{\numberline {A}Technical details, tables, and others}{10}{appendix.A}%

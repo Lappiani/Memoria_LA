@@ -1,0 +1,158 @@
+% Paginas de titulo, derechos de autor y otras mas.
+
+% Jaime Cisternas, julio 2004, agosto 2010
+
+% declaracion especifica de pdfLaTeX
+% permite incluir figuras con \includegraphics[...]{figurename}
+\DeclareGraphicsExtensions{.jpg,.pdf,.mps,.png}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+  \pagenumbering{roman}
+% \setcounter{page}{1}
+
+% Escribe la pagina de titulo, incluyendo el autor y la facultad
+
+  \thispagestyle{empty}
+  \textsc{
+  \vspace*{0cm}
+  \begin{center}
+    \Large
+     Universidad de los Andes \\
+     School of Engineering and Applied Sciences\\
+  \end{center}
+     \vspace{1cm}
+  \begin{center}
+     \includegraphics[angle=0,height=5cm]{logos/Logo-UANDES.png}
+  \end{center}
+     \vspace{1cm}
+  \begin{center}
+     \Large
+     \titulo
+  \end{center}
+  \vspace{1.25cm}
+  \begin{center}
+    \Large
+    \nombreautor
+  \end{center}
+  \vspace{1.25cm}
+  \begin{center}
+    Dissertation for the degree of \\
+    Civil Industrial Engineer \\
+    \vspace{1cm}
+    Guiding teacher: \nombreprofuno \\
+    \vspace{0.5cm}
+    \codigo \\
+    \vspace{0.5cm}
+    Santiago, \mes\ \anio
+  \end{center}
+  }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Escribe la segunda pagina de titulo para ser firmada por la comision
+
+\cleardoublepage
+\thispagestyle{empty}
+
+\begin{center}
+
+\vspace*{2cm}
+\parbox{10cm}{
+\noindent
+Certifico que he leído esta memoria y que en mi opinión
+su alcance y calidad son completamente adecuados como para ser considerada
+una memoria conducente al título de Ingeniero.
+\vspace{1cm}
+
+\hfill
+\begin{tabular}{c}
+\hspace{8cm} \\
+\hline
+\nombreprofuno \\
+(Profesor Guía)
+\end{tabular}
+
+\vspace*{1.5cm}
+
+\noindent
+Certifico que he leído esta memoria y que en mi opinión
+su alcance y calidad son completamente adecuados como para ser considerada
+una memoria conducente al título de Ingeniero.
+\vspace{0.75cm}
+
+\hfill
+\begin{tabular}{c}
+\hspace{8cm} \\
+\hline
+\nombreprofdos
+\end{tabular}
+
+\vspace*{1.5cm}
+
+\noindent
+Certifico que he leído esta memoria y que en mi opinión
+su alcance y calidad son completamente adecuados como para ser considerada
+una memoria conducente al título de Ingeniero.
+\vspace{0.75cm}
+
+\hfill
+\begin{tabular}{c}
+\hspace{8cm} \\
+\hline
+\nombreproftres
+\end{tabular}
+}
+
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Espaciado entre lineas
+  \onehalfspacing
+  %\doublespacing
+
+% Hace pagina de derechos de autor
+
+  \cleardoublepage
+  \thispagestyle{empty}
+  %\vspace*{0in}
+  \begin{center}
+    \copyright\ \nombreautor\ \anio \\
+    All rights reserved.
+  \end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Genera resumen leyendo definicion de resumen
+
+  \cleardoublepage
+  \refstepcounter{dummy} \addcontentsline{toc}{section}{Summary}
+  \begin{center} \Large \textbf{Summary} \end{center}
+  \resumen
+
+% Genera agradecimientos leyendo definicion de agradecimientos
+
+  \cleardoublepage \addcontentsline{toc}{section}{Acknowledgements}
+  \begin{center} \Large \textbf{Acknowledgements} \end{center}
+  \agradecimientos
+
+% Genera dedicatoria
+
+  \cleardoublepage \vspace*{1.5in}
+  \begin{flushright} \dedicatoria \end{flushright}
+
+% Produce indice general, listas de figuras y de tablas
+
+  \cleardoublepage
+  \tableofcontents
+  \cleardoublepage
+  \listoffigures
+  \cleardoublepage
+  \listoftables
+  \cleardoublepage
+
+  \normalsize
+  \pagenumbering{arabic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
