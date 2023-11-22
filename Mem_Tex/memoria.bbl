@@ -417,6 +417,63 @@
       \endverb
       \keyw{Asset pricing,Momentum,Cryptocurrencies,Bitcoin}
     \endentry
+    \entry{hasan2022liquidity}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=861bc41b323f54790d2123803ee68c3c}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={Mudassar},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50eba45ba2070955c0c71a5faa775d4b}{%
+           family={Naeem},
+           familyi={N\bibinitperiod},
+           given={Muhammad\bibnamedelima Abubakr},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4665480355a5929922a1a55929027217}{%
+           family={Arif},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71c2c53028cfa6e2c804af229f66698b}{%
+           family={Shahzad},
+           familyi={S\bibinitperiod},
+           given={Syed\bibnamedelimb Jawad\bibnamedelima Hussain},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=175fe70d2eaea51feb04406bdf61d322}{%
+           family={Vo},
+           familyi={V\bibinitperiod},
+           given={Xuan\bibnamedelima Vinh},
+           giveni={X\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{12eae03b6c30c090165afb30abfde00f}
+      \strng{fullhash}{5c4625f4069eff860df0db0d04c6d7f9}
+      \strng{bibnamehash}{5c4625f4069eff860df0db0d04c6d7f9}
+      \strng{authorbibnamehash}{5c4625f4069eff860df0db0d04c6d7f9}
+      \strng{authornamehash}{12eae03b6c30c090165afb30abfde00f}
+      \strng{authorfullhash}{5c4625f4069eff860df0db0d04c6d7f9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Innovation}
+      \field{title}{Liquidity connectedness in cryptocurrency market}
+      \field{volume}{8}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://jfin-swufe.springeropen.com/articles/10.1186/s40854-021-00308-3
+      \endverb
+      \verb{url}
+      \verb https://jfin-swufe.springeropen.com/articles/10.1186/s40854-021-00308-3
+      \endverb
+    \endentry
     \entry{HAYES20171308}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=655c44f57561afc2dd9c73686b0f5e8f}{%
@@ -458,57 +515,33 @@
       \endverb
       \keyw{Bitcoin,Cryptocurrencies,Digital currencies,Blockchain,Asset pricing,Altcoins}
     \endentry
-    \entry{CFI_nodate}{misc}{}
+    \entry{Hull_deriv}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5c92a27cd26c9e2de13c2aa8b1aab2cc}{%
-           family={Institute},
-           familyi={I\bibinitperiod},
-           given={Corporate\bibnamedelima Finance},
-           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+        {{un=0,uniquepart=base,hash=8eb46e2417b472d17c974e4c3bc21987}{%
+           family={Hull},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \strng{fullhash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \strng{bibnamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \strng{authorbibnamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \strng{authornamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \strng{authorfullhash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://corporatefinanceinstitute.com/resources/cryptocurrency/liquidity-in-cryptocurrency/}}
-      \field{title}{Liquidity in Cryptocurrency - Overview, Importance}
-    \endentry
-    \entry{Investopedia2021}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=abcdb78a564e00abcb81ee953f22cf04}{%
-           family={Investopedia},
-           familyi={I\bibinitperiod}}}%
+      \list{publisher}{1}{%
+        {Prentice Hall}%
       }
-      \strng{namehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{fullhash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{bibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{authorbibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{authornamehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{authorfullhash}{abcdb78a564e00abcb81ee953f22cf04}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \strng{namehash}{8eb46e2417b472d17c974e4c3bc21987}
+      \strng{fullhash}{8eb46e2417b472d17c974e4c3bc21987}
+      \strng{bibnamehash}{8eb46e2417b472d17c974e4c3bc21987}
+      \strng{authorbibnamehash}{8eb46e2417b472d17c974e4c3bc21987}
+      \strng{authornamehash}{8eb46e2417b472d17c974e4c3bc21987}
+      \strng{authorfullhash}{8eb46e2417b472d17c974e4c3bc21987}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{What Is a Convenience Yield? Definition and How to Calculate}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb [1](https://www.investopedia.com/terms/c/convenienceyield.asp)
-      \endverb
-      \verb{url}
-      \verb [1](https://www.investopedia.com/terms/c/convenienceyield.asp)
-      \endverb
+      \field{title}{Options, futures , and other derivatives}
+      \field{year}{2012}
     \endentry
     \entry{koutmos2021intertemporal}{article}{}
       \name{author}{2}{}{%
@@ -799,26 +832,41 @@
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85069963134&doi=10.1016%2fj.frl.2019.07.021&partnerID=40&md5=22c41da331ca948941ae37d4ea07b210
       \endverb
     \endentry
-    \entry{Statista2023}{misc}{}
+    \entry{song2023size}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
-           family={Statista},
-           familyi={S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=b4d0cbd702ed765d441f117649ddde54}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={G.H.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{namehash}{b4d0cbd702ed765d441f117649ddde54}
+      \strng{fullhash}{b4d0cbd702ed765d441f117649ddde54}
+      \strng{bibnamehash}{b4d0cbd702ed765d441f117649ddde54}
+      \strng{authorbibnamehash}{b4d0cbd702ed765d441f117649ddde54}
+      \strng{authornamehash}{b4d0cbd702ed765d441f117649ddde54}
+      \strng{authorfullhash}{b4d0cbd702ed765d441f117649ddde54}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.statista.com/topics/4495/cryptocurrencies/}}
-      \field{title}{Cryptocurrency statistics \& facts}
+      \field{journaltitle}{Studies in Economics and Finance}
+      \field{number}{2}
+      \field{title}{Size premium or size discount? – A dynamic capital mobility based interpretation}
+      \field{volume}{40}
+      \field{year}{2023}
+      \field{pages}{266\bibrangedash 285}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://www.emerald.com/insight/content/doi/10.1108/SEF-04-2022-0211/full/html
+      \endverb
+      \verb{url}
+      \verb https://www.emerald.com/insight/content/doi/10.1108/SEF-04-2022-0211/full/html
+      \endverb
     \endentry
     \entry{thoma2020prospect}{article}{}
       \name{author}{1}{}{%
@@ -1246,6 +1294,63 @@
       \endverb
       \keyw{Asset pricing,Momentum,Cryptocurrencies,Bitcoin}
     \endentry
+    \entry{hasan2022liquidity}{article}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=861bc41b323f54790d2123803ee68c3c}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={Mudassar},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=50eba45ba2070955c0c71a5faa775d4b}{%
+           family={Naeem},
+           familyi={N\bibinitperiod},
+           given={Muhammad\bibnamedelima Abubakr},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4665480355a5929922a1a55929027217}{%
+           family={Arif},
+           familyi={A\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=71c2c53028cfa6e2c804af229f66698b}{%
+           family={Shahzad},
+           familyi={S\bibinitperiod},
+           given={Syed\bibnamedelimb Jawad\bibnamedelima Hussain},
+           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=175fe70d2eaea51feb04406bdf61d322}{%
+           family={Vo},
+           familyi={V\bibinitperiod},
+           given={Xuan\bibnamedelima Vinh},
+           giveni={X\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{12eae03b6c30c090165afb30abfde00f}
+      \strng{fullhash}{5c4625f4069eff860df0db0d04c6d7f9}
+      \strng{bibnamehash}{5c4625f4069eff860df0db0d04c6d7f9}
+      \strng{authorbibnamehash}{5c4625f4069eff860df0db0d04c6d7f9}
+      \strng{authornamehash}{12eae03b6c30c090165afb30abfde00f}
+      \strng{authorfullhash}{5c4625f4069eff860df0db0d04c6d7f9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Innovation}
+      \field{title}{Liquidity connectedness in cryptocurrency market}
+      \field{volume}{8}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://jfin-swufe.springeropen.com/articles/10.1186/s40854-021-00308-3
+      \endverb
+      \verb{url}
+      \verb https://jfin-swufe.springeropen.com/articles/10.1186/s40854-021-00308-3
+      \endverb
+    \endentry
     \entry{HAYES20171308}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=655c44f57561afc2dd9c73686b0f5e8f}{%
@@ -1287,57 +1392,33 @@
       \endverb
       \keyw{Bitcoin,Cryptocurrencies,Digital currencies,Blockchain,Asset pricing,Altcoins}
     \endentry
-    \entry{CFI_nodate}{misc}{}
+    \entry{Hull_deriv}{book}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5c92a27cd26c9e2de13c2aa8b1aab2cc}{%
-           family={Institute},
-           familyi={I\bibinitperiod},
-           given={Corporate\bibnamedelima Finance},
-           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod},
+        {{un=0,uniquepart=base,hash=8eb46e2417b472d17c974e4c3bc21987}{%
+           family={Hull},
+           familyi={H\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \strng{fullhash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \strng{bibnamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \strng{authorbibnamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \strng{authornamehash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \strng{authorfullhash}{5c92a27cd26c9e2de13c2aa8b1aab2cc}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
-      \field{labeldatesource}{nodate}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://corporatefinanceinstitute.com/resources/cryptocurrency/liquidity-in-cryptocurrency/}}
-      \field{title}{Liquidity in Cryptocurrency - Overview, Importance}
-    \endentry
-    \entry{Investopedia2021}{misc}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=abcdb78a564e00abcb81ee953f22cf04}{%
-           family={Investopedia},
-           familyi={I\bibinitperiod}}}%
+      \list{publisher}{1}{%
+        {Prentice Hall}%
       }
-      \strng{namehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{fullhash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{bibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{authorbibnamehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{authornamehash}{abcdb78a564e00abcb81ee953f22cf04}
-      \strng{authorfullhash}{abcdb78a564e00abcb81ee953f22cf04}
-      \field{sortinit}{I}
-      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \strng{namehash}{8eb46e2417b472d17c974e4c3bc21987}
+      \strng{fullhash}{8eb46e2417b472d17c974e4c3bc21987}
+      \strng{bibnamehash}{8eb46e2417b472d17c974e4c3bc21987}
+      \strng{authorbibnamehash}{8eb46e2417b472d17c974e4c3bc21987}
+      \strng{authornamehash}{8eb46e2417b472d17c974e4c3bc21987}
+      \strng{authorfullhash}{8eb46e2417b472d17c974e4c3bc21987}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{What Is a Convenience Yield? Definition and How to Calculate}
-      \field{year}{2021}
-      \verb{urlraw}
-      \verb [1](https://www.investopedia.com/terms/c/convenienceyield.asp)
-      \endverb
-      \verb{url}
-      \verb [1](https://www.investopedia.com/terms/c/convenienceyield.asp)
-      \endverb
+      \field{title}{Options, futures , and other derivatives}
+      \field{year}{2012}
     \endentry
     \entry{koutmos2021intertemporal}{article}{}
       \name{author}{2}{}{%
@@ -1628,26 +1709,41 @@
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85069963134&doi=10.1016%2fj.frl.2019.07.021&partnerID=40&md5=22c41da331ca948941ae37d4ea07b210
       \endverb
     \endentry
-    \entry{Statista2023}{misc}{}
+    \entry{song2023size}{article}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=62182ca58a739daa8ddd8a48b7b19abb}{%
-           family={Statista},
-           familyi={S\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=b4d0cbd702ed765d441f117649ddde54}{%
+           family={Song},
+           familyi={S\bibinitperiod},
+           given={G.H.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
       }
-      \strng{namehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{fullhash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{bibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorbibnamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authornamehash}{62182ca58a739daa8ddd8a48b7b19abb}
-      \strng{authorfullhash}{62182ca58a739daa8ddd8a48b7b19abb}
+      \strng{namehash}{b4d0cbd702ed765d441f117649ddde54}
+      \strng{fullhash}{b4d0cbd702ed765d441f117649ddde54}
+      \strng{bibnamehash}{b4d0cbd702ed765d441f117649ddde54}
+      \strng{authorbibnamehash}{b4d0cbd702ed765d441f117649ddde54}
+      \strng{authornamehash}{b4d0cbd702ed765d441f117649ddde54}
+      \strng{authorfullhash}{b4d0cbd702ed765d441f117649ddde54}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labeldatesource}{nodate}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
       \true{uniqueprimaryauthor}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.statista.com/topics/4495/cryptocurrencies/}}
-      \field{title}{Cryptocurrency statistics \& facts}
+      \field{journaltitle}{Studies in Economics and Finance}
+      \field{number}{2}
+      \field{title}{Size premium or size discount? – A dynamic capital mobility based interpretation}
+      \field{volume}{40}
+      \field{year}{2023}
+      \field{pages}{266\bibrangedash 285}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://www.emerald.com/insight/content/doi/10.1108/SEF-04-2022-0211/full/html
+      \endverb
+      \verb{url}
+      \verb https://www.emerald.com/insight/content/doi/10.1108/SEF-04-2022-0211/full/html
+      \endverb
     \endentry
     \entry{thoma2020prospect}{article}{}
       \name{author}{1}{}{%
