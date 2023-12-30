@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  23 NOV 2023 10:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  30 DEC 2023 19:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -987,24 +987,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip81
 )
-
-! LaTeX Error: Option clash for package graphicx.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 \pdfcompresslevel
-                      =9
-The package graphicx has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [pdftex]
-Adding the global options:
-  ,pdftex
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
 \c@algorithm=\count472
 \c@dummy=\count473
 )
@@ -1177,38 +1159,39 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ])
 (chapters/chapter01.tex
 Chapter 1.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 4.
 [1
 
 
 ]
-Overfull \hbox (4.92046pt too wide) in paragraph at lines 17--17
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 18.
+
+Overfull \hbox (4.92046pt too wide) in paragraph at lines 18--18
 [][][]\OT1/cmr/m/n/12 Explain 
  []
 
 
-Overfull \hbox (4.92046pt too wide) in paragraph at lines 17--17
+Overfull \hbox (4.92046pt too wide) in paragraph at lines 18--18
 [][][]\OT1/cmr/m/n/12 Explain 
  []
 
 [2]
-Overfull \hbox (4.92046pt too wide) in paragraph at lines 25--25
+Overfull \hbox (4.92046pt too wide) in paragraph at lines 26--26
 [][][]\OT1/cmr/m/n/12 Explain 
  []
 
 
-Overfull \hbox (8.74124pt too wide) in paragraph at lines 25--25
+Overfull \hbox (8.74124pt too wide) in paragraph at lines 26--26
 \OT1/cmr/m/n/12 prospect 
  []
 
 
-Overfull \hbox (4.92046pt too wide) in paragraph at lines 25--25
+Overfull \hbox (4.92046pt too wide) in paragraph at lines 26--26
 [][][]\OT1/cmr/m/n/12 Explain 
  []
 
 
-Overfull \hbox (8.74124pt too wide) in paragraph at lines 25--25
+Overfull \hbox (8.74124pt too wide) in paragraph at lines 26--26
 \OT1/cmr/m/n/12 prospect 
  []
 
@@ -1217,21 +1200,21 @@ Overfull \hbox (8.74124pt too wide) in paragraph at lines 25--25
 LaTeX Warning: Marginpar on page 4 moved.
 
 
-Overfull \hbox (8.34958pt too wide) in paragraph at lines 31--31
+Overfull \hbox (8.34958pt too wide) in paragraph at lines 32--32
 [][][]\OT1/cmr/m/n/12 continue 
  []
 
 
-Overfull \hbox (8.34958pt too wide) in paragraph at lines 31--31
+Overfull \hbox (8.34958pt too wide) in paragraph at lines 32--32
 [][][]\OT1/cmr/m/n/12 continue 
  []
 
-[4] [5] [6]) [7] [8
+[4] [5] [6] [7]) [8] [9
 
 
-] [9] (attachements/anexo_a.tex
+] [10] (attachements/anexo_a.tex
 Appendix A.
-) [10
+) [11
 
 
 ] (memoria.aux)
@@ -1359,19 +1342,19 @@ attachements/anexo_a.tex
  ***********
 
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 664999E4948CF1E6A1499F11A1F9EB38;1352.
+(rerunfilecheck)             Checksum: 5C50FDB075D91AFFF95C66F28177372C;1350.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29824 strings out of 475247
- 571964 string characters out of 5758263
- 1937785 words of memory out of 5000000
- 50807 multiletter control sequences out of 15000+600000
+ 29836 strings out of 475247
+ 572316 string characters out of 5758263
+ 1935785 words of memory out of 5000000
+ 50817 multiletter control sequences out of 15000+600000
  568459 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,9n,124p,1514b,5177s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,9n,124p,1253b,5177s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/
@@ -1381,9 +1364,9 @@ ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/USER/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on memoria.pdf (19 pages, 243557 bytes).
+Output written on memoria.pdf (20 pages, 247768 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
+ 290 PDF objects out of 1000 (max. 8388607)
+ 63 named destinations out of 1000 (max. 500000)
  98 words of extra memory for PDF output out of 10000 (max. 10000000)
 

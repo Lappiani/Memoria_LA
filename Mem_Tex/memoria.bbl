@@ -101,6 +101,42 @@
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85151511244&doi=10.1016%2fj.ribaf.2023.101939&partnerID=40&md5=6505f7c9fd9d4a70a8b30e2fc7ef7ec7
       \endverb
     \endentry
+    \entry{CAI2024107052}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3f6ce6c2ba2bb9101fb2e70dbd1bdec9}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Charlie\bibnamedelima X.},
+           giveni={C\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f0b6074dc673ce98926691b9b223096}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \strng{fullhash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \strng{bibnamehash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \strng{authorbibnamehash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \strng{authornamehash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \strng{authorfullhash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378-4266}
+      \field{journaltitle}{Journal of Banking \& Finance}
+      \field{title}{Salience theory and cryptocurrency returns}
+      \field{volume}{159}
+      \field{year}{2024}
+      \field{pages}{107052}
+      \range{pages}{1}
+    \endentry
     \entry{carhart1997}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8a76f68a24fc2415999589b4429d26d1}{%
@@ -133,6 +169,52 @@
       \field{year}{1997}
       \field{pages}{57\bibrangedash 82}
       \range{pages}{26}
+    \endentry
+    \entry{COSEMANS2021460}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=85bf1214504e502e7e063335906d6f0b}{%
+           family={Cosemans},
+           familyi={C\bibinitperiod},
+           given={Mathijs},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0430d2cfa43cc1fd4262e91a1f57986}{%
+           family={Frehen},
+           familyi={F\bibinitperiod},
+           given={Rik},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2df6daa76b57c77913c95e9b65bc589}
+      \strng{fullhash}{d2df6daa76b57c77913c95e9b65bc589}
+      \strng{bibnamehash}{d2df6daa76b57c77913c95e9b65bc589}
+      \strng{authorbibnamehash}{d2df6daa76b57c77913c95e9b65bc589}
+      \strng{authornamehash}{d2df6daa76b57c77913c95e9b65bc589}
+      \strng{authorfullhash}{d2df6daa76b57c77913c95e9b65bc589}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0304-405X}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{number}{2}
+      \field{title}{Salience theory and stock prices: Empirical evidence}
+      \field{volume}{140}
+      \field{year}{2021}
+      \field{pages}{460\bibrangedash 483}
+      \range{pages}{24}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jfineco.2020.12.012
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304405X20303524
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304405X20303524
+      \endverb
     \endentry
     \entry{10.1371/journal.pone.0264522}{article}{}
       \name{author}{3}{}{%
@@ -978,6 +1060,42 @@
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85151511244&doi=10.1016%2fj.ribaf.2023.101939&partnerID=40&md5=6505f7c9fd9d4a70a8b30e2fc7ef7ec7
       \endverb
     \endentry
+    \entry{CAI2024107052}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3f6ce6c2ba2bb9101fb2e70dbd1bdec9}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Charlie\bibnamedelima X.},
+           giveni={C\bibinitperiod\bibinitdelim X\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8f0b6074dc673ce98926691b9b223096}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Ran},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \strng{fullhash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \strng{bibnamehash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \strng{authorbibnamehash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \strng{authornamehash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \strng{authorfullhash}{468fa4a7c7fd5bce321dfa2b06b252e6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0378-4266}
+      \field{journaltitle}{Journal of Banking \& Finance}
+      \field{title}{Salience theory and cryptocurrency returns}
+      \field{volume}{159}
+      \field{year}{2024}
+      \field{pages}{107052}
+      \range{pages}{1}
+    \endentry
     \entry{carhart1997}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8a76f68a24fc2415999589b4429d26d1}{%
@@ -1010,6 +1128,52 @@
       \field{year}{1997}
       \field{pages}{57\bibrangedash 82}
       \range{pages}{26}
+    \endentry
+    \entry{COSEMANS2021460}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=85bf1214504e502e7e063335906d6f0b}{%
+           family={Cosemans},
+           familyi={C\bibinitperiod},
+           given={Mathijs},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a0430d2cfa43cc1fd4262e91a1f57986}{%
+           family={Frehen},
+           familyi={F\bibinitperiod},
+           given={Rik},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d2df6daa76b57c77913c95e9b65bc589}
+      \strng{fullhash}{d2df6daa76b57c77913c95e9b65bc589}
+      \strng{bibnamehash}{d2df6daa76b57c77913c95e9b65bc589}
+      \strng{authorbibnamehash}{d2df6daa76b57c77913c95e9b65bc589}
+      \strng{authornamehash}{d2df6daa76b57c77913c95e9b65bc589}
+      \strng{authorfullhash}{d2df6daa76b57c77913c95e9b65bc589}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0304-405X}
+      \field{journaltitle}{Journal of Financial Economics}
+      \field{number}{2}
+      \field{title}{Salience theory and stock prices: Empirical evidence}
+      \field{volume}{140}
+      \field{year}{2021}
+      \field{pages}{460\bibrangedash 483}
+      \range{pages}{24}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.jfineco.2020.12.012
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304405X20303524
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0304405X20303524
+      \endverb
     \endentry
     \entry{10.1371/journal.pone.0264522}{article}{}
       \name{author}{3}{}{%

@@ -3,8 +3,8 @@
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Literature review}{1}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Empirical Studies}{2}{subsection.1.1.1}%
-\contentsline {subsection}{\numberline {1.1.2}Theoretic Models}{5}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Initial proposal of factors}{6}{subsection.1.1.3}%
-\contentsline {chapter}{References}{8}{chapter*.10}%
-\contentsline {chapter}{Appendix}{10}{chapter*.10}%
-\contentsline {chapter}{\numberline {A}Technical details, tables, and others}{10}{appendix.A}%
+\contentsline {subsection}{\numberline {1.1.2}Theoretic Models}{6}{subsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.1.3}Initial proposal of factors}{7}{subsection.1.1.3}%
+\contentsline {chapter}{References}{9}{chapter*.9}%
+\contentsline {chapter}{Appendix}{11}{chapter*.9}%
+\contentsline {chapter}{\numberline {A}Technical details, tables, and others}{11}{appendix.A}%
