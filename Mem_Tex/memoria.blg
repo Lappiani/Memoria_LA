@@ -1,19 +1,21 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'memoria.blg'
-[150] biber-MSWIN64:340> INFO - === 
-[208] Biber.pm:419> INFO - Reading 'memoria.bcf'
-[428] Biber.pm:979> INFO - Found 23 citekeys in bib section 0
-[453] Biber.pm:4419> INFO - Processing section 0
-[467] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
-[548] bibtex.pm:1713> INFO - LaTeX decoding ...
-[585] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
-[766] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[767] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[767] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[767] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[821] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[821] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[821] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[821] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[853] bbl.pm:660> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
-[885] bbl.pm:763> INFO - Output to memoria.bbl
+[133] biber-MSWIN64:340> INFO - === 
+[190] Biber.pm:419> INFO - Reading 'memoria.bcf'
+[365] Biber.pm:979> INFO - Found 27 citekeys in bib section 0
+[389] Biber.pm:4419> INFO - Processing section 0
+[403] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[484] bibtex.pm:1713> INFO - LaTeX decoding ...
+[530] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[738] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[738] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[739] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[739] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[800] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[800] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[800] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[800] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[837] bbl.pm:660> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
+[873] bbl.pm:763> INFO - Output to memoria.bbl
+[874] Biber.pm:131> WARN - legacy month field 'March' in entry 'NBERw26816' is not an integer - this will probably not sort properly.
+[874] Biber.pm:133> INFO - WARNINGS: 1

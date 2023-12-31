@@ -170,6 +170,59 @@
       \field{pages}{57\bibrangedash 82}
       \range{pages}{26}
     \endentry
+    \entry{hhaa089}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d2425f9c496d483dd679c884c59e28be}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Lin\bibnamedelima William},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6230ba6812a667f25b0b53c1ac713629}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ye},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f59769b3a11f0f68d51a45547dcaeb0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Neng},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c2bc17ef648efe9b97dd7101632e73a}
+      \strng{fullhash}{74fa9bc66916c782dc5038f3becf35e4}
+      \strng{bibnamehash}{74fa9bc66916c782dc5038f3becf35e4}
+      \strng{authorbibnamehash}{74fa9bc66916c782dc5038f3becf35e4}
+      \strng{authornamehash}{4c2bc17ef648efe9b97dd7101632e73a}
+      \strng{authorfullhash}{74fa9bc66916c782dc5038f3becf35e4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0893-9454}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{month}{08}
+      \field{number}{3}
+      \field{title}{{Tokenomics: Dynamic Adoption and Valuation}}
+      \field{volume}{34}
+      \field{year}{2020}
+      \field{pages}{1105\bibrangedash 1155}
+      \range{pages}{51}
+      \verb{doi}
+      \verb 10.1093/rfs/hhaa089
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/rfs/hhaa089
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/rfs/hhaa089
+      \endverb
+    \endentry
     \entry{COSEMANS2021460}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=85bf1214504e502e7e063335906d6f0b}{%
@@ -625,6 +678,45 @@
       \field{title}{Options, futures , and other derivatives}
       \field{year}{2012}
     \endentry
+    \entry{kahneman1979prospect}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{bibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorbibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authornamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{2}
+      \field{title}{Prospect theory: An analysis of decision under risk}
+      \field{volume}{47}
+      \field{year}{1979}
+      \field{pages}{263\bibrangedash 291}
+      \range{pages}{29}
+    \endentry
     \entry{koutmos2021intertemporal}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=03b25fb6369ad69c408ec5caab4e6ccd}{%
@@ -831,6 +923,49 @@
       \field{pages}{768\bibrangedash 783}
       \range{pages}{16}
     \endentry
+    \entry{Prat2019FundamentalPO}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ef315a33ebe9cb94ca188ff3cd6e7e23}{%
+           family={Prat},
+           familyi={P\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f54d020543761434eca631da535f858d}{%
+           family={Danos},
+           familyi={D\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d30ebd27c7e38655ee31ff669cdfe2ad}{%
+           family={Marcassa},
+           familyi={M\bibinitperiod},
+           given={Stefania},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce33b6c4f5297dfa3a2970884e7f6607}
+      \strng{fullhash}{e81f3c492f9cbf04f0eceddd70932e8c}
+      \strng{bibnamehash}{e81f3c492f9cbf04f0eceddd70932e8c}
+      \strng{authorbibnamehash}{e81f3c492f9cbf04f0eceddd70932e8c}
+      \strng{authornamehash}{ce33b6c4f5297dfa3a2970884e7f6607}
+      \strng{authorfullhash}{e81f3c492f9cbf04f0eceddd70932e8c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamental Pricing of Utility Tokens}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:208192945
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:208192945
+      \endverb
+    \endentry
     \entry{sharpe1964}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7713eaeb6845785b0f6bb5cffab120d1}{%
@@ -912,6 +1047,53 @@
       \endverb
       \verb{url}
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85069963134&doi=10.1016%2fj.frl.2019.07.021&partnerID=40&md5=22c41da331ca948941ae37d4ea07b210
+      \endverb
+    \endentry
+    \entry{NBERw26816}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2a3f3d3a43313e8d4bb41371e6c344c6}{%
+           family={Sockin},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5a94e36625701b04b0f82e1d472fd69}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{583cf9770808a1b077ccb4fafb770892}
+      \strng{fullhash}{583cf9770808a1b077ccb4fafb770892}
+      \strng{bibnamehash}{583cf9770808a1b077ccb4fafb770892}
+      \strng{authorbibnamehash}{583cf9770808a1b077ccb4fafb770892}
+      \strng{authornamehash}{583cf9770808a1b077ccb4fafb770892}
+      \strng{authorfullhash}{583cf9770808a1b077ccb4fafb770892}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{26816}
+      \field{series}{Working Paper Series}
+      \field{title}{A Model of Cryptocurrencies}
+      \field{type}{Working Paper}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.3386/w26816
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nber.org/papers/w26816
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w26816
       \endverb
     \endentry
     \entry{song2023size}{article}{}
@@ -1129,6 +1311,59 @@
       \field{pages}{57\bibrangedash 82}
       \range{pages}{26}
     \endentry
+    \entry{hhaa089}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=d2425f9c496d483dd679c884c59e28be}{%
+           family={Cong},
+           familyi={C\bibinitperiod},
+           given={Lin\bibnamedelima William},
+           giveni={L\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6230ba6812a667f25b0b53c1ac713629}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Ye},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4f59769b3a11f0f68d51a45547dcaeb0}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Neng},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4c2bc17ef648efe9b97dd7101632e73a}
+      \strng{fullhash}{74fa9bc66916c782dc5038f3becf35e4}
+      \strng{bibnamehash}{74fa9bc66916c782dc5038f3becf35e4}
+      \strng{authorbibnamehash}{74fa9bc66916c782dc5038f3becf35e4}
+      \strng{authornamehash}{4c2bc17ef648efe9b97dd7101632e73a}
+      \strng{authorfullhash}{74fa9bc66916c782dc5038f3becf35e4}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0893-9454}
+      \field{journaltitle}{The Review of Financial Studies}
+      \field{month}{08}
+      \field{number}{3}
+      \field{title}{{Tokenomics: Dynamic Adoption and Valuation}}
+      \field{volume}{34}
+      \field{year}{2020}
+      \field{pages}{1105\bibrangedash 1155}
+      \range{pages}{51}
+      \verb{doi}
+      \verb 10.1093/rfs/hhaa089
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1093/rfs/hhaa089
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1093/rfs/hhaa089
+      \endverb
+    \endentry
     \entry{COSEMANS2021460}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=85bf1214504e502e7e063335906d6f0b}{%
@@ -1584,6 +1819,45 @@
       \field{title}{Options, futures , and other derivatives}
       \field{year}{2012}
     \endentry
+    \entry{kahneman1979prospect}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
+           family={Kahneman},
+           familyi={K\bibinitperiod},
+           given={Daniel},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=031d0d5f9391d970f6f089af958f701d}{%
+           family={Tversky},
+           familyi={T\bibinitperiod},
+           given={Amos},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{fullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{bibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorbibnamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authornamehash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \strng{authorfullhash}{d3bcf557edbcd57c46dc3a22d1e8ff94}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{2}
+      \field{title}{Prospect theory: An analysis of decision under risk}
+      \field{volume}{47}
+      \field{year}{1979}
+      \field{pages}{263\bibrangedash 291}
+      \range{pages}{29}
+    \endentry
     \entry{koutmos2021intertemporal}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=03b25fb6369ad69c408ec5caab4e6ccd}{%
@@ -1790,6 +2064,49 @@
       \field{pages}{768\bibrangedash 783}
       \range{pages}{16}
     \endentry
+    \entry{Prat2019FundamentalPO}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=ef315a33ebe9cb94ca188ff3cd6e7e23}{%
+           family={Prat},
+           familyi={P\bibinitperiod},
+           given={Julien},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f54d020543761434eca631da535f858d}{%
+           family={Danos},
+           familyi={D\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d30ebd27c7e38655ee31ff669cdfe2ad}{%
+           family={Marcassa},
+           familyi={M\bibinitperiod},
+           given={Stefania},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ce33b6c4f5297dfa3a2970884e7f6607}
+      \strng{fullhash}{e81f3c492f9cbf04f0eceddd70932e8c}
+      \strng{bibnamehash}{e81f3c492f9cbf04f0eceddd70932e8c}
+      \strng{authorbibnamehash}{e81f3c492f9cbf04f0eceddd70932e8c}
+      \strng{authornamehash}{ce33b6c4f5297dfa3a2970884e7f6607}
+      \strng{authorfullhash}{e81f3c492f9cbf04f0eceddd70932e8c}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Fundamental Pricing of Utility Tokens}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://api.semanticscholar.org/CorpusID:208192945
+      \endverb
+      \verb{url}
+      \verb https://api.semanticscholar.org/CorpusID:208192945
+      \endverb
+    \endentry
     \entry{sharpe1964}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7713eaeb6845785b0f6bb5cffab120d1}{%
@@ -1871,6 +2188,53 @@
       \endverb
       \verb{url}
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85069963134&doi=10.1016%2fj.frl.2019.07.021&partnerID=40&md5=22c41da331ca948941ae37d4ea07b210
+      \endverb
+    \endentry
+    \entry{NBERw26816}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=2a3f3d3a43313e8d4bb41371e6c344c6}{%
+           family={Sockin},
+           familyi={S\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a5a94e36625701b04b0f82e1d472fd69}{%
+           family={Xiong},
+           familyi={X\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {National Bureau of Economic Research}%
+      }
+      \strng{namehash}{583cf9770808a1b077ccb4fafb770892}
+      \strng{fullhash}{583cf9770808a1b077ccb4fafb770892}
+      \strng{bibnamehash}{583cf9770808a1b077ccb4fafb770892}
+      \strng{authorbibnamehash}{583cf9770808a1b077ccb4fafb770892}
+      \strng{authornamehash}{583cf9770808a1b077ccb4fafb770892}
+      \strng{authorfullhash}{583cf9770808a1b077ccb4fafb770892}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{3}
+      \field{number}{26816}
+      \field{series}{Working Paper Series}
+      \field{title}{A Model of Cryptocurrencies}
+      \field{type}{Working Paper}
+      \field{year}{2020}
+      \verb{doi}
+      \verb 10.3386/w26816
+      \endverb
+      \verb{urlraw}
+      \verb http://www.nber.org/papers/w26816
+      \endverb
+      \verb{url}
+      \verb http://www.nber.org/papers/w26816
       \endverb
     \endentry
     \entry{song2023size}{article}{}
