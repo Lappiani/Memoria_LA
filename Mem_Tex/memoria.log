@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  31 DEC 2023 18:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  27 FEB 2024 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,7 +1098,7 @@ Package hyperref Info: Link coloring OFF on input line 101.
 \openout5 = `memoria.out'.
 
  (core/primeras_paginas.tex
-<logos/Logo-UANDES.png, id=44, 369.38pt x 486.81876pt>
+<logos/Logo-UANDES.png, id=48, 369.38pt x 486.81876pt>
 File: logos/Logo-UANDES.png Graphic file (type png)
 <use logos/Logo-UANDES.png>
 Package pdftex.def Info: logos/Logo-UANDES.png  used on input line 49.
@@ -1162,25 +1162,20 @@ Chapter 1.
 [1
 
 
-] [2] [3]
+] [2] [3] [4] [5] [6]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 32.
-
-Overfull \hbox (8.34958pt too wide) in paragraph at lines 32--32
-[][][]\OT1/cmr/m/n/12 continue 
- []
-
-
-Overfull \hbox (8.34958pt too wide) in paragraph at lines 32--32
-[][][]\OT1/cmr/m/n/12 continue 
- []
-
-[4] [5] [6] [7]) [8] [9
+ine 49.
+ [7]) [8] (chapters/chapter02.tex
+Chapter 2.
+) [9
 
 
-] [10] [11] (attachements/anexo_a.tex
+] [10
+
+
+] [11] [12] (attachements/anexo_a.tex
 Appendix A.
-) [12
+) [13
 
 
 ] (memoria.aux)
@@ -1304,20 +1299,21 @@ logos/Logo-UANDES.png
     umsb.fd    2013/01/14 v3.01 AMS symbols B
    ulasy.fd    1998/08/17 v2.2e LaTeX symbol font definitions
 chapters/chapter01.tex
+chapters/chapter02.tex
 attachements/anexo_a.tex
  ***********
 
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 3769F3542DEF66118869163105428AAA;1350.
+(rerunfilecheck)             Checksum: 3C0FBB2D2FE50B928A26C5E94442BFEB;1501.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29840 strings out of 475247
- 572707 string characters out of 5758263
- 1934785 words of memory out of 5000000
- 50816 multiletter control sequences out of 15000+600000
+ 29807 strings out of 475247
+ 572125 string characters out of 5758263
+ 1932785 words of memory out of 5000000
+ 50779 multiletter control sequences out of 15000+600000
  568459 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  122i,9n,124p,1345b,5177s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1330,9 +1326,9 @@ ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiK
 TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/USER/AppData/Local/Progra
 ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/
 Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on memoria.pdf (21 pages, 256104 bytes).
+Output written on memoria.pdf (22 pages, 257199 bytes).
 PDF statistics:
- 311 PDF objects out of 1000 (max. 8388607)
- 68 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
