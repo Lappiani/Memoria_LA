@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  22 NOV 2023 16:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  27 FEB 2024 16:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -987,24 +987,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip81
 )
-
-! LaTeX Error: Option clash for package graphicx.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.54 \pdfcompresslevel
-                      =9
-The package graphicx has already been loaded with options:
-  []
-There has now been an attempt to load it with options
-  [pdftex]
-Adding the global options:
-  ,pdftex
-to your \documentclass declaration may fix this.
-Try typing  <return>  to proceed.
-
 \c@algorithm=\count472
 \c@dummy=\count473
 )
@@ -1116,7 +1098,7 @@ Package hyperref Info: Link coloring OFF on input line 101.
 \openout5 = `memoria.out'.
 
  (core/primeras_paginas.tex
-<logos/Logo-UANDES.png, id=44, 369.38pt x 486.81876pt>
+<logos/Logo-UANDES.png, id=48, 369.38pt x 486.81876pt>
 File: logos/Logo-UANDES.png Graphic file (type png)
 <use logos/Logo-UANDES.png>
 Package pdftex.def Info: logos/Logo-UANDES.png  used on input line 49.
@@ -1177,53 +1159,23 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ])
 (chapters/chapter01.tex
 Chapter 1.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 5.
 [1
 
 
-]
-Overfull \hbox (4.92046pt too wide) in paragraph at lines 18--18
-[][][]\OT1/cmr/m/n/12 Explain 
- []
+] [2] [3] [4] [5] [6]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 49.
+ [7]) [8] (chapters/chapter02.tex
+Chapter 2.
+) [9
 
 
-Overfull \hbox (4.92046pt too wide) in paragraph at lines 18--18
-[][][]\OT1/cmr/m/n/12 Explain 
- []
-
-[2]
-Overfull \hbox (1.82187pt too wide) in paragraph at lines 20--20
-[][][]\OT1/cmr/m/n/12 include 
- []
+] [10
 
 
-Overfull \hbox (1.82187pt too wide) in paragraph at lines 20--20
-[][][]\OT1/cmr/m/n/12 include 
- []
-
-
-Overfull \hbox (11.61343pt too wide) in paragraph at lines 20--20
-[][][]\OT1/cmr/m/n/12 Continue 
- []
-
-
-Overfull \hbox (11.61343pt too wide) in paragraph at lines 20--20
-[][][]\OT1/cmr/m/n/12 Continue 
- []
-
-
-LaTeX Warning: Marginpar on page 3 moved.
-
-
-LaTeX Warning: Marginpar on page 3 moved.
-
-[3] [4] [5] [6]) [7] [8
-
-
-] [9] (attachements/anexo_a.tex
+] [11] [12] (attachements/anexo_a.tex
 Appendix A.
-) [10
+) [13
 
 
 ] (memoria.aux)
@@ -1347,48 +1299,36 @@ logos/Logo-UANDES.png
     umsb.fd    2013/01/14 v3.01 AMS symbols B
    ulasy.fd    1998/08/17 v2.2e LaTeX symbol font definitions
 chapters/chapter01.tex
+chapters/chapter02.tex
 attachements/anexo_a.tex
  ***********
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `memoria.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `memoria.out':
-(rerunfilecheck)             Before: 436B1E09990F74651B151E420A1F3C20;1350
-(rerunfilecheck)             After:  5C50FDB075D91AFFF95C66F28177372C;1350.
+Package rerunfilecheck Info: File `memoria.out' has not changed.
+(rerunfilecheck)             Checksum: 3C0FBB2D2FE50B928A26C5E94442BFEB;1501.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29816 strings out of 475247
- 571751 string characters out of 5758263
- 1939785 words of memory out of 5000000
- 50797 multiletter control sequences out of 15000+600000
+ 29807 strings out of 475247
+ 572125 string characters out of 5758263
+ 1932785 words of memory out of 5000000
+ 50779 multiletter control sequences out of 15000+600000
  568459 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,9n,124p,1514b,5177s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{chapter*.7} has been referenced but does not exist,
- replaced by a fixed one
-
- <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm120
-0.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTe
-X/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/USER/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Pr
-ograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on memoria.pdf (19 pages, 245727 bytes).
+ 122i,9n,124p,1345b,5177s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+200.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/USER/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on memoria.pdf (22 pages, 257199 bytes).
 PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 63 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 319 PDF objects out of 1000 (max. 8388607)
+ 69 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

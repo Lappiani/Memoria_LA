@@ -3074,24 +3074,36 @@
     <bcf:citekey order="13" intorder="1">liu2022common</bcf:citekey>
     <bcf:citekey order="14" intorder="1">song2023size</bcf:citekey>
     <bcf:citekey order="15" intorder="1">hasan2022liquidity</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">Hull_deriv</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">10.1371/journal.pone.0264522</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">thoma2020prospect</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">fama1993</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">thoma2020prospect</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">HAYES20171308</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">HAYES20171308</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Shen2020</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Erfanian2022</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">GROBYS20196</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">Long2020</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">koutmos2021intertemporal</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">Bennett2023</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Bennett2023</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">GROBYS20196</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">liu2022common</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">liu2022common</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">Bennett2023</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">NBERw26816</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">Prat2019FundamentalPO</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">hhaa089</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">Hull_deriv</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">10.1371/journal.pone.0264522</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">thoma2020prospect</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">fama1993</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">kahneman1979prospect</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">thoma2020prospect</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">HAYES20171308</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">HAYES20171308</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Shen2020</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">Erfanian2022</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">GROBYS20196</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">sharpe1964</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">fama1993</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">fama2015</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">carhart1997</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">CAI2024107052</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">CAI2024107052</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">COSEMANS2021460</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">CAI2024107052</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">Long2020</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">koutmos2021intertemporal</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">Bennett2023</bcf:citekey>
+    <bcf:citekey order="41" intorder="1">Bennett2023</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">GROBYS20196</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">liu2022common</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">liu2022common</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">Bennett2023</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
