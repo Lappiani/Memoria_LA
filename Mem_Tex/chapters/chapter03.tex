@@ -1,0 +1,48 @@
+\chapter{Objectives and Methodological Framework}
+\label{c3}
+\section{Objectives}
+\label{c31}
+
+By distinguishing between general and specific objectives and ensuring they are concrete, verifiable, and free from methodological details, these objectives should effectively guide your dissertation research and provide clear benchmarks for evaluation upon completion.
+\subsection{General Objective}
+Create and confirm a Portfolio Markowitz-inspired model to evaluate cryptocurrency returns in order to improve comprehension and assist in making informed investment choices within the cryptocurrency sector.
+\subsection{Specific Objectives}
+\begin{enumerate}
+	\item[1.] Develop a theoretical framework based on Portfolio Markowitz theory, which includes mathematical equations and fundamental principles, to support the creation of a model for analyzing cryptocurrency returns.
+	\item[2.] Gather and prepare necessary datasets on cryptocurrency returns, ensuring the data is accurate and appropriate for testing and validating the subject model.
+	\item[3.] Conduct an empirical investigation following the methodology outlined by \cite{fama1993} to evaluate the predictive capacity and robustness of the proposed model in capturing the dynamics of cryptocurrency returns.
+	\item[4.] Develop statistical analyses, including the GRS hypothesis test and mean adjusted R-squared examination, accounting for the signs of mean regression coefficients, to evaluate the model's explanatory power and identify potential areas of improvement.
+	\item[5.] Combine results from model testing and statistical analysis to determine how well the model explains cryptocurrency return variations and its usefulness in shaping portfolio construction and risk management strategies.
+	\item[6.] Present suggestions for future research paths and practical applications for investors and financial institutions utilizing the knowledge obtained from the constructed model and empirical studies.
+\end{enumerate}
+\section{Methodological Framework}
+In order to solve the literature gap that was mentioned on chapter \ref{c1}, a description of the methodological framework will be proposed in order to achieve the aforementioned general objective, and the ones established in section \ref{c31}.
+
+\subsection{Data Retrieval}
+A crucial part of the investigation is the data that will be used to do the related tests in order to check the validity and overall performance of the model. Due to the nature of this investigation and the accessibility, the data provider that was be selected is \textit{Yahoo Finance}.
+
+\textit{Yahoo Finance} has an integrated library in \textit{python}, that can be used to retrieve a wide range of data, from prices to financial ratios related to specific companies, and other market data. It has data from about ten thousand cryptocurrencies, but the only problem is that the ``symbols''\footnote{Referring to the form cryptocurrencies are normally presented in exchanges, for example BTC-USD, which corresponds to the price of Bitcoin in US dollars.} can not be retrieved directly from said library. In order to complete this task \textit{Yahooquery} was used.
+
+\textit{Yahooquery} is a python interface to unofficial \textit{Yahoo Finance} API endpoints. So in this case, the endpoint related to cryptocurrency symbols ordered by market capitalization was used to retrieve said cryptocurrencies. The maximum amount of cryptocurrencies that this interface allowed to retrieve was 250. The combination of these tools allowed to retrieve data of prices from 2014 onward of 250 cryptocurrencies ordered by intraday market capitalization\footnote{Market value of a cryptocurrency's stock at any given point during the trading day.}.
+
+\subsection{Mathematical Formulation}
+Another part of the investigation that is essential is the derivation of the model. The general idea of the mathematical formulation comes from the derivation of the Capital Asset Pricing Model. Although the traditional optimization problem minimizes the variance of the portfolio, in this case an alternative approach that is also used will be taken.
+
+Considering this scenario, the objective will be the utility function of a certain type of investor, which depends on the terminal wealth of said individual. The idea is to maximize this utility function subject to two constraints related to the initial and final wealth of the investor.
+
+Through the development of this theoretical formulation a formal model can be derived that explains the cross-section of returns of a certain cryptocurrency in this case. But the latter is the general idea, the detail will be delved into in further sections of this dissertation.
+
+\subsection{Fama Mac-Beth Regressions}
+Shifting the focus to the empirical tests, the Fama Mac-Beth two-step regression is a commonly used technique in empirical finance for determining parameter estimates in asset pricing models. The technique calculates the betas and risk premiums for all risk factors believed to influence asset prices. The fundamental concept of the regression method is to predict the returns of assets by analyzing their factor exposures or characteristics that mirror exposure to a risk factor in each period.
+
+The approach involves two consecutive stages. Betas are calculated separately for each factor and portfolio in the initial step. After that, the next step includes examining all portfolios as a whole, but separately for each time period. This method enables the analysis of how portfolio returns correspond with the betas identified in the first stage, resulting in the detection of risk premiums for each factor over different time frames. In the end, a compilation of risk premiums linked to each factor in the model is obtained.
+\subsection{Gibbons, Ross, and Shanken Test}
+Lastly, the statistical test outlined in \parencite{GRS1989} serves to assess the precision of asset pricing models. It is particularly employed to scrutinize whether the expected returns of a set of portfolios can be explained by their exposure to a common set of risk factors. 
+
+Employing this test will facilitate the examination of the stated hypothesis, with a crucial emphasis on not rejecting the null hypothesis.
+
+
+
+
+
+

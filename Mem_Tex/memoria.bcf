@@ -3104,6 +3104,8 @@
     <bcf:citekey order="43" intorder="1">liu2022common</bcf:citekey>
     <bcf:citekey order="44" intorder="1">liu2022common</bcf:citekey>
     <bcf:citekey order="45" intorder="1">Bennett2023</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">fama1993</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">GRS1989</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">

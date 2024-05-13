@@ -473,6 +473,62 @@
       \field{pages}{1\bibrangedash 22}
       \range{pages}{22}
     \endentry
+    \entry{GRS1989}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3d7baf1472964899ac8085a946422877}{%
+           family={Gibbons},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98b2227c5a8dba76158ffb9a20138b89}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Stephen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26c878e4a8ca57161281faee76282b91}{%
+           family={Shanken},
+           familyi={S\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Wiley, Econometric Society]}%
+      }
+      \strng{namehash}{6dbfe3d7c12ab905f824028cded032ba}
+      \strng{fullhash}{3baa591a4d627deaa40d9fa64de07e36}
+      \strng{bibnamehash}{3baa591a4d627deaa40d9fa64de07e36}
+      \strng{authorbibnamehash}{3baa591a4d627deaa40d9fa64de07e36}
+      \strng{authornamehash}{6dbfe3d7c12ab905f824028cded032ba}
+      \strng{authorfullhash}{3baa591a4d627deaa40d9fa64de07e36}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00129682, 14680262}
+      \field{journaltitle}{Econometrica}
+      \field{number}{5}
+      \field{title}{A Test of the Efficiency of a Given Portfolio}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{57}
+      \field{year}{1989}
+      \field{urldateera}{ce}
+      \field{pages}{1121\bibrangedash 1152}
+      \range{pages}{32}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/1913625
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/1913625
+      \endverb
+    \endentry
     \entry{gregoriou2019cryptocurrencies}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=007ae62b4f04da98f05814d93691f3f8}{%
@@ -1613,6 +1669,62 @@
       \field{year}{2015}
       \field{pages}{1\bibrangedash 22}
       \range{pages}{22}
+    \endentry
+    \entry{GRS1989}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=3d7baf1472964899ac8085a946422877}{%
+           family={Gibbons},
+           familyi={G\bibinitperiod},
+           given={Michael\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=98b2227c5a8dba76158ffb9a20138b89}{%
+           family={Ross},
+           familyi={R\bibinitperiod},
+           given={Stephen\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=26c878e4a8ca57161281faee76282b91}{%
+           family={Shanken},
+           familyi={S\bibinitperiod},
+           given={Jay},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {[Wiley, Econometric Society]}%
+      }
+      \strng{namehash}{6dbfe3d7c12ab905f824028cded032ba}
+      \strng{fullhash}{3baa591a4d627deaa40d9fa64de07e36}
+      \strng{bibnamehash}{3baa591a4d627deaa40d9fa64de07e36}
+      \strng{authorbibnamehash}{3baa591a4d627deaa40d9fa64de07e36}
+      \strng{authornamehash}{6dbfe3d7c12ab905f824028cded032ba}
+      \strng{authorfullhash}{3baa591a4d627deaa40d9fa64de07e36}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{00129682, 14680262}
+      \field{journaltitle}{Econometrica}
+      \field{number}{5}
+      \field{title}{A Test of the Efficiency of a Given Portfolio}
+      \field{urlday}{13}
+      \field{urlmonth}{5}
+      \field{urlyear}{2024}
+      \field{volume}{57}
+      \field{year}{1989}
+      \field{urldateera}{ce}
+      \field{pages}{1121\bibrangedash 1152}
+      \range{pages}{32}
+      \verb{urlraw}
+      \verb http://www.jstor.org/stable/1913625
+      \endverb
+      \verb{url}
+      \verb http://www.jstor.org/stable/1913625
+      \endverb
     \endentry
     \entry{gregoriou2019cryptocurrencies}{article}{}
       \name{author}{1}{}{%
