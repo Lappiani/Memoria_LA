@@ -1,0 +1,314 @@
+\documentclass{article}
+\usepackage{graphicx}% Required for inserting images
+\usepackage[margin=1in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{titling}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{mdframed}
+\usepackage{hyperref}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{Página \thepage}
+
+%Para que los parrafos no tengan sangría.
+\setlength{\parindent}{0pt}
+
+%Titulo
+\setlength{\droptitle}{-1.5cm}
+\title{\textbf{Model adaptation (Big  Cryptocurrencies)}}
+\date{}
+
+%Ambientes
+\newenvironment{boxedproof}
+  {\begin{mdframed}\begin{proof}}
+  {\end{proof}\end{mdframed}}
+
+
+\begin{document}
+
+\maketitle
+\thispagestyle{fancy}
+\vspace{-2cm}
+\section{Detail}
+For the following model there are two types of investors:
+\begin{itemize}
+	\item Unrestricted investors ($U$).
+	\item Restricted investors ($R$).
+\end{itemize}
+In this scenario, the restricted investors ($R$) exclusively invest in cryptocurrencies that hold a dominant position in terms of popularity and market capitalization.\\
+
+In traditional CAPM the unrestricted investor fully consumes terminal wealth, with $w_U$ being terminal wealth of the unrestricted investor.
+\begin{gather}
+	\max_{\bf{n}_{U}}\mathrm{E}\left[U(w_{U})\right] \label{objective}
+\end{gather}
+\begin{flalign}
+	&\text{Subject to:}\nonumber&&\\
+	&w_{U} = \boldsymbol{n^{\intercal}}_{U}\bm{x} + n^{f}_{U} \label{final wealth}&&\\
+	&\Bar{w}_{U} = {\bm{n^{\intercal}}_{U}\bm{P}} + n^{f}_{U} P_{f}\label{initial wealth}
+\end{flalign}
+Where:
+\begin{itemize}
+	\item $w_{U}:$ terminal wealth for the unrestricted investor.
+	\item $\bm{n}_{U}$: vector representing the number of shares the unrestricted investor purchases in each $N$ cryptocurrencies.
+	\item $\bm{x}$: vector of payoffs per share in each of $N$ cryptocurrencies.
+	\item $n^{f}_{U}$: number of risk-free discount bonds with unit payoff purchased by the unrestricted investor.
+	\item $\bm{P}$: vector of cryptocurrency prices.
+	\item $P_{f}:$ price of the discount bond.
+	\item $\Bar{w}_{U}$: initial wealth of the unrestricted investor.
+\end{itemize}
+From \eqref{initial wealth} we can conclude the following,
+\begin{equation*}
+	n^{f}_{U}= \frac{1}{P_{f}}\left(\Bar{w}_{U} - \bm{n^{\intercal}_{U}}\bm{P}\right)\;.
+\end{equation*}
+Then, substituting the expression in \eqref{final wealth} we have the following.
+\begin{equation}
+	w_{U} = \bm{n^{\intercal}}_{U}\bm{x} + \Bar{w}_{U}\frac{1}{P_{f}} -\bm{n^{\intercal}}_{U}\underbrace{\frac{\bm{P}}{P_{f}}}_{\bm{p}} = \frac{\Bar{w}_{U}}{P_{f}} + \bm{n^{\intercal}}_{U}(\bm{x}-\bm{p}) \label{wealth cons.}
+\end{equation}
+Substituting \eqref{wealth cons.} in \eqref{objective}, and computing the derivative.
+\begin{equation*}
+	\begin{split}
+		\frac{d\mathrm{E}}{dw_{U}} &= \mathrm{E}\left[U'(w_{U})(\bm{x}-\bm{p})\right]=0\;.
+	\end{split}
+\end{equation*}
+Which corresponds to the first order condition. Now, taking into account that $\bm{x}\sim\mathcal{N}(\Bar{\bm{x}},\bm{\Sigma})$, applying the definition of covariance we can conclude the following expression,
+\begin{equation*}
+	\begin{split}
+		\mathrm{E}\left[U'(w_{U})(\bm{x}-\bm{p})\right] &= E\left[(U'(w_U)-E\left[U'(w_U)\right])(\bm{x}-\bm{p}-E\left[\bm{x}-\bm{p}\right])\right] + E\left[U'(w_U)\right]E\left[\bm{x}-\bm{p}\right]\;,\\
+		&= E\left[(U'(w_U)-E[U'(w_U)])(\bm{x}-\bm{\Bar{x}})\right]+ E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})\;,\\
+		&= E\left[U'(w_U)(\bm{x}-\Bar{\bm{x}})-E[U'(w_U)](\bm{x}-\bm{\Bar{x}})\right]+ E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})\;,\\
+		&= E\left[U'(w_U)(\bm{x}-\Bar{\bm{x}})\right]-E[U'(w_U)]E\left[\bm{x}-\bm{\Bar{x}}\right]+ E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})\;,\\
+		\mathrm{E}\left[U'(w_{U})(\bm{x}-\bm{p})\right] &= E\left[U'(w_U)(\bm{x}-\bm{\Bar{x}})\right]+ E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})=0\;.
+	\end{split}
+\end{equation*}
+Then we can define the following equality,
+\begin{equation*}
+	-E\left[U'(w_U)(\bm{x}-\bm{\Bar{x}})\right]= E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})
+\end{equation*}
+
+\begin{boxedproof}[Stein's lemma application]
+	We have that $\bm{x}\sim\mathcal{N}\left(\bm{\Bar{x}},\bm{\Sigma}\right)$, 
+	\begin{equation*}
+		\begin{split}
+			\mathrm{E}[U'(w_{U})(\bm{x}-\bm{\Bar{x}})] &= \bm{\Sigma}\mathrm{E}\left[ \frac{\partial U'(w_{U})}{\partial \bm{x}}\right]\\
+		\end{split}
+	\end{equation*}
+	Taking $w_{u} = \bm{x^{\intercal}}\bm{n}_{U} + n^{f}_{U}\bm{1}\Rightarrow \frac{\partial w_{U}}{\partial \bm{x}} = \bm{n}_{U}$, then,
+	\begin{equation*}
+		\mathrm{E}[U'(w_{U})(\bm{x}-\bm{\Bar{x}})] = \bm{\Sigma}\mathrm{E}\left[U''(w_{u})\bm{n}_{U}\right] = \mathrm{E}\left[U''(w_{u})\right]\bm{\Sigma}\bm{n}_{U}
+	\end{equation*}
+\end{boxedproof}
+Substituting the lemma application,
+\begin{equation}
+	\begin{split}
+		-E\left[U''(w_U)\right]\bm{\Sigma}\bm{n}_{U}&=E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})\;,\\
+		\bm{\Bar{\bm{x}}}-\bm{p} &= \frac{-E\left[U''(w_U)\right]}{E\left[U'(w_U)\right]}\bm{\Sigma}\bm{n}_U\;,\\
+		\bm{\Bar{\bm{x}}}-\bm{p} &= \theta_U\bm{\Sigma}\bm{n}_U\;.
+	\end{split}
+	\label{eq:unrestricted}
+\end{equation}
+Where $\theta_{U}$ is akin to the absolute risk aversion, which depends on the initial wealth of investor $U$ and other model. $\bm{\Sigma}$ is the covariance matrix for risky asset payoffs and $\Bar{\bm{x}}$ the expected payoffs of risky assets.\\ 
+
+For investor type $R$ the problem is of similar nature but they invest exclusively in cryptocurrencies that hold a dominant position in terms of popularity and market capitalization.
+\begin{gather}
+	\max_{\bf{n}_{R}}\mathrm{E}\left[U(w_{R})\right] \label{objective R}
+\end{gather}
+\begin{flalign}
+	&\text{Subject to:}\nonumber&&\\
+	&w_{R} = \boldsymbol{n^{\intercal}}_{R}\bm{x} + n^{f}_{R} \label{final wealth R}&&\\
+	&\Bar{w}_{R} = {\bm{n^{\intercal}}_{R}\bm{P}} + n^{f}_{R} P_{f}\label{initial wealth R}
+\end{flalign}
+Where $\bm{n}_{R}$ is the vector of the shares of cryptocurrencies that investor $R$ purchases that comply with their preferences. Then, following the same procedure as before.
+\begin{equation}
+	\theta_{R}\bm{\Sigma}_{P}\bm{n}_{R}=\Bar{\bm{x}}_{P} - \bm{p}_{P}\label{non_sin_res}
+\end{equation}
+Where the matrix of asset payoff covariances is partitioned into popular ($P$) and non-popular ($N$) cryptocurrencies.
+\begin{equation}
+	\bm{\Sigma} = \begin{bmatrix}
+		\bm{\Sigma}_{P} & \bm{\Sigma}_{PN}\\
+		\bm{\Sigma}_{NP} & \bm{\Sigma}_{N}
+	\end{bmatrix}
+	\label{covariance_matrix_gen}
+\end{equation} 
+Where $\bm{\Sigma}_{N}$ represents the payoff covariance of all cryptocurrencies that are ``non-popular'' or have small market capitalization, and $\Bar{\bm{x}}_{N}$ and $\bm{p}_N$ are the vectors of mean payoffs and prices, respectively, of the ``non-popular'' cryptocurrencies.\\ 
+
+Assuming $q_{U}$ investors of type $U$ and $q_R$ investors of type $R$, the demand for cryptocurrencies may be obtained and set equal to the exogenous supply of cryptocurrencies $\Bar{\bm{n}} = \left(\Bar{\bm{n}}_N, \Bar{\bm{n}}_P\right)^{\intercal}$, and to zero for the risk-free asset, yielding the conditions for market equilibrium.
+\begin{equation}
+	\Bar{\bm{n}} = q_{U}\bm{n}_{U} + q_{R}\bm{n}_{R},\quad 0 = q_{U}n^{f}_{U} + q_{R}n^{f}_{R}\label{market eq.}
+\end{equation}
+Reorganizing equations \eqref{non_sin_res} and \eqref{eq:unrestricted} yields the following,
+\begin{equation*}
+	\bm{n}_{U} = \left(\theta_{U}\bm{\Sigma}\right)^{-1}(\Bar{\bm{x}} - \bm{p}),\quad \bm{n}_{R} = \left(\theta_{R}\bm{\Sigma}_{P}\right)^{-1}(\Bar{\bm{x}}_{P} - \bm{p}_{P})\;. 
+\end{equation*}
+Note that $\bm{n}_R$ can be represented in the following form,
+\begin{equation*}
+	\bm{n}_R = \theta^{-1}_{R}\begin{bmatrix}
+		\bm{\Sigma}^{-1}_{P} & 0\\
+		0 & 0
+	\end{bmatrix}
+	(\Bar{\bm{x}}-\bm{p}) = \begin{bmatrix}
+		\bm{I}\\
+		0
+	\end{bmatrix}
+	\left(\bm{\Sigma}_P\theta_R\right)^{-1}\begin{bmatrix}
+		\bm{I} & 0
+	\end{bmatrix}
+	\left(\bm{\Bar{x}}-\bm{p}\right)\;.
+\end{equation*}
+Substituting in \eqref{market eq.} yields the following,
+\begin{equation}
+	\bm{\Bar{n}}=\left(\left(\bm{\Sigma}\theta_U/q_U\right)^{-1}+\begin{bmatrix}
+		\bm{I}\\
+		0
+	\end{bmatrix}
+	\left(\bm{\Sigma}_P \theta_R/q_R\right)^{-1}\begin{bmatrix}
+		\bm{I} & 0
+	\end{bmatrix}\right)\left(\bm{\Bar{\bm{x}}}-\bm{p}\right)\;.
+	\label{eq:dem_exogena}
+\end{equation}
+From where we want to isolate the expression $\bm{\Bar{x}}-\bm{p}$, then is necessary to compute the inverse of the expression in parenthesis. The latter can be done using an identity that says the following, given matrices $\bm{X}_1, \bm{X}_2, \bm{X}_3 \text{ y } \bm{X}_4$, with $\bm{X}_1$, $\bm{X}_4$ having an inverse, the following equality is satisfied.
+\begin{equation}
+	\left(\bm{X}^{-1}_1 + \bm{X}_2\bm{X}^{-1}_{4}\bm{X}_3\right)^{-1} = \bm{X}_1 + \bm{X}_1\bm{X}_2\left(\bm{X}_4 + \bm{X}_3\bm{X}_1\bm{X}_2\right)^{-1}\bm{X}_3\bm{X}_1\;.
+	\label{eq:id_sodes}
+\end{equation}
+Substituting the terms in \eqref{eq:id_sodes}, we have that,
+\begin{equation*}
+	\begin{split}
+		& \left(\left(\bm{\Sigma}\theta_U/q_U\right)^{-1}+\begin{bmatrix}
+			\bm{I}\\
+			0
+		\end{bmatrix}
+		\left(\bm{\Sigma}_P \theta_R/q_R\right)^{-1}\begin{bmatrix}
+			\bm{I} & 0
+		\end{bmatrix}\right)^{-1}\\ 
+		&= \bm{\Sigma}\theta_U/q_U -\bm{\Sigma}\theta_U/q_U\begin{bmatrix}
+			\bm{I}\\
+			0
+		\end{bmatrix}
+		\left(\bm{\Sigma}_P \theta_R/q_R + \begin{bmatrix}
+			\bm{I} & 0
+		\end{bmatrix}
+		\bm{\Sigma}\theta_U/q_U\begin{bmatrix}
+			\bm{I}\\
+			0
+		\end{bmatrix}
+		\right)^{-1}
+		\begin{bmatrix}
+			\bm{I} & 0
+		\end{bmatrix}
+		\bm{\Sigma}\theta_U/q_U\;,\\
+		&= \bm{\Sigma}\theta_U/q_U - \bm{\Sigma}\theta_U/q_U\begin{bmatrix}
+			\bm{I}\\
+			0
+		\end{bmatrix}
+		\left(\bm{\Sigma}_P \theta_R/q_R + \bm{\Sigma}_P\theta_U/q_U\right)^{-1}\begin{bmatrix}
+			\bm{I} & 0
+		\end{bmatrix}
+		\bm{\Sigma}\theta_U/q_U\;,\\
+		&= \theta_U/q_U\left(\bm{\Sigma} - \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			\bm{\Sigma}^{-1}_{P} & 0\\
+			0 & 0
+		\end{bmatrix}
+		\bm{\Sigma}
+		\right)\;.
+	\end{split}
+\end{equation*}
+Then, substituting the expression in \eqref{eq:dem_exogena} yields the following,
+\begin{equation}
+	\begin{split}
+		(\bm{\Bar{x}}-\bm{p})&=\theta_{U}/q_{U}\left(\bm{\Sigma} - \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			\bm{\Sigma}^{-1}_{P} & 0\\
+			0 & 0
+		\end{bmatrix}
+		\bm{\Sigma}
+		\right)\bm{\Bar{n}}\;,\\
+		&=\theta_{U}/q_{U}\left(\bm{\Sigma} - \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			\bm{I} & \bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\\
+			0 & 0
+		\end{bmatrix}
+		\right)\bm{\Bar{n}}\;,\\
+		&= \theta_{U}/q_{U}\left(\bm{\Sigma}\bm{\Bar{n}} - \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			\bm{\Bar{n}}_{N}+\bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\bm{\Bar{n}}_{P}\\
+			0 
+		\end{bmatrix}
+		\right)\;,\\
+		&= \theta_{U}/q_{U}\left(\bm{\Sigma}\bm{\Bar{n}} -\frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\bm{\Bar{n}}+ \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			-\bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\bm{\Bar{n}}_{P}\\
+			\bm{\Bar{n}}_{P} 
+		\end{bmatrix}
+		\right)\;,\\
+		&= \theta_{U}/q_{U}\left(\frac{\theta_R/q_R}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\bm{\Bar{n}}+ \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			-\bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\bm{\Bar{n}}_{P}\\
+			\bm{\Bar{n}}_{P} 
+		\end{bmatrix}
+		\right)\;,\\
+		&= \left(\frac{1}{q_U/\theta_U + q_R/\theta_R}\bm{\Sigma}\bm{\Bar{n}}+ \frac{1}{q_U/\theta_U + q_R/\theta_R}\frac{q_{R}/\theta_R}{q_U/\theta_U}\bm{\Sigma}\begin{bmatrix}
+			-\bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\bm{\Bar{n}}_{P}\\
+			\bm{\Bar{n}}_{P} 
+		\end{bmatrix}
+		\right)\;,\\
+		&= \frac{1}{q_U\Bar{w}_U/\rho_U + q_R\Bar{w}_R/\rho_R}\bm{\Sigma}\bm{\Bar{n}}+ \frac{1}{q_U\Bar{w}_U/\rho_U + q_R\Bar{w}_R/\rho_R}\frac{q_{R}\Bar{w}_R/\rho_R}{q_U\Bar{w}_U/\rho_U}\bm{\Sigma}\begin{bmatrix}
+			-\bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\bm{\Bar{n}}_{P}\\
+			\bm{\Bar{n}}_{P} 
+		\end{bmatrix}
+		\;,\\
+		&=\gamma\bm{\Sigma}\bm{\Bar{n}} + \delta\bm{\Sigma}\bm{\Bar{n}}_K\;.
+	\end{split}
+	\label{eq:id-boicott}
+\end{equation}
+Where $\bm{\Bar{n}}_K$ represents the known cryptocurrency portfolio. Now, we have to convert \eqref{eq:id-boicott} in an expression for expected returns rather than expected net payoffs. Given that $P_f=1/(1+r_f)$ we can define the following,
+\begin{equation*}
+	(1+r^{s}_{i}) = \frac{x_i}{P_i} \Leftrightarrow x_i - \frac{P_i}{P_f}=P_i(1+r^{s}_{i}) - P_i(1+r_f)=P_i(r^{s}_{i}-r_f)\;.
+\end{equation*}
+Then, defining the excess return as $r_i=r^{s}_{i}-r_{f}$, and given that in \eqref{eq:id-boicott} the expression to the left of the equality is represented as an average, it yields that $\mu_{i}=\mu^{s}_{i}-r_{f}$. In addition, cause $1+r^{s}_{i}=x_i/P_i$, the covariance matrix for the payoffs of the cryptocurrencies $\bm{\Sigma}$ can be represented in terms of the returns $\sigma_{ij}=\Sigma_{ij}/P_{i}P_{j}$, such that, for a specific element of \eqref{eq:id-boicott} we have that,
+\begin{equation}
+	\begin{split}
+		P_i \mu_i&=\gamma \Sigma_{im} + \delta\Sigma_{ip}\\
+		\mu_{i} &= \gamma P_m \sigma_{im} + \delta P_p \sigma_{ip}
+	\end{split}
+	\label{eq:mean-returns}
+\end{equation}
+Where $m$ represents the market, $P_m =q_m \Bar{w}_{M}=q_U \Bar{w}_{U} + q_R \Bar{w}_{R} $ is the cost of the market portfolio, and $P_p$ is the cost of the popular portfolio. Now, given \eqref{eq:mean-returns} we can define $\mu_{m}$ y $\mu_{p}$, which correspond to the mean returns of the market and popular portfolios, respectively.
+\begin{equation*}
+	\mu_{m} = \gamma P_m \sigma^{2}_{m} + \delta P_p \sigma_{mp} \quad; \quad \mu_{p} = \gamma P_m \sigma_{mp} + \delta P_p \sigma^{2}_{p}\;.
+\end{equation*}
+Solving the system of equations for $\gamma P_m$ y $\delta P_p$ yields the following,
+\begin{equation*}
+	\delta P_p = \frac{\sigma_{mp}\mu_{m}-\sigma^{2}_{m}\mu_{p}}{\sigma^{2}_{mp}-\sigma^{2}_{p}\sigma^{2}_{m}}\quad ; \quad \gamma P_m = \frac{\sigma_{mp}\mu_{p}-\sigma^{2}_{p}\mu_{m}}{\sigma^{2}_{mp}-\sigma^{2}_{p}\sigma^{2}_{m}}\;.
+\end{equation*}
+Substituting in \eqref{eq:mean-returns} yields,
+\begin{equation}
+	\begin{split}
+		\mu_{i} &= \frac{\sigma^{2}_{m}\sigma_{ip}-\sigma_{mp}\sigma_{im}}{\sigma^{2}_{p}\sigma^{2}_{m}-\sigma^{2}_{mp}}\mu_{p} + \frac{\sigma^{2}_{p}\sigma_{im}-\sigma_{mp}\sigma_{ip}}{\sigma^{2}_{p}\sigma^{2}_{m}-\sigma^{2}_{mp}}\mu_{m}\;,\\
+		&= \beta_{ip}\mu_{p} + \beta_{im}\mu_{m}\;.\\  
+	\end{split}
+\end{equation}
+Where $\beta_{ib}$ and $\beta_{ip}$ are the population values of the slope estimates for a linear regression of the return of asset $i$ on the market portfolio return and the popular portfolio return.
+
+
+%ANEXO
+\newpage
+\section{Appendix}
+
+\subsection{Stein's Lemma}
+\label{sec: stein}
+
+Let $X$ be a random variable that follows a normal distribution with mean $\mu$ and variance $\sigma^2$. Let $g$ be a function for which $\mathrm{E}\left(g(X)(X-\mu)\right)$ and $\mathrm{E}\left(g'(X)\right)$ exist. Then,
+\begin{equation*}
+	\mathrm{E}\left(g(X)(X-\mu)\right) =\sigma^{2}\mathrm{E}\left(g'(X)\right).
+\end{equation*}
+
+In general, assuming that $X$ and $Y$ have a joint probability distribution, then,
+\begin{equation*}
+	\mathrm{Cov}\left(g(X),Y\right) = \mathrm{Cov}(X,Y)\mathrm{E}(g'(X)).
+\end{equation*}
+
+For a multivariate normal vector $(X_{1},\dots,X_{n})\sim \mathcal{N}(\bm{u},\bm{\Sigma})$, it holds that,
+\begin{equation}
+	\mathrm{E}\left(g(\bm{X})(\bm{X}-\bm{\mu})\right) = \bm{\Sigma}\cdot \mathrm{E}\left(\nabla g(\bm{X})\right)\label{stein}
+\end{equation}
+\end{document}
