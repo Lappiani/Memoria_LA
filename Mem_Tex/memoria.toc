@@ -14,8 +14,14 @@
 \contentsline {subsection}{\numberline {3.2.1}Data Retrieval}{13}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Mathematical Formulation}{14}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Fama Mac-Beth Regressions}{15}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Gibbons, Ross, and Shanken Test}{15}{subsection.3.2.4}%
-\contentsline {chapter}{\numberline {4}Methodological Development}{16}{chapter.4}%
-\contentsline {chapter}{References}{17}{chapter*.5}%
-\contentsline {chapter}{Appendix}{20}{chapter*.5}%
-\contentsline {chapter}{\numberline {A}Technical details, tables, and others}{20}{appendix.A}%
+\contentsline {subsection}{\numberline {3.2.4}Gibbons, Ross, and Shanken Test}{16}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Conclusions and recommendations}{17}{subsection.3.2.5}%
+\contentsline {chapter}{\numberline {4}Methodological Development}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Mathematical Formulation}{18}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Math Detail}{19}{subsection.4.1.1}%
+\contentsline {chapter}{References}{25}{chapter*.10}%
+\contentsline {chapter}{Appendix}{28}{chapter*.10}%
+\contentsline {chapter}{\numberline {A}Technical details, tables, and others}{28}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Covariance Definition}{28}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Stein's Lemma}{28}{section.A.2}%
+\contentsline {section}{\numberline {A.3}S\"{o}derstr\"{o}m Identity}{28}{section.A.3}%

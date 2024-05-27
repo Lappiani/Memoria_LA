@@ -1,3 +1,242 @@
 \chapter{Methodological Development}
 \label{c4}
-As it was already mentioned in previous sections of this dissertation, the investigation corresponds to an empirical finance study of a model that is derived from a theoretical formulation.
+\todo[inline]{I need to establish: Type of study, Period and place where the research was done, Universe and sample, Methods, Variable selection, Assumptions, Procedures, Methods of data collection.}
+\todo[inline]{Mention that an attempt on three types of investors was made, but you couldnot use Soodestrom.}
+As it was already mentioned in previous sections of this dissertation, the investigation corresponds to an empirical finance study of a model that is derived from a theoretical formulation that was already presented in \ref{c322}. The investigation was developed in the year 2024, in \textit{Universidad de los Andes} from \textit{Santiago, Chile}. In the following sections more detail will be presented as to every step showcased in the \nameref{32} relating the research itself.
+
+\section{Mathematical Formulation}
+\todo[inline]{Important to mention in which steps mathematical intuition was used to derive the model.}
+Although the optimization problem was already presented in \ref{c322}, it was the following.
+ \begin{equation}
+ 	\max_{\bm{n}_{j}}E\left[U(w_{j})\right]\;.
+ \end{equation}
+ Subject to:
+ \begin{flalign}
+ 	w_{j} &= \bm{n}_{j}^{\intercal}\bm{x} + n^{f}_{j}\;,&&\\
+ 	\Bar{w}_{j} &= \bm{n}_{j}^{\intercal}\bm{P} + n^{f}_{j}P_{f}\;.&&
+ \end{flalign}
+Where in summary the variables represent:
+\begin{itemize}
+	\item $w_{j}$ and $\Bar{w}_{j}$ are the terminal and initial wealth for investor type $j$.
+	\item $\bm{n}_j$ is the vector representing the amount investor type $j$ purchases in each of $N$ cryptocurrencies.
+	\item $n^{f}_{j}$ the number of risk-free discount bonds with unit payoff purchased by investor type $j$.
+	\item $\bm{P}$ is the vector of cryptocurrency prices, and $P_f$ is the price of the discount bond.
+\end{itemize}
+An important aspect is that this model derivation is done originally in \parencite{luo2017social}. The model formulated in this dissertation is based on said paper, but in this case it is applied to cryptocurrencies. Also, in the paper the detail of the math is given, but there are some steps that are not shown in a level of detail that allows for a full understanding of the process, so in those cases mathematical intuition was required to obtain the required results in order to derive the model. Said steps will be mentioned in this section.
+
+\subsection{Math Detail}
+For the model there are two types of investors: the unrestricted investors ($U$), and the restricted investors ($R$). In this case, the restricted investors invest solely in cryptocurrencies that hold a dominant position in terms of popularity and market capitalization.
+\todo[inline]{Appendix: Mention which cryptos comprise the popular portfolio.}
+
+In the traditional Capital Asset Pricing Model, the unrestricted investor fully consumes terminal wealth, with $w_{U}$ being terminal wealth of the unrestricted investor. For the said investor, the problem is as follows,
+\begin{gather}
+	\max_{\bf{n}_{U}}\mathrm{E}\left[U(w_{U})\right] \label{objective}\;.
+\end{gather}
+\begin{flalign}
+	&\text{Subject to:}\nonumber&&\\
+	&w_{U} = \boldsymbol{n^{\intercal}}_{U}\bm{x} + n^{f}_{U} \label{final wealth}\;,&&\\
+	&\Bar{w}_{U} = {\bm{n^{\intercal}}_{U}\bm{P}} + n^{f}_{U} P_{f}\label{initial wealth}\;.
+\end{flalign}
+From \eqref{initial wealth}, the following conclusion can be drawn,
+\begin{equation*}
+	n^{f}_{U}= \frac{1}{P_{f}}\left(\Bar{w}_{U} - \bm{n^{\intercal}}_{U}\bm{P}\right)\;.
+\end{equation*}
+Then, substituting the expression in \eqref{final wealth},
+\begin{equation}
+	w_{U} = \bm{n^{\intercal}}_{U}\bm{x} + \Bar{w}_{U}\frac{1}{P_{f}} -\bm{n^{\intercal}}_{U}\underbrace{\frac{\bm{P}}{P_{f}}}_{\bm{p}} = \frac{\Bar{w}_{U}}{P_{f}} + \bm{n^{\intercal}}_{U}(\bm{x}-\bm{p}) \label{wealth cons.}
+\end{equation}
+Substituting \eqref{wealth cons.} in \eqref{objective}, and computing the derivative.
+\begin{equation*}
+	\begin{split}
+		\frac{d\mathrm{E}}{dw_{U}} &= \mathrm{E}\left[U'(w_{U})(\bm{x}-\bm{p})\right]=0\;.
+	\end{split}
+\end{equation*}
+Which corresponds to the first order condition. Now, taking into account that $\bm{x}\sim\mathcal{N}(\Bar{\bm{x}},\bm{\Sigma})$, which is that the payoff vector is multivariate normally distributed, applying the definition of covariance (see appendix \ref{app: cov-def}) the following expression can be deduced,
+\begin{equation*}
+	\begin{split}
+		\mathrm{E}\left[U'(w_{U})(\bm{x}-\bm{p})\right] &= E\left[(U'(w_U)-E\left[U'(w_U)\right])(\bm{x}-\bm{p}-E\left[\bm{x}-\bm{p}\right])\right] + E\left[U'(w_U)\right]E\left[\bm{x}-\bm{p}\right]\;,\\
+		&= E\left[(U'(w_U)-E[U'(w_U)])(\bm{x}-\bm{\Bar{x}})\right]+ E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})\;,\\
+		&= E\left[U'(w_U)(\bm{x}-\Bar{\bm{x}})-E[U'(w_U)](\bm{x}-\bm{\Bar{x}})\right]+ E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})\;,\\
+		&= E\left[U'(w_U)(\bm{x}-\Bar{\bm{x}})\right]-E[U'(w_U)]E\left[\bm{x}-\bm{\Bar{x}}\right]+ E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})\;,\\
+		\mathrm{E}\left[U'(w_{U})(\bm{x}-\bm{p})\right] &= E\left[U'(w_U)(\bm{x}-\bm{\Bar{x}})\right]+ E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})=0\;.
+	\end{split}
+\end{equation*}
+Then the following equality can be defined,
+\begin{equation*}
+	-E\left[U'(w_U)(\bm{x}-\bm{\Bar{x}})\right]= E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})
+\end{equation*}
+Applying the lemma in appendix \ref{app: steins lemma},
+\begin{equation}
+	\begin{split}
+		-E\left[U''(w_U)\right]\bm{\Sigma}\bm{n}_{U}&=E\left[U'(w_U)\right](\bm{\Bar{x}}-\bm{p})\;,\\
+		\bm{\Bar{\bm{x}}}-\bm{p} &= \frac{-E\left[U''(w_U)\right]}{E\left[U'(w_U)\right]}\bm{\Sigma}\bm{n}_U\;,\\
+		\bm{\Bar{\bm{x}}}-\bm{p} &= \theta_U\bm{\Sigma}\bm{n}_U\;.
+	\end{split}
+	\label{eq:unrestricted}
+\end{equation}
+Where $\theta_{U}={-E\left[U''(w_U)\right]}/{E\left[U'(w_U)\right]}$ is analogous to absolute risk aversion\todo{explain this concept}, which depends on the initial wealth of investor $U$ and other model. $\bm{\Sigma}$ is the covariance matrix for risky asset payoffs and $\Bar{\bm{x}}$ the expected payoffs of risky assets.
+
+For investor type $R$ the problem is of similar nature,
+\begin{gather}
+	\max_{\bf{n}_{R}}\mathrm{E}\left[U(w_{R})\right]\;. \label{objective R}
+\end{gather}
+\begin{flalign}
+	&\text{Subject to:}\nonumber&&\\
+	&w_{R} = \boldsymbol{n^{\intercal}}_{R}\bm{x} + n^{f}_{R} \label{final wealth R}\;,&&\\
+	&\Bar{w}_{R} = {\bm{n^{\intercal}}_{R}\bm{P}} + n^{f}_{R} P_{f}\;.\label{initial wealth R}
+\end{flalign}
+Where $\bm{n}_{R}$ is the vector of the shares of cryptocurrencies that investor $R$ purchases that comply with their preferences. Then, following the same procedure as before.
+\begin{equation}
+	\theta_{R}\bm{\Sigma}_{P}\bm{n}_{R}=\Bar{\bm{x}}_{P} - \bm{p}_{P}\;.\label{non_sin_res}
+\end{equation}
+Where the matrix of asset payoff covariances is partitioned into popular ($P$) and non-popular ($N$) cryptocurrencies.
+\begin{equation}
+	\bm{\Sigma} = \begin{bmatrix}
+		\bm{\Sigma}_{P} & \bm{\Sigma}_{PN}\\
+		\bm{\Sigma}_{NP} & \bm{\Sigma}_{N}
+	\end{bmatrix}
+	\label{covariance_matrix_gen}
+\end{equation}
+Where $\bm{\Sigma}_{N}$ represents the payoff covariance of all cryptocurrencies that are ``non-popular'' or have small market capitalization, and $\Bar{\bm{x}}_{N}$ and $\bm{p}_N$ are the vectors of mean payoffs and prices, respectively, of the ``non-popular'' cryptocurrencies.
+
+Assuming $q_{U}$ investors of type $U$ and $q_R$ investors of type $R$, the demand for cryptocurrencies may be obtained and set equal to the exogenous supply of cryptocurrencies $\Bar{\bm{n}} = \left(\Bar{\bm{n}}_N, \Bar{\bm{n}}_P\right)^{\intercal}$, and to zero for the risk-free asset, yielding the conditions for market equilibrium.
+\begin{equation}
+	\Bar{\bm{n}} = q_{U}\bm{n}_{U} + q_{R}\bm{n}_{R},\quad 0 = q_{U}n^{f}_{U} + q_{R}n^{f}_{R}\;.\label{market eq.}
+\end{equation}
+Reorganizing equations \eqref{non_sin_res} and \eqref{eq:unrestricted} yields the following,
+\begin{equation*}
+	\bm{n}_{U} = \left(\theta_{U}\bm{\Sigma}\right)^{-1}(\Bar{\bm{x}} - \bm{p}),\quad \bm{n}_{R} = \left(\theta_{R}\bm{\Sigma}_{P}\right)^{-1}(\Bar{\bm{x}}_{P} - \bm{p}_{P})\;. 
+\end{equation*}
+Note that $\bm{n}_R$ can be represented in the following form,
+\begin{equation*}
+	\bm{n}_R = \theta^{-1}_{R}\begin{bmatrix}
+		\bm{\Sigma}^{-1}_{P} & 0\\
+		0 & 0
+	\end{bmatrix}
+	(\Bar{\bm{x}}-\bm{p}) = \begin{bmatrix}
+		\bm{I}\\
+		0
+	\end{bmatrix}
+	\left(\bm{\Sigma}_P\theta_R\right)^{-1}\begin{bmatrix}
+		\bm{I} & 0
+	\end{bmatrix}
+	\left(\bm{\Bar{x}}-\bm{p}\right)\;.
+\end{equation*}
+Substituting in \eqref{market eq.} yields the following,
+\begin{equation}
+	\bm{\Bar{n}}=\left(\left(\bm{\Sigma}\theta_U/q_U\right)^{-1}+\begin{bmatrix}
+		\bm{I}\\
+		0
+	\end{bmatrix}
+	\left(\bm{\Sigma}_P \theta_R/q_R\right)^{-1}\begin{bmatrix}
+		\bm{I} & 0
+	\end{bmatrix}\right)\left(\bm{\Bar{\bm{x}}}-\bm{p}\right)\;.
+	\label{eq:dem_exogena}
+\end{equation}
+From where we want to isolate the expression $\bm{\Bar{x}}-\bm{p}$, then is necessary to compute the inverse of the expression in parenthesis. The latter can be done using an identity that says the following (see appendix \ref{app: sod-id}), given matrices $\bm{X}_1, \bm{X}_2, \bm{X}_3 \text{ y } \bm{X}_4$, with $\bm{X}_1$, $\bm{X}_4$ having an inverse, the following equality is satisfied.
+\begin{equation}
+	\left(\bm{X}^{-1}_1 + \bm{X}_2\bm{X}^{-1}_{4}\bm{X}_3\right)^{-1} = \bm{X}_1 + \bm{X}_1\bm{X}_2\left(\bm{X}_4 + \bm{X}_3\bm{X}_1\bm{X}_2\right)^{-1}\bm{X}_3\bm{X}_1\;.
+	\label{eq:id_sodes}
+\end{equation}
+Substituting the terms in \eqref{eq:id_sodes}, yields the following,
+\begin{equation*}
+	\begin{split}
+		& \left(\left(\bm{\Sigma}\theta_U/q_U\right)^{-1}+\begin{bmatrix}
+			\bm{I}\\
+			0
+		\end{bmatrix}
+		\left(\bm{\Sigma}_P \theta_R/q_R\right)^{-1}\begin{bmatrix}
+			\bm{I} & 0
+		\end{bmatrix}\right)^{-1}\\ 
+		&= \bm{\Sigma}\theta_U/q_U -\bm{\Sigma}\theta_U/q_U\begin{bmatrix}
+			\bm{I}\\
+			0
+		\end{bmatrix}
+		\left(\bm{\Sigma}_P \theta_R/q_R + \begin{bmatrix}
+			\bm{I} & 0
+		\end{bmatrix}
+		\bm{\Sigma}\theta_U/q_U\begin{bmatrix}
+			\bm{I}\\
+			0
+		\end{bmatrix}
+		\right)^{-1}
+		\begin{bmatrix}
+			\bm{I} & 0
+		\end{bmatrix}
+		\bm{\Sigma}\theta_U/q_U\;,\\
+		&= \bm{\Sigma}\theta_U/q_U - \bm{\Sigma}\theta_U/q_U\begin{bmatrix}
+			\bm{I}\\
+			0
+		\end{bmatrix}
+		\left(\bm{\Sigma}_P \theta_R/q_R + \bm{\Sigma}_P\theta_U/q_U\right)^{-1}\begin{bmatrix}
+			\bm{I} & 0
+		\end{bmatrix}
+		\bm{\Sigma}\theta_U/q_U\;,\\
+		&= \theta_U/q_U\left(\bm{\Sigma} - \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			\bm{\Sigma}^{-1}_{P} & 0\\
+			0 & 0
+		\end{bmatrix}
+		\bm{\Sigma}
+		\right)\;.
+	\end{split}
+\end{equation*}
+Then, substituting the expression in \eqref{eq:dem_exogena} yields the following,
+\begin{equation}
+	\begin{split}
+		(\bm{\Bar{x}}-\bm{p})&=\theta_{U}/q_{U}\left(\bm{\Sigma} - \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			\bm{\Sigma}^{-1}_{P} & 0\\
+			0 & 0
+		\end{bmatrix}
+		\bm{\Sigma}
+		\right)\bm{\Bar{n}}\;,\\
+		&=\theta_{U}/q_{U}\left(\bm{\Sigma} - \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			\bm{I} & \bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\\
+			0 & 0
+		\end{bmatrix}
+		\right)\bm{\Bar{n}}\;,\\
+		&= \theta_{U}/q_{U}\left(\bm{\Sigma}\bm{\Bar{n}} - \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			\bm{\Bar{n}}_{N}+\bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\bm{\Bar{n}}_{P}\\
+			0 
+		\end{bmatrix}
+		\right)\;,\\
+		&= \theta_{U}/q_{U}\left(\bm{\Sigma}\bm{\Bar{n}} -\frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\bm{\Bar{n}}+ \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			-\bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\bm{\Bar{n}}_{P}\\
+			\bm{\Bar{n}}_{P} 
+		\end{bmatrix}
+		\right)\;,\\
+		&= \theta_{U}/q_{U}\left(\frac{\theta_R/q_R}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\bm{\Bar{n}}+ \frac{\theta_U/q_U}{\theta_U/q_U + \theta_R/q_R}\bm{\Sigma}\begin{bmatrix}
+			-\bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\bm{\Bar{n}}_{P}\\
+			\bm{\Bar{n}}_{P} 
+		\end{bmatrix}
+		\right)\;,\\
+		&= \left(\frac{1}{q_U/\theta_U + q_R/\theta_R}\bm{\Sigma}\bm{\Bar{n}}+ \frac{1}{q_U/\theta_U + q_R/\theta_R}\frac{q_{R}/\theta_R}{q_U/\theta_U}\bm{\Sigma}\begin{bmatrix}
+			-\bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\bm{\Bar{n}}_{P}\\
+			\bm{\Bar{n}}_{P} 
+		\end{bmatrix}
+		\right)\;,\\
+		&= \frac{1}{q_U\Bar{w}_U/\rho_U + q_R\Bar{w}_R/\rho_R}\bm{\Sigma}\bm{\Bar{n}}+ \frac{1}{q_U\Bar{w}_U/\rho_U + q_R\Bar{w}_R/\rho_R}\frac{q_{R}\Bar{w}_R/\rho_R}{q_U\Bar{w}_U/\rho_U}\bm{\Sigma}\begin{bmatrix}
+			-\bm{\Sigma}^{-1}_{P}\bm{\Sigma}_{PN}\bm{\Bar{n}}_{P}\\
+			\bm{\Bar{n}}_{P} 
+		\end{bmatrix}
+		\;,\\
+		&=\gamma\bm{\Sigma}\bm{\Bar{n}} + \delta\bm{\Sigma}\bm{\Bar{n}}_K\;.
+	\end{split}
+	\label{eq:id-boicott}
+\end{equation}
+Where $\bm{\Bar{n}}_K$ represents the known cryptocurrency portfolio. Now, \eqref{eq:id-boicott} must be converted into an expression for expected returns rather than expected net payoffs. Given that $P_f=1/(1+r_f)$, the following can be defined,
+\begin{equation*}
+	(1+r^{s}_{i}) = \frac{x_i}{P_i} \Leftrightarrow x_i - \frac{P_i}{P_f}=P_i(1+r^{s}_{i}) - P_i(1+r_f)=P_i(r^{s}_{i}-r_f)\;.
+\end{equation*}
+Then, defining the excess return as $r_i = r^{s}_{i} - r_{f}$, and given that in Equation \eqref{eq:id-boicott} the expression to the left of the equality is represented as an average, it follows that $\mu_{i} = \mu^{s}_{i} - r_{f}$. In addition, since $1 + r^{s}_{i} = x_i / P_i$, the covariance matrix for the payoffs of the cryptocurrencies $\bm{\Sigma}$ can be represented in terms of the returns as $\sigma_{ij} = \Sigma_{ij} / P_{i} P_{j}$. Thus, for a specific element of Equation \eqref{eq:id-boicott}, it can be stated that,
+\begin{equation}
+	\begin{split}
+		P_i \mu_i&=\gamma \Sigma_{im} + \delta\Sigma_{ip}\\
+		\mu_{i} &= \gamma P_m \sigma_{im} + \delta P_p \sigma_{ip}
+	\end{split}
+	\label{eq:mean-returns}
+\end{equation}
+Where $m$ represents the market, $P_m = q_m \Bar{w}_{M} = q_U \Bar{w}_{U} + q_R \Bar{w}_{R}$ is the cost of the market portfolio, and $P_p$ is the cost of the popular portfolio. Now, given \eqref{eq:mean-returns}, $\mu_{m}$ and $\mu_{p}$ can be defined, which correspond to the mean returns of the market and popular portfolios, respectively.
+
+
+
+ 

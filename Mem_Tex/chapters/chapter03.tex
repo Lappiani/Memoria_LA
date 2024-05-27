@@ -3,7 +3,7 @@
 \section{Objectives}
 \label{c31}
 
-By distinguishing between general and specific objectives and ensuring they are concrete, verifiable, and free from methodological details, these objectives should effectively guide your dissertation research and provide clear benchmarks for evaluation upon completion.
+By distinguishing between general and specific objectives and ensuring they are concrete, verifiable, and free from methodological details, these objectives should effectively guide the dissertation research and provide clear benchmarks for evaluation upon completion.
 \subsection{General Objective}
 Create and confirm a Portfolio Markowitz-inspired model to evaluate cryptocurrency returns in order to improve comprehension and assist in making informed investment choices within the cryptocurrency sector.
 \subsection{Specific Objectives}
@@ -16,6 +16,7 @@ Create and confirm a Portfolio Markowitz-inspired model to evaluate cryptocurren
 	\item[6.] Present suggestions for future research paths and practical applications for investors and financial institutions utilizing the knowledge obtained from the constructed model and empirical studies.
 \end{enumerate}
 \section{Methodological Framework}
+\label{32}
 In order to solve the literature gap that was mentioned on chapter \ref{c1}, a description of the methodological framework will be proposed in order to achieve the aforementioned general objective, and the ones established in section \ref{c31}.
 
 \subsection{Data Retrieval}
@@ -26,20 +27,66 @@ A crucial part of the investigation is the data that will be used to do the rela
 \textit{Yahooquery} is a python interface to unofficial \textit{Yahoo Finance} API endpoints. So in this case, the endpoint related to cryptocurrency symbols ordered by market capitalization was used to retrieve said cryptocurrencies. The maximum amount of cryptocurrencies that this interface allowed to retrieve was 250. The combination of these tools allowed to retrieve data of prices from 2014 onward of 250 cryptocurrencies ordered by intraday market capitalization\footnote{Market value of a cryptocurrency's stock at any given point during the trading day.}.
 
 \subsection{Mathematical Formulation}
+\label{c322}
 Another part of the investigation that is essential is the derivation of the model. The general idea of the mathematical formulation comes from the derivation of the Capital Asset Pricing Model. Although the traditional optimization problem minimizes the variance of the portfolio, in this case an alternative approach that is also used will be taken.
 
-Considering this scenario, the objective will be the utility function of a certain type of investor, which depends on the terminal wealth of said individual. The idea is to maximize this utility function subject to two constraints related to the initial and final wealth of the investor.
+Considering this scenario, the objective will be the utility function of a certain type of investor, which depends on the terminal wealth of said individual. The idea is to maximize this utility function subject to two constraints related to the initial and final wealth of the investor. The mathematical representation is as follows,
 
-Through the development of this theoretical formulation a formal model can be derived that explains the cross-section of returns of a certain cryptocurrency in this case. But the latter is the general idea, the detail will be delved into in further sections of this dissertation.
+\begin{equation}
+	\max_{\bm{n}_{j}}E\left[U(w_{j})\right]\;.
+\end{equation}
+Subject to:
+\begin{flalign}
+	w_{j} &= \bm{n}_{j}^{\intercal}\bm{x} + n^{f}_{j}\;,&&\\
+	\Bar{w}_{j} &= \bm{n}_{j}^{\intercal}\bm{P} + n^{f}_{j}P_{f}\;.&&
+\end{flalign}
+
+Where $w_{j}$ and $\Bar{w}_{j}$ are the terminal and initial wealth for investor type $j$, respectively. Then, $\bm{n}_j$ is the vector representing the amount investor type $j$ purchases in each of $N$ cryptocurrencies, and $n^{f}_{j}$ the number of risk-free discount bonds with unit payoff purchased by investor type $j$. $\bm{P}$ is the vector of cryptocurrency prices, and $P_f$ is the price of the discount bond.
+
+Through the development of this theoretical formulation a formal model can be derived that explains the cross-section of returns of a certain cryptocurrency. But the latter is the general idea, the detail will be delved into in further sections of this dissertation.
 
 \subsection{Fama Mac-Beth Regressions}
+\label{fama regressions}
 Shifting the focus to the empirical tests, the Fama Mac-Beth two-step regression is a commonly used technique in empirical finance for determining parameter estimates in asset pricing models. The technique calculates the betas and risk premiums for all risk factors believed to influence asset prices. The fundamental concept of the regression method is to predict the returns of assets by analyzing their factor exposures or characteristics that mirror exposure to a risk factor in each period.
 
-The approach involves two consecutive stages. Betas are calculated separately for each factor and portfolio in the initial step. After that, the next step includes examining all portfolios as a whole, but separately for each time period. This method enables the analysis of how portfolio returns correspond with the betas identified in the first stage, resulting in the detection of risk premiums for each factor over different time frames. In the end, a compilation of risk premiums linked to each factor in the model is obtained.
-\subsection{Gibbons, Ross, and Shanken Test}
-Lastly, the statistical test outlined in \parencite{GRS1989} serves to assess the precision of asset pricing models. It is particularly employed to scrutinize whether the expected returns of a set of portfolios can be explained by their exposure to a common set of risk factors. 
+To better understand the methodology, some equations need to be presented. The model formulated in this case states that the average excess return of a given cryptocurrency $i$ is determined by the sensitivity of the cryptocurrency to the market risk factor $\beta_{im}$ as well as the sensitivity to a ``popular'' factor $\beta_{ip}$.
 
-Employing this test will facilitate the examination of the stated hypothesis, with a crucial emphasis on not rejecting the null hypothesis.
+\begin{equation}
+	\label{eq:model-popular}
+	\mu_{i} = \beta_{ip}\mu_{p} + \beta_{im}\mu_{m}\;.
+\end{equation}
+
+The approach involves two consecutive stages. In the first step, time series estimates of the betas ($\hat{\beta}_{im},\hat{\beta}_{ip}$) are calculated for the individual portfolios\footnote{For the purpose of this dissertation portfolios are used, but the definition can also be with individual assets.}. In the second step, these beta estimates are employed in a cross-sectional regression to obtain the estimates of the parameters of the regression ($\hat{\mu}_{p,t}, \hat{\mu}_{m,t}$), which are averaged over time, yielding the respective estimates ($\hat{\mu}_{p}, \hat{\mu}_{m}$). These parameter estimates averages are finally compared statistically to their predicted values \parencite{balvers2001}.
+
+One last detail that is important to mention, is that in each of the two steps the coefficient of determination is computed, which allows to know the percentage of the variability of data that is explained by the model in question.
+
+\subsection{Gibbons, Ross, and Shanken Test}
+\label{GRStest}
+Moreover, the statistical test outlined in \parencite{GRS1989} serves to assess the precision of asset pricing models. It is particularly employed to scrutinize whether the expected returns of a set of portfolios can be explained by their exposure to a common set of risk factors. Employing this test will facilitate the examination of the stated hypothesis, with a crucial emphasis on not rejecting the null hypothesis. 
+
+Following the explanation given in the paper itself, considering the following multivariate regression,
+\begin{equation}
+	\label{eq: reg-example}
+	\tilde{r}_{it} = \alpha_{ip} + \beta_{ip}\tilde{r}_{pt}+\tilde{\epsilon}_{it}\quad \forall i=1,\dots,N\;,
+\end{equation}
+where $\tilde{r}_{it}$ is the excess return on asset $i$ in period $t$; $\tilde{r}_{pt}$ is the excess return on the portfolio whose efficiency is being tested; and $\tilde{\epsilon}_{it}$ is the disturbance term for asset $i$ on period $t$. The latter assuming that there is a given risk-free rate of interest $R_{ft}$, for each time period.
+
+Then, if a particular portfolio is mean-variance efficient (i.e., it minimizes variance for a given level of expected return), the following first order condition must be satisfied for the given $N$ assets:
+\begin{equation}
+	\label{eq: GRS condition}
+	E[\tilde{r}_{it}] = \beta_{ip}E[\tilde{r}_{pt}]\;.
+\end{equation}
+Combining \eqref{eq: reg-example} with \eqref{eq: GRS condition}, yields the following parameter restriction, which can be stated in the form of a null hypothesis:
+\begin{equation*}
+	H_{0}: \alpha_{ip}=0,\quad \forall i=1,\dots,N\;.
+\end{equation*}
+This is the general explanation of the idea behind this test, and for simplicity, the detail of the equations related to the computation of the parameters that are used to carry out the test itself will be omitted.
+
+\subsection{Conclusions and recommendations}
+Ultimately, in \ref{fama regressions} the results from the Fama-MacBeth Regressions and in \ref{GRStest} the GRS test will be examined to draw conclusions. This analysis aims to ascertain if the model effectively describes the cross-section of cryptocurrency returns and if the factors are statistically significant.
+
+Despite the results, suggestions for further studies will be given. If the model is shown to be accurate, we will delve into its practical implications, providing valuable knowledge for both individual investors and financial institutions.
+
 
 
 
