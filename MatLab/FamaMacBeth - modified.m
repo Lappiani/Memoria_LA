@@ -1,11 +1,12 @@
 clear;
 
-reg_factors_route = "C:\Users\USER\OneDrive\Escritorio\Memoria\Memoria_LA\Fama-macBeth data\Reg_factors.xlsx";
+reg_factors_route = "C:\Users\USER\OneDrive\Escritorio\Memoria\Memoria_LA\Fama-macBeth data\Reg_factors_green.xlsx";
 portfolio_returns_route = "C:\Users\USER\OneDrive\Escritorio\Memoria\Memoria_LA\Fama-macBeth data\Portfolio returns\Portfolio_returns_26_VW.xlsx";
 
-% Periodo 2020 bull market (53,100)
-initial_row = 39
-final_row = 96
+% Periodo 2020 bull market (39,96)
+initial_row = 1
+final_row = 266
+
 % Load data from first Excel file
 [data1, headers1] = xlsread(portfolio_returns_route);
 % Test asset returns
@@ -141,4 +142,5 @@ ax.XLim = xxx;
 ax.YLim = xxx;
 line(xxx,xxx);
 
+disp('Mean of independent variables');
 disp(mean(CAPMfactors_1992));

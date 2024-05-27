@@ -19,6 +19,40 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
+    \entry{balvers2001}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4b025158051b57fd70679a8b914c6cba}{%
+           family={Balvers},
+           familyi={B\bibinitperiod},
+           given={Ronald\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {West Virginia University}%
+      }
+      \strng{namehash}{4b025158051b57fd70679a8b914c6cba}
+      \strng{fullhash}{4b025158051b57fd70679a8b914c6cba}
+      \strng{bibnamehash}{4b025158051b57fd70679a8b914c6cba}
+      \strng{authorbibnamehash}{4b025158051b57fd70679a8b914c6cba}
+      \strng{authornamehash}{4b025158051b57fd70679a8b914c6cba}
+      \strng{authorfullhash}{4b025158051b57fd70679a8b914c6cba}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Foundations of Asset Pricing}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb https://balvers.azurewebsites.net/notes.html
+      \endverb
+      \verb{url}
+      \verb https://balvers.azurewebsites.net/notes.html
+      \endverb
+    \endentry
     \entry{bariviera2017inefficiency}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6e3a35f37dd6e45c99bb928b7a463493}{%
@@ -947,6 +981,45 @@
       \verb{url}
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85085158906&doi=10.1016%2fj.frl.2020.101566&partnerID=40&md5=b5c86e42ff1b6671caeca26266a6b184
       \endverb
+    \endentry
+    \entry{luo2017social}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d6b8452581a0368c3dd0ad125a700083}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={H.\bibnamedelimi Arthur},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b025158051b57fd70679a8b914c6cba}{%
+           family={Balvers},
+           familyi={B\bibinitperiod},
+           given={Ronald\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \strng{fullhash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \strng{bibnamehash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \strng{authorbibnamehash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \strng{authornamehash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \strng{authorfullhash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial and Quantitative Analysis}
+      \field{number}{1}
+      \field{title}{Social Screens and Systematic Investor Boycott Risk}
+      \field{volume}{52}
+      \field{year}{2017}
+      \field{pages}{365\bibrangedash 399}
+      \range{pages}{35}
     \endentry
     \entry{mossin1966equilibrium}{article}{}
       \name{author}{1}{}{%
@@ -1216,6 +1289,40 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
+    \entry{balvers2001}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4b025158051b57fd70679a8b914c6cba}{%
+           family={Balvers},
+           familyi={B\bibinitperiod},
+           given={Ronald\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {West Virginia University}%
+      }
+      \strng{namehash}{4b025158051b57fd70679a8b914c6cba}
+      \strng{fullhash}{4b025158051b57fd70679a8b914c6cba}
+      \strng{bibnamehash}{4b025158051b57fd70679a8b914c6cba}
+      \strng{authorbibnamehash}{4b025158051b57fd70679a8b914c6cba}
+      \strng{authornamehash}{4b025158051b57fd70679a8b914c6cba}
+      \strng{authorfullhash}{4b025158051b57fd70679a8b914c6cba}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Foundations of Asset Pricing}
+      \field{year}{2001}
+      \verb{urlraw}
+      \verb https://balvers.azurewebsites.net/notes.html
+      \endverb
+      \verb{url}
+      \verb https://balvers.azurewebsites.net/notes.html
+      \endverb
+    \endentry
     \entry{bariviera2017inefficiency}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6e3a35f37dd6e45c99bb928b7a463493}{%
@@ -2144,6 +2251,45 @@
       \verb{url}
       \verb https://www.scopus.com/inward/record.uri?eid=2-s2.0-85085158906&doi=10.1016%2fj.frl.2020.101566&partnerID=40&md5=b5c86e42ff1b6671caeca26266a6b184
       \endverb
+    \endentry
+    \entry{luo2017social}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=d6b8452581a0368c3dd0ad125a700083}{%
+           family={Luo},
+           familyi={L\bibinitperiod},
+           given={H.\bibnamedelimi Arthur},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4b025158051b57fd70679a8b914c6cba}{%
+           family={Balvers},
+           familyi={B\bibinitperiod},
+           given={Ronald\bibnamedelima J.},
+           giveni={R\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \strng{fullhash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \strng{bibnamehash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \strng{authorbibnamehash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \strng{authornamehash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \strng{authorfullhash}{4b3b6a5f9bdabef394f9abf65fe70b33}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Financial and Quantitative Analysis}
+      \field{number}{1}
+      \field{title}{Social Screens and Systematic Investor Boycott Risk}
+      \field{volume}{52}
+      \field{year}{2017}
+      \field{pages}{365\bibrangedash 399}
+      \range{pages}{35}
     \endentry
     \entry{mossin1966equilibrium}{article}{}
       \name{author}{1}{}{%

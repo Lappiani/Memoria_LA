@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  13 MAY 2024 09:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  27 MAY 2024 12:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -117,9 +117,19 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip55
 \dth@everypar=\toks28
 )
+(C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
+Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup6
+\symboldletters=\mathgroup7
+\symboldsymbols=\mathgroup8
+Package bm Info: No bold for \OMX/cmex/m/n, using \pmb.
+Package bm Info: No bold for \U/msa/m/n, using \pmb.
+Package bm Info: No bold for \U/msb/m/n, using \pmb.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
+)
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
-\symlasy=\mathgroup6
+\symlasy=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
 (Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
 )
@@ -1098,7 +1108,7 @@ Package hyperref Info: Link coloring OFF on input line 101.
 \openout5 = `memoria.out'.
 
  (core/primeras_paginas.tex
-<logos/Logo-UANDES.png, id=88, 369.38pt x 486.81876pt>
+<logos/Logo-UANDES.png, id=112, 369.38pt x 486.81876pt>
 File: logos/Logo-UANDES.png Graphic file (type png)
 <use logos/Logo-UANDES.png>
 Package pdftex.def Info: logos/Logo-UANDES.png  used on input line 49.
@@ -1178,17 +1188,44 @@ Chapter 3.
 [12
 
 
-] [13] [14]) [15] (chapters/chapter04.tex
+] [13] [14] [15] [16]) [17] (chapters/chapter04.tex
 Chapter 4.
-) [16
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 3.
+[18
 
 
-] [17
+] [19]
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 39.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 39.
+
+Overfull \hbox (36.0338pt too wide) detected at line 63
+[]
+ []
+
+[20]
+Overfull \hbox (2.14825pt too wide) in paragraph at lines 77--77
+[][][]\OT1/cmr/m/n/12 explain 
+ []
 
 
-] [18] [19] (attachements/anexo_a.tex
+Overfull \hbox (2.14825pt too wide) in paragraph at lines 77--77
+[][][]\OT1/cmr/m/n/12 explain 
+ []
+
+[21]
+Overfull \hbox (28.21968pt too wide) detected at line 225
+[]
+ []
+
+[22] [23]) [24] [25
+
+
+] [26] [27] (attachements/anexo_a.tex
 Appendix A.
-) [20
+) [28
 
 
 ] (memoria.aux)
@@ -1210,6 +1247,7 @@ amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
   amsbsy.sty    1999/11/29 v1.2d Bold Symbols
   amsopn.sty    2022/04/08 v2.04 operator names
   amsthm.sty    2020/05/29 v2.20.6
+      bm.sty    2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 latexsym.sty    1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 setspace.sty    2022/12/04 v6.7b set line spacing
 todonotes.sty    2023/01/31
@@ -1319,31 +1357,43 @@ attachements/anexo_a.tex
  ***********
 
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: A89D18C37AE583838286EF486A0D4993;3251.
+(rerunfilecheck)             Checksum: 0F79E300CF1C3C84647AAFA6D8445F5F;4216.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 29804 strings out of 475247
- 571627 string characters out of 5758263
- 1933785 words of memory out of 5000000
- 50746 multiletter control sequences out of 15000+600000
- 568459 words of font info for 79 fonts, out of 8000000 for 9000
+ 30157 strings out of 475247
+ 577928 string characters out of 5758263
+ 1945785 words of memory out of 5000000
+ 51034 multiletter control sequences out of 15000+600000
+ 573784 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 122i,9n,124p,1345b,5177s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 122i,22n,124p,1345b,5177s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\USER\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
 /cm/cmbx12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/
-amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/USER/AppData/Local/Progra
-ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/
-Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on memoria.pdf (30 pages, 280228 bytes).
+amsfonts/cm/cmbx6.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmbx8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/USER/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/USER/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/USER/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/USER/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/U
+SER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C
+:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cmextra/
+cmmib8.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsf
+onts/cm/cmr10.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fonts/typ
+e1/public/amsfonts/cm/cmr7.pfb><C:/Users/USER/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/USER/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/USER/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USER/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on memoria.pdf (38 pages, 431711 bytes).
 PDF statistics:
- 417 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 186 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 617 PDF objects out of 1000 (max. 8388607)
+ 136 named destinations out of 1000 (max. 500000)
+ 234 words of extra memory for PDF output out of 10000 (max. 10000000)
 
