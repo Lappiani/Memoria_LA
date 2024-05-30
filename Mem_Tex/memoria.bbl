@@ -507,6 +507,43 @@
       \field{pages}{1\bibrangedash 22}
       \range{pages}{22}
     \endentry
+    \entry{Intro-prob-roussas}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=70923ba4e6bff9f6efd50c2ff204a394}{%
+           family={George\bibnamedelima G.},
+           familyi={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Roussas},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \strng{fullhash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \strng{bibnamehash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \strng{authorbibnamehash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \strng{authornamehash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \strng{authorfullhash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780125990202}
+      \field{title}{An Introduction to Probability and Statistical Inference.}
+      \field{year}{2003}
+      \field{pages}{129}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&amp;db=e000xww&amp;AN=195530&amp;lang=es&amp;site=ehost-live
+      \endverb
+      \verb{url}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&amp;db=e000xww&amp;AN=195530&amp;lang=es&amp;site=ehost-live
+      \endverb
+    \endentry
     \entry{GRS1989}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=3d7baf1472964899ac8085a946422877}{%
@@ -1095,6 +1132,39 @@
       \verb https://api.semanticscholar.org/CorpusID:208192945
       \endverb
     \endentry
+    \entry{pratt1964risk}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78442321e2ccf9f5f204df6e3239f7c0}{%
+           family={Pratt},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \strng{fullhash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \strng{bibnamehash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \strng{authorbibnamehash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \strng{authornamehash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \strng{authorfullhash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{1-2}
+      \field{title}{Risk Aversion in the Small and in the Large}
+      \field{volume}{32}
+      \field{year}{1964}
+      \field{pages}{122\bibrangedash 136}
+      \range{pages}{15}
+    \endentry
     \entry{sharpe1964}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7713eaeb6845785b0f6bb5cffab120d1}{%
@@ -1224,6 +1294,39 @@
       \verb{url}
       \verb http://www.nber.org/papers/w26816
       \endverb
+    \endentry
+    \entry{Soderstrom2002}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b18748a7ce9e39da9a886c33993f184}{%
+           family={Söderström},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6b18748a7ce9e39da9a886c33993f184}
+      \strng{fullhash}{6b18748a7ce9e39da9a886c33993f184}
+      \strng{bibnamehash}{6b18748a7ce9e39da9a886c33993f184}
+      \strng{authorbibnamehash}{6b18748a7ce9e39da9a886c33993f184}
+      \strng{authornamehash}{6b18748a7ce9e39da9a886c33993f184}
+      \strng{authorfullhash}{6b18748a7ce9e39da9a886c33993f184}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Discrete-Time Stochastic Systems: Estimation and Control}
+      \field{year}{2002}
+      \field{pages}{165\bibrangedash 166}
+      \range{pages}{2}
     \endentry
     \entry{song2023size}{article}{}
       \name{author}{1}{}{%
@@ -1777,6 +1880,43 @@
       \field{pages}{1\bibrangedash 22}
       \range{pages}{22}
     \endentry
+    \entry{Intro-prob-roussas}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=70923ba4e6bff9f6efd50c2ff204a394}{%
+           family={George\bibnamedelima G.},
+           familyi={G\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Roussas},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \strng{fullhash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \strng{bibnamehash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \strng{authorbibnamehash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \strng{authornamehash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \strng{authorfullhash}{70923ba4e6bff9f6efd50c2ff204a394}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9780125990202}
+      \field{title}{An Introduction to Probability and Statistical Inference.}
+      \field{year}{2003}
+      \field{pages}{129}
+      \range{pages}{1}
+      \verb{urlraw}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&amp;db=e000xww&amp;AN=195530&amp;lang=es&amp;site=ehost-live
+      \endverb
+      \verb{url}
+      \verb https://search.ebscohost.com/login.aspx?direct=true&amp;db=e000xww&amp;AN=195530&amp;lang=es&amp;site=ehost-live
+      \endverb
+    \endentry
     \entry{GRS1989}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=3d7baf1472964899ac8085a946422877}{%
@@ -2365,6 +2505,39 @@
       \verb https://api.semanticscholar.org/CorpusID:208192945
       \endverb
     \endentry
+    \entry{pratt1964risk}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=78442321e2ccf9f5f204df6e3239f7c0}{%
+           family={Pratt},
+           familyi={P\bibinitperiod},
+           given={John\bibnamedelima W.},
+           giveni={J\bibinitperiod\bibinitdelim W\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \strng{fullhash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \strng{bibnamehash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \strng{authorbibnamehash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \strng{authornamehash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \strng{authorfullhash}{78442321e2ccf9f5f204df6e3239f7c0}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Econometrica}
+      \field{number}{1-2}
+      \field{title}{Risk Aversion in the Small and in the Large}
+      \field{volume}{32}
+      \field{year}{1964}
+      \field{pages}{122\bibrangedash 136}
+      \range{pages}{15}
+    \endentry
     \entry{sharpe1964}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7713eaeb6845785b0f6bb5cffab120d1}{%
@@ -2494,6 +2667,39 @@
       \verb{url}
       \verb http://www.nber.org/papers/w26816
       \endverb
+    \endentry
+    \entry{Soderstrom2002}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6b18748a7ce9e39da9a886c33993f184}{%
+           family={Söderström},
+           familyi={S\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{6b18748a7ce9e39da9a886c33993f184}
+      \strng{fullhash}{6b18748a7ce9e39da9a886c33993f184}
+      \strng{bibnamehash}{6b18748a7ce9e39da9a886c33993f184}
+      \strng{authorbibnamehash}{6b18748a7ce9e39da9a886c33993f184}
+      \strng{authornamehash}{6b18748a7ce9e39da9a886c33993f184}
+      \strng{authorfullhash}{6b18748a7ce9e39da9a886c33993f184}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Discrete-Time Stochastic Systems: Estimation and Control}
+      \field{year}{2002}
+      \field{pages}{165\bibrangedash 166}
+      \range{pages}{2}
     \endentry
     \entry{song2023size}{article}{}
       \name{author}{1}{}{%

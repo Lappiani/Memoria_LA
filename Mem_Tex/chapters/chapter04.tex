@@ -1,11 +1,10 @@
 \chapter{Methodological Development}
 \label{c4}
 \todo[inline]{I need to establish: Type of study, Period and place where the research was done, Universe and sample, Methods, Variable selection, Assumptions, Procedures, Methods of data collection.}
-\todo[inline]{Mention that an attempt on three types of investors was made, but you couldnot use Soodestrom.}
+
 As it was already mentioned in previous sections of this dissertation, the investigation corresponds to an empirical finance study of a model that is derived from a theoretical formulation that was already presented in \ref{c322}. The investigation was developed in the year 2024, in \textit{Universidad de los Andes} from \textit{Santiago, Chile}. In the following sections more detail will be presented as to every step showcased in the \nameref{32} relating the research itself.
 
 \section{Mathematical Formulation}
-\todo[inline]{Important to mention in which steps mathematical intuition was used to derive the model.}
 Although the optimization problem was already presented in \ref{c322}, it was the following.
  \begin{equation}
  	\max_{\bm{n}_{j}}E\left[U(w_{j})\right]\;.
@@ -26,7 +25,6 @@ An important aspect is that this model derivation is done originally in \parenci
 
 \subsection{Math Detail}
 For the model there are two types of investors: the unrestricted investors ($U$), and the restricted investors ($R$). In this case, the restricted investors invest solely in cryptocurrencies that hold a dominant position in terms of popularity and market capitalization.
-\todo[inline]{Appendix: Mention which cryptos comprise the popular portfolio.}
 
 In the traditional Capital Asset Pricing Model, the unrestricted investor fully consumes terminal wealth, with $w_{U}$ being terminal wealth of the unrestricted investor. For the said investor, the problem is as follows,
 \begin{gather}
@@ -37,7 +35,7 @@ In the traditional Capital Asset Pricing Model, the unrestricted investor fully 
 	&w_{U} = \boldsymbol{n^{\intercal}}_{U}\bm{x} + n^{f}_{U} \label{final wealth}\;,&&\\
 	&\Bar{w}_{U} = {\bm{n^{\intercal}}_{U}\bm{P}} + n^{f}_{U} P_{f}\label{initial wealth}\;.
 \end{flalign}
-From \eqref{initial wealth}, the following conclusion can be drawn,
+The following step was not detailed in the paper. From \eqref{initial wealth}, the following conclusion can be drawn,
 \begin{equation*}
 	n^{f}_{U}= \frac{1}{P_{f}}\left(\Bar{w}_{U} - \bm{n^{\intercal}}_{U}\bm{P}\right)\;.
 \end{equation*}
@@ -51,7 +49,7 @@ Substituting \eqref{wealth cons.} in \eqref{objective}, and computing the deriva
 		\frac{d\mathrm{E}}{dw_{U}} &= \mathrm{E}\left[U'(w_{U})(\bm{x}-\bm{p})\right]=0\;.
 	\end{split}
 \end{equation*}
-Which corresponds to the first order condition. Now, taking into account that $\bm{x}\sim\mathcal{N}(\Bar{\bm{x}},\bm{\Sigma})$, which is that the payoff vector is multivariate normally distributed, applying the definition of covariance (see appendix \ref{app: cov-def}) the following expression can be deduced,
+Which corresponds to the first order condition. Now, taking into account that $\bm{x}\sim\mathcal{N}(\Bar{\bm{x}},\bm{\Sigma})$, which is that the payoff vector is multivariate normally distributed, applying the definition of covariance (see appendix \ref{app: cov-def}) the following expression can be deduced, which with the lemma application, were not detailed in the paper,
 \begin{equation*}
 	\begin{split}
 		\mathrm{E}\left[U'(w_{U})(\bm{x}-\bm{p})\right] &= E\left[(U'(w_U)-E\left[U'(w_U)\right])(\bm{x}-\bm{p}-E\left[\bm{x}-\bm{p}\right])\right] + E\left[U'(w_U)\right]E\left[\bm{x}-\bm{p}\right]\;,\\
@@ -74,7 +72,7 @@ Applying the lemma in appendix \ref{app: steins lemma},
 	\end{split}
 	\label{eq:unrestricted}
 \end{equation}
-Where $\theta_{U}={-E\left[U''(w_U)\right]}/{E\left[U'(w_U)\right]}$ is analogous to absolute risk aversion\todo{explain this concept}, which depends on the initial wealth of investor $U$ and other model. $\bm{\Sigma}$ is the covariance matrix for risky asset payoffs and $\Bar{\bm{x}}$ the expected payoffs of risky assets.
+Where $\theta_{U}={-E\left[U''(w_U)\right]}/{E\left[U'(w_U)\right]}$ is analogous to absolute risk aversion\footnote{Tendency of individuals to prefer outcomes with low uncertainty over those with high uncertainty, even if the average outcomes of the latter is equal to or higher in monetary value that the more certain outcome \parencite{pratt1964risk}.}, which depends on the initial wealth of investor $U$ and other model. $\bm{\Sigma}$ is the covariance matrix for risky asset payoffs and $\Bar{\bm{x}}$ the expected payoffs of risky assets.
 
 For investor type $R$ the problem is of similar nature,
 \begin{gather}
@@ -107,7 +105,7 @@ Reorganizing equations \eqref{non_sin_res} and \eqref{eq:unrestricted} yields th
 \begin{equation*}
 	\bm{n}_{U} = \left(\theta_{U}\bm{\Sigma}\right)^{-1}(\Bar{\bm{x}} - \bm{p}),\quad \bm{n}_{R} = \left(\theta_{R}\bm{\Sigma}_{P}\right)^{-1}(\Bar{\bm{x}}_{P} - \bm{p}_{P})\;. 
 \end{equation*}
-Note that $\bm{n}_R$ can be represented in the following form,
+The following step was not detailed. Note that $\bm{n}_R$ can be represented in the following form,
 \begin{equation*}
 	\bm{n}_R = \theta^{-1}_{R}\begin{bmatrix}
 		\bm{\Sigma}^{-1}_{P} & 0\\
@@ -133,12 +131,12 @@ Substituting in \eqref{market eq.} yields the following,
 	\end{bmatrix}\right)\left(\bm{\Bar{\bm{x}}}-\bm{p}\right)\;.
 	\label{eq:dem_exogena}
 \end{equation}
-From where we want to isolate the expression $\bm{\Bar{x}}-\bm{p}$, then is necessary to compute the inverse of the expression in parenthesis. The latter can be done using an identity that says the following (see appendix \ref{app: sod-id}), given matrices $\bm{X}_1, \bm{X}_2, \bm{X}_3 \text{ y } \bm{X}_4$, with $\bm{X}_1$, $\bm{X}_4$ having an inverse, the following equality is satisfied.
+From where we want to isolate the expression $\bm{\Bar{x}}-\bm{p}$, then is necessary to compute the inverse of the expression in parenthesis. The latter can be done using an identity \parencite{Soderstrom2002} that says the following. Given matrices $\bm{X}_1, \bm{X}_2, \bm{X}_3 \text{ y } \bm{X}_4$, with $\bm{X}_1$, $\bm{X}_4$ having an inverse, the following equality is satisfied.
 \begin{equation}
 	\left(\bm{X}^{-1}_1 + \bm{X}_2\bm{X}^{-1}_{4}\bm{X}_3\right)^{-1} = \bm{X}_1 + \bm{X}_1\bm{X}_2\left(\bm{X}_4 + \bm{X}_3\bm{X}_1\bm{X}_2\right)^{-1}\bm{X}_3\bm{X}_1\;.
 	\label{eq:id_sodes}
 \end{equation}
-Substituting the terms in \eqref{eq:id_sodes}, yields the following,
+This step and the subsequent one were not detailed. Substituting the terms in \eqref{eq:id_sodes}, yields the following,
 \begin{equation*}
 	\begin{split}
 		& \left(\left(\bm{\Sigma}\theta_U/q_U\right)^{-1}+\begin{bmatrix}
@@ -236,6 +234,116 @@ Then, defining the excess return as $r_i = r^{s}_{i} - r_{f}$, and given that in
 	\label{eq:mean-returns}
 \end{equation}
 Where $m$ represents the market, $P_m = q_m \Bar{w}_{M} = q_U \Bar{w}_{U} + q_R \Bar{w}_{R}$ is the cost of the market portfolio, and $P_p$ is the cost of the popular portfolio. Now, given \eqref{eq:mean-returns}, $\mu_{m}$ and $\mu_{p}$ can be defined, which correspond to the mean returns of the market and popular portfolios, respectively.
+\begin{equation*}
+	\mu_{m} = \gamma P_m \sigma^{2}_{m} + \delta P_p \sigma_{mp} \quad; \quad \mu_{p} = \gamma P_m \sigma_{mp} + \delta P_p \sigma^{2}_{p}\;.
+\end{equation*}
+Solving the system of equations for $\gamma P_m$ y $\delta P_p$ yields the following,
+\begin{equation*}
+	\delta P_p = \frac{\sigma_{mp}\mu_{m}-\sigma^{2}_{m}\mu_{p}}{\sigma^{2}_{mp}-\sigma^{2}_{p}\sigma^{2}_{m}}\quad ; \quad \gamma P_m = \frac{\sigma_{mp}\mu_{p}-\sigma^{2}_{p}\mu_{m}}{\sigma^{2}_{mp}-\sigma^{2}_{p}\sigma^{2}_{m}}\;.
+\end{equation*}
+This step was not detailed. Substituting in \eqref{eq:mean-returns} yields,
+\begin{equation}
+	\begin{split}
+		\mu_{i} &= \frac{\sigma^{2}_{m}\sigma_{ip}-\sigma_{mp}\sigma_{im}}{\sigma^{2}_{p}\sigma^{2}_{m}-\sigma^{2}_{mp}}\mu_{p} + \frac{\sigma^{2}_{p}\sigma_{im}-\sigma_{mp}\sigma_{ip}}{\sigma^{2}_{p}\sigma^{2}_{m}-\sigma^{2}_{mp}}\mu_{m}\;,\\
+		\mu_{i}&= \beta_{ip}\mu_{p} + \beta_{im}\mu_{m}\;.\\  
+	\end{split}
+\end{equation}
+Where $\beta_{ib}$ and $\beta_{ip}$ are the population values of the slope estimates for a linear regression of the return of asset $i$ on the market portfolio return and the popular portfolio return.
+
+\subsubsection{Some comments}
+An attempt was made to modify the original derivation process that uses two type of investor, by adding a third one. But the issue with this is that the step in which \parencite{Soderstrom2002} identity is used, there are problems respecting the amount of matrices needed to use said identity. Assuming there are three types of investors $U$, $R_1$, and $R_2$, the optimization problems do not change, but the covariance matrix does,
+\begin{equation*}
+	\bm{\Sigma} = \begin{bmatrix}
+		\bm{\Sigma}_{P_1} & \bm{\Sigma}_{P_1 P_2} & \bm{\Sigma}_{P_1 N}\\
+		\bm{\Sigma}_{P_2 P_1} & \bm{\Sigma}_{P_2} & \bm{\Sigma}_{P_2 N}\\
+		\bm{\Sigma}_{N P_1} & \bm{\Sigma}_{N P_2} & \bm{\Sigma}_{N}
+	\end{bmatrix}\;.
+\end{equation*}
+Then, the terms respecting the exogenous supply of cryptocurrencies would be as follows,
+\begin{equation}
+	\Bar{\bm{n}} = q_{U}\bm{n}_{U} + q_{R_1}\bm{n}_{R_1}+ q_{R_2}\bm{n}_{R_2},\quad 0 = q_{U}n^{f}_{U} + q_{R_1}n^{f}_{R_1} + q_{R_2}n^{f}_{R_2}\;\label{market-eq-3}.
+\end{equation} 
+Defining the following,
+\begin{equation*}
+	\bm{n}_{U} = \left(\theta_{U}\bm{\Sigma}\right)^{-1}(\Bar{\bm{x}} - \bm{p}),\quad \bm{n}_{R_1} = \left(\theta_{R_1}\bm{\Sigma}_{P_1}\right)^{-1}(\Bar{\bm{x}}_{P_1} - \bm{p}_{P_1}),\quad \bm{n}_{R_2} = \left(\theta_{R_2}\bm{\Sigma}_{P_2}\right)^{-1}(\Bar{\bm{x}}_{P_2} - \bm{p}_{P_2})\;. 
+\end{equation*}
+This would imply that if those therms are replaced in \eqref{market-eq-3}, three new matrices appear in the expression in which the identity presented in \parencite{Soderstrom2002} is applied. Making it impossible to apply said identity, cause it requires only four matrices, not six.
+
+\section{Data}
+As it was already mentioned on \ref{321}, the source of the data corresponds to the \textit{Yahoo Finance} library in \textit{Python}, that is used in conjunction with \textit{Yahooquery}, where the latter is utilized for the retrieval of cryptocurrency symbols. 
+
+Regarding the universe and the sample, the initial set comprised 250 cryptocurrencies. Stablecoins were excluded from this set, resulting in a total of 226 cryptocurrencies paired with the US Dollar. An attempt was made to eliminate stablecoins using a criterion based on the standard deviation and mean of their returns. However, for accuracy, the identification and removal of these stablecoins were ultimately done manually. Conversely the sample, like it was already mentioned in \ref{321}, were 250 cryptocurrencies ordered by intraday market capitalization. The dates ranges of the data are from September, 2014 till March, 2024.
+
+\subsection{Market Index}
+A crypto market index was utilized in order to have a the market factor in the model. Said factor was the \textit{Crypto200 ex BTC Index by Solactive}, that is comprised by a volume weighted average price\footnote{Trading metric that calculates the average price of an asset based on both the trading volume and the price. It gives more weight to trades with higher volume. It provides a more accurate representation of the average price considering the trading activity.}\todo{Add source.} on the top 200 cryptocurrencies except for Bitcoin and stablecoins, by market capitalization, in USD.
+
+One important detail is that the data for this index has been available only from 2019 onward. This limitation affected the sample size, necessitating a reduction to conduct the respective regressions.
+
+\subsection{Return computation}
+All the returns in this investigation correspond to weekly returns. To compute them, the market index data was retrieved first, as it had fewer available dates than the cryptocurrency data. Weekly values of the market index were collected, and the returns were subsequently calculated.
+
+Having the dates of the market returns, for the calculations of the cryptocurrency returns, daily data was used, and the dates were filtered in order for them to match the ones of the market data. Then, with the filtered dates, the weekly returns were computed for each cryptocurrency in the dataset.
+
+\subsection{``Popular'' Factor Estimation}
+In order to build the ``popular'' factor that is derived in the model, a portfolio comprised of these type of cryptocurrencies was built (see table \ref{tab:cryptos} for the detail). In the other hand, the ``not popular'' portfolio was built using the rest of the cryptocurrencies that were not in the ``popular'' portfolio. Then, the returns for each portfolio were calculated using a value weighted fashion, with their respective market capitalization's.
+
+One aspect that is important to detail that also was used in further stages of the data handling, was that the dates in which the cryptocurrencies have data vary depending on each one. The latter because there are cryptocurrencies that are newer than others. This affects directly the computation of portfolio returns because there will be dates were not all the cryptocurrencies in the portfolio will have available returns.
+
+So, for the portfolio returns, the weights are computed for each date based on the availability of returns for the cryptocurrencies in the portfolio on that date. This method was used for all the portfolio computations on this investigation.
+
+After calculating the returns for each portfolio, statistical analysis was conducted. First, a histogram of the returns was created to observe whether the distribution resembled a normal distribution. Analyzing figure \ref{fig:histogram-of-portfolio-returns}, the resemblance is quite similar to a normal distribution.
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.95\linewidth]{"Histogram of portfolio returns"}
+	\caption{Histogram of portfolio returns for ``popular'' and ``not popular'' cryptocurrencies.}
+	\label{fig:histogram-of-portfolio-returns}
+\end{figure}
+
+Then, t-student hypothesis test was made, in order to check if there is a significant difference in the returns of both portfolios, because in otherwise, the idea of a ``popular'' factor would loose credibility in explaining the cross section of returns.
+
+The t-statistic in a t-test indicates how many standard errors the sample mean is from the sample mean of another group. The sign of the t-statistic can also indicate the direction of the difference, if one exists. In this case, a positive sign suggests that the mean returns of the ``not popular" portfolio are greater than those of the ``popular" portfolio, while a negative sign suggests the opposite. One important detail is that for this test the whole date range was used that is available in the cryptocurrency dataset, which is large that the date range of the market index data.
+\begin{table}[h!]
+	\centering
+	\captionsetup{skip=0.5\baselineskip}
+	\caption{T-Test Results}
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Statistic} & \textbf{P-value} \\ \hline
+		1.71 & 0.088 \\ \hline
+	\end{tabular}
+	\label{tab:ttest-results}
+\end{table}
+
+The null hypothesis in this case is that there is no significant difference in portfolio returns, while the alternative hypothesis suggests otherwise. From table \ref{tab:ttest-results}, it can be concluded that there is sufficient statistical evidence to reject the null hypothesis in favor of the alternative. Specifically, the results indicate that the mean portfolio return of the ``not popular" portfolio is greater than that of the ``popular" portfolio.
+
+The last ``test'' that was done corresponded to the computation of the mean portfolio returns of the whole sample, using all the dates available in the cryptocurrency data.
+\begin{table}[h!]
+	\centering
+	\captionsetup{skip=0.5\baselineskip}
+	\caption{Mean Portfolio Returns}
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Portfolio} & \textbf{Mean Return (\%)} \\ \hline
+		Not Popular & 10.23\% \\ \hline
+		Popular & 1.54\% \\ \hline
+	\end{tabular}
+	\label{tab:mean-portfolio-returns}
+\end{table}
+From table \ref{tab:mean-portfolio-returns}, it can be seen that there is an important difference in mean returns, when taking into consideration the complete date range.
+
+With all the necessary statistical tests completed, the process of constructing the ``popular" factor could commence. Initially, a zero investment portfolio was constructed utilizing the difference in returns between the``popular" and ``not popular" portfolios. Subsequently, a regression was performed, with the market returns serving as the independent variable and the zero investment portfolio returns as the dependent variable. Ultimately, the estimation of the ``popular" factor corresponds to the residual error of this regression model.
+
+\section{Portfolio Building}
+The CAPM model works better at explaining the returns of portfolios rather than single assets, so for this reason portfolios of cryptocurrencies were built.
+\todo[inline]{Argument this idea better.}
+
+Tu build said portfolios, regressions were estimated for every cryptocurrency, using the ``popular'' factor as the independent variable, and the returns of an individual cryptocurrency as the dependent variable. So, for every cryptocurrency, a beta was estimated for the ``popular'' factor. Using those 
+
+
+
+
+
+
 
 
 

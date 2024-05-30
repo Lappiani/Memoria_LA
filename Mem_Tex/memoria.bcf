@@ -3108,6 +3108,11 @@
     <bcf:citekey order="47" intorder="1">balvers2001</bcf:citekey>
     <bcf:citekey order="48" intorder="1">GRS1989</bcf:citekey>
     <bcf:citekey order="49" intorder="1">luo2017social</bcf:citekey>
+    <bcf:citekey order="50" intorder="1">pratt1964risk</bcf:citekey>
+    <bcf:citekey order="51" intorder="1">Soderstrom2002</bcf:citekey>
+    <bcf:citekey order="52" intorder="1">Soderstrom2002</bcf:citekey>
+    <bcf:citekey order="53" intorder="1">Soderstrom2002</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">Intro-prob-roussas</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
