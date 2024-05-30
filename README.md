@@ -1,3 +1,4 @@
 # Memoria Luca Appiani
-
-El presente repositorio contiene los archivos relacionados con mi memoria.
+Brief description of what every folder contains:
+* ```Mem_tex```: Has all the Latex files related to the dissertation itself, including the pdf.
+* 
