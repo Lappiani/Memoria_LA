@@ -19,9 +19,15 @@
 \contentsline {chapter}{\numberline {4}Methodological Development}{18}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Mathematical Formulation}{18}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Math Detail}{19}{subsection.4.1.1}%
-\contentsline {chapter}{References}{25}{chapter*.10}%
-\contentsline {chapter}{Appendix}{28}{chapter*.10}%
-\contentsline {chapter}{\numberline {A}Technical details, tables, and others}{28}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Covariance Definition}{28}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Stein's Lemma}{28}{section.A.2}%
-\contentsline {section}{\numberline {A.3}S\"{o}derstr\"{o}m Identity}{28}{section.A.3}%
+\contentsline {subsubsection}{Some comments}{25}{section*.6}%
+\contentsline {section}{\numberline {4.2}Data}{25}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Market Index}{26}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Return computation}{26}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}``Popular'' Factor Estimation}{27}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Portfolio Building}{29}{section.4.3}%
+\contentsline {chapter}{References}{30}{chapter*.12}%
+\contentsline {chapter}{Appendix}{33}{chapter*.12}%
+\contentsline {chapter}{\numberline {A}Technical details, tables, and others}{33}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Covariance Definition}{33}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Stein's Lemma}{33}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Popular Portfolio}{33}{section.A.3}%
