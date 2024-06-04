@@ -3112,7 +3112,8 @@
     <bcf:citekey order="51" intorder="1">Soderstrom2002</bcf:citekey>
     <bcf:citekey order="52" intorder="1">Soderstrom2002</bcf:citekey>
     <bcf:citekey order="53" intorder="1">Soderstrom2002</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">Intro-prob-roussas</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">fama2004capital</bcf:citekey>
+    <bcf:citekey order="55" intorder="1">Intro-prob-roussas</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
