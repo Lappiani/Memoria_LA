@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  30 MAY 2024 09:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  1 JUN 2024 18:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1269,7 +1269,7 @@ Package hyperref Info: Link coloring OFF on input line 101.
 \openout5 = `memoria.out'.
 
  (core/primeras_paginas.tex
-<logos/Logo-UANDES.png, id=132, 369.38pt x 486.81876pt>
+<logos/Logo-UANDES.png, id=140, 369.38pt x 486.81876pt>
 File: logos/Logo-UANDES.png Graphic file (type png)
 <use logos/Logo-UANDES.png>
 Package pdftex.def Info: logos/Logo-UANDES.png  used on input line 49.
@@ -1309,26 +1309,26 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ] (memoria.toc [7
 
 
-])
+] [8])
 \tf@toc=\write6
 \openout6 = `memoria.toc'.
 
- [8] (memoria.lof)
+ [9] (memoria.lof)
 \tf@lof=\write7
 \openout7 = `memoria.lof'.
 
- [9
+ [10
 
 
 ] (memoria.lot)
 \tf@lot=\write8
 \openout8 = `memoria.lot'.
 
- [10
+
+[11
 
 
-])
-(memoria.tdo)
+]) (memoria.tdo)
 \tf@tdo=\write9
 \openout9 = `memoria.tdo'.
 
@@ -1391,11 +1391,11 @@ Overfull \hbox (0.5816pt too wide) in paragraph at lines 278--278
  []
 
 [26]
-<Histogram of portfolio returns.png, id=520, 618.31pt x 388.45125pt>
+<Histogram of portfolio returns.png, id=533, 618.31pt x 388.45125pt>
 File: Histogram of portfolio returns.png Graphic file (type png)
 <use Histogram of portfolio returns.png>
 Package pdftex.def Info: Histogram of portfolio returns.png  used on input line
- 297.
+ 298.
 (pdftex.def)             Requested size: 411.93767pt x 258.80879pt.
 
 
@@ -1404,24 +1404,30 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27] [28 <./Histogram of portfolio returns.png>]) [29] [30
+[27] [28 <./Histogram of portfolio returns.png>] [29]) [30]
+(chapters/chapter05.tex
+Chapter 5.
+) [31
 
 
-] [31]
-Overfull \hbox (19.97122pt too wide) in paragraph at lines 127--127
+] [32
+
+
+] [33]
+Overfull \hbox (19.97122pt too wide) in paragraph at lines 130--130
 [][]\OT1/cmr/m/n/12 S^^?oderstr^^?om, T. (2002). \OT1/cmr/m/it/12 Discrete-time
  stochas-tic sys-tems: Es-ti-ma-tion and con-trol\OT1/cmr/m/n/12 . Springer. 
  []
 
-[32] (attachements/anexo_a.tex
+[34] (attachements/anexo_a.tex
 Appendix A.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [33
+) [35
 
 
-] [34] (memoria.aux)
+] [36] (memoria.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1551,20 +1557,21 @@ chapters/chapter02.tex
 chapters/chapter03.tex
 chapters/chapter04.tex
 Histogram of portfolio returns.png    Graphic file (type png)
+chapters/chapter05.tex
 attachements/anexo_a.tex
  ***********
 
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: D6EAE1E739909D68305C4201F74C1E4E;4911.
+(rerunfilecheck)             Checksum: 55F0C3A0D79B174AA120E2322ADBB0B8;5174.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41499 strings out of 475247
- 945175 string characters out of 5758263
+ 41520 strings out of 475247
+ 945681 string characters out of 5758263
  1943785 words of memory out of 5000000
- 62213 multiletter control sequences out of 15000+600000
+ 62226 multiletter control sequences out of 15000+600000
  573784 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,22n,106p,1345b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1591,9 +1598,9 @@ s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USE
 R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on memoria.pdf (44 pages, 479870 bytes).
+Output written on memoria.pdf (47 pages, 485976 bytes).
 PDF statistics:
- 708 PDF objects out of 1000 (max. 8388607)
- 158 named destinations out of 1000 (max. 500000)
- 279 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 735 PDF objects out of 1000 (max. 8388607)
+ 163 named destinations out of 1000 (max. 500000)
+ 295 words of extra memory for PDF output out of 10000 (max. 10000000)
 

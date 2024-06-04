@@ -285,6 +285,7 @@ All the returns in this investigation correspond to weekly returns. To compute t
 Having the dates of the market returns, for the calculations of the cryptocurrency returns, daily data was used, and the dates were filtered in order for them to match the ones of the market data. Then, with the filtered dates, the weekly returns were computed for each cryptocurrency in the dataset.
 
 \subsection{``Popular'' Factor Estimation}
+\label{c423}
 In order to build the ``popular'' factor that is derived in the model, a portfolio comprised of these type of cryptocurrencies was built (see table \ref{tab:cryptos} for the detail). In the other hand, the ``not popular'' portfolio was built using the rest of the cryptocurrencies that were not in the ``popular'' portfolio. Then, the returns for each portfolio were calculated using a value weighted fashion, with their respective market capitalization's.
 
 One aspect that is important to detail that also was used in further stages of the data handling, was that the dates in which the cryptocurrencies have data vary depending on each one. The latter because there are cryptocurrencies that are newer than others. This affects directly the computation of portfolio returns because there will be dates were not all the cryptocurrencies in the portfolio will have available returns.
@@ -305,7 +306,7 @@ The t-statistic in a t-test indicates how many standard errors the sample mean i
 \begin{table}[h!]
 	\centering
 	\captionsetup{skip=0.5\baselineskip}
-	\caption{T-Test Results}
+	\caption{T-Test Results.}
 	\begin{tabular}{|c|c|}
 		\hline
 		\textbf{Statistic} & \textbf{P-value} \\ \hline
@@ -320,7 +321,7 @@ The last ``test'' that was done corresponded to the computation of the mean port
 \begin{table}[h!]
 	\centering
 	\captionsetup{skip=0.5\baselineskip}
-	\caption{Mean Portfolio Returns}
+	\caption{Mean Portfolio Returns.}
 	\begin{tabular}{|c|c|}
 		\hline
 		\textbf{Portfolio} & \textbf{Mean Return (\%)} \\ \hline
@@ -334,12 +335,24 @@ From table \ref{tab:mean-portfolio-returns}, it can be seen that there is an imp
 With all the necessary statistical tests completed, the process of constructing the ``popular" factor could commence. Initially, a zero investment portfolio was constructed utilizing the difference in returns between the``popular" and ``not popular" portfolios. Subsequently, a regression was performed, with the market returns serving as the independent variable and the zero investment portfolio returns as the dependent variable. Ultimately, the estimation of the ``popular" factor corresponds to the residual error of this regression model.
 
 \section{Portfolio Building}
-The CAPM model works better at explaining the returns of portfolios rather than single assets, so for this reason portfolios of cryptocurrencies were built.
-\todo[inline]{Argument this idea better.}
+In \parencite{fama2004capital} it is explained that while CAPM can be a useful tool, it often performs better when applied to portfolios rather than individual assets, mainly because of the diversification of idiosyncratic risk. For that reason, portfolios of cryptocurrencies were built in order to test the validity of the model.
 
-Tu build said portfolios, regressions were estimated for every cryptocurrency, using the ``popular'' factor as the independent variable, and the returns of an individual cryptocurrency as the dependent variable. So, for every cryptocurrency, a beta was estimated for the ``popular'' factor. Using those 
+Tu build said portfolios, regressions were estimated for every cryptocurrency, using the ``popular'' factor as the independent variable, and the returns of an individual cryptocurrency as the dependent variable. So, for every cryptocurrency, a beta was estimated for the ``popular'' factor.
 
+Using those estimated betas, all the cryptos were arranged from higher to lower value. Then, the portfolios were formed choosing from said list in descending order, based on a certain number of cryptocurrencies for each one.
 
+A really important detail is the one mentioned in section \ref{c423} that is related to the forming of portfolios and the availability of returns on certain dates. In this part, that phenomena impacted directly on the number of cryptos that every portfolio has, because it had to be in a way that all the portfolios could have returns in all the range of dates so that regressions could be done later on. A lot of alternatives were tested, but the number that allowed for the regressions was a total of 26 cryptocurrencies in each portfolio.
+
+Although said quantity meant that there was one portfolio with less cryptos than others, the latter did not poise a problem to carry on with the regressions. In detail portfolios 1 through 8 had 26 cryptocurrencies, and the ninth portfolio had 18.
+
+Finally, for each portfolio, the respective returns were computed using value weighted and equally weighted methods.
+
+\section{Fama Mac-Beth Regressions}
+In section \ref{fama regressions} a general overview of the methodology was presented, but in practice, another approach was taken that is similar to the one already mentioned. In this case, the first pass is the GRS test presented on section \ref{GRStest}, where a p-value is obtained to determine if the null hypothesis is rejected or not, it is important to remember that the objective is not to reject said hypothesis.
+
+The second pass consisted of two consecutive stages, as detailed in section \ref{fama regressions}. First, one regression is estimated for the average returns, were an adjusted R-squared is obtained as well as the factor loadings for every factor with its respective t statistic value. Second, a cross-sectional regression is estimated for every week, from were an average R-squared is obtained with the estimations of the factors loadings and their respective t statistics. From this step, coefficient estimates are obtained for every factor and the intercept, and also an average R-squared, which is normally the one that is used for empirical studies.
+
+The ideal outcome in this section is to achieve a high adjusted R-squared, with an intercept that is not statistically significant, and statistically significant factor coefficients.
 
 
 
