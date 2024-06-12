@@ -1,6 +1,49 @@
 \chapter{Results}
 \label{c5}
-For the testing of the model the methods presented in previous chapters were utilized, and the results obtained will be reviewed. The Fama Mac-Beth methodology was made on various time periods to test if the model presented different results based on that factor. The time windows were selected based on if the crypto market was on a bull state on said weeks.
+For the testing of the model the methods presented in previous chapters were utilized, and the results obtained will be reviewed. The Fama Mac-Beth methodology was made on various time periods to test if the model presented different results based on that factor. Although there were results on various time periods, in this chapter the focus will be in the results obtained using all the dataset.
+\begin{table}[h!]
+	\centering
+	\captionsetup{skip=0.5\baselineskip}
+	\caption{Fama Mac-Beth results for all the dataset.}
+	\begin{tabular}{|c|c|}
+		\hline
+		\textbf{Factor} & \textbf{CAPM-model} \\ \hline
+		\multicolumn{2}{|c|}{\textbf{For average returns}} \\ \hline
+		Intercept & 0.0213 \\ 
+		t-stat & (3.3324) \\ \hline
+		Popular & 0.0044 \\ 
+		t-stat & (1.5881)\\ \hline
+		Market & -0.0973 \\
+		t-stat & (-2.8945)\\ \hline
+		\textbf{Adjusted R-squared} & 0.4458 \\ \hline
+		\multicolumn{2}{|c|}{\textbf{Cross-sec reg. for every month}} \\ \hline
+		Intercept & 0.0213 \\ 
+		t-stat & (1.8669) \\ \hline
+		Popular & 0.0044 \\ 
+		t-stat & (1.9031)\\ \hline
+		Market & -0.0973 \\
+		t-stat & (-1.4573)\\ \hline
+		\textbf{Average Adjusted R-squared} & 0.3338 \\ \hline
+		\multicolumn{2}{|c|}{\textbf{GRS}} \\ \hline
+		F-GRS (95\%) & 1.3848 \\ \hline
+		F-GRS (99\%) & 1.5810 \\ \hline
+		p-value & 0.0110 \\ \hline
+	\end{tabular}
+	\label{table: Results-all-data}
+\end{table}
 
-For all the dataset the results obtained were the following.
+On table \ref{table: Results-all-data} are the results obtained using the Fama Mac-Beth methodology. From these, in relation to the desired outcomes mentioned on section \ref{c44}, only one of them is met, which is a not statistically significant intercept, in the case of cross sectional regressions for every month. So, the model does not have statistically significant factors, and has a low R-squared, meaning that it is failing to explain the variability of returns in the data that was used for this opportunity.
+
+The lack of performance of the model may be because important factors like size and momentum, which impact returns, were not included. The existing variables do not have statistical importance, indicating that they do not account for a significant amount of the variance in cryptocurrency returns. This means that the model does not accurately represent critical market dynamics. Taking into account important factors such as market capitalization and price trends is crucial for enhancing the model's precision and explanatory capability. Without them, the model does not manage to explain a great portion of the variability in the returns of cryptocurrencies.
+
+Another reason that might explain the lack of performance of the model is the data. One aspect could be that the quality and quantity of the data is affecting the results. This, because in studies like \parencite{liu2022common}, Coinmarketcap.com is used for the data, which is the leading source of cryptocurrency price and volume data. It aggregates information from over 200 major exchanges and provides daily data on opening closing, high, and low prices as well as volume and market capitalization (in dollars) for most of the cryptocurrencies. 
+
+To put into perspective the sample in said study included 1,827 coins; and in this dissertation the API used, allowed a maximum of 250. So, the lesser amount of cryptocurrencies can be affecting the results, because it impacts the number of portfolios that can be formed for the Fama Mac-Beth methodology.
+
+Continuing with the data, another aspect is that the sample period could be affecting the results, meaning that the model might perform better during certain periods. To test this hypothesis, the model was evaluated on various time periods, particularly on dates when the cryptocurrency market was in a bull state, following the findings of \parencite{abugri2024bullbear}\todo{Check this citation}. The results for these time periods can be found in Appendix \ref{app: bull-res}.
+
+Although there is a difference in the model's results using the Fama-MacBeth methodology, none of the time periods fulfill all the requirements presented in section \ref{c44} to obtain an ideal outcome. Additionally, it may seem that the model results are being selected based on time periods that could generate favorable outcomes. However, if the model effectively explained the variability in cryptocurrency returns, selecting a specific time frame for testing would not be necessary.
+
+
+
 
