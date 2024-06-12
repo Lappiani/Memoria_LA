@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  1 JUN 2024 18:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  11 JUN 2024 20:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1269,7 +1269,7 @@ Package hyperref Info: Link coloring OFF on input line 101.
 \openout5 = `memoria.out'.
 
  (core/primeras_paginas.tex
-<logos/Logo-UANDES.png, id=140, 369.38pt x 486.81876pt>
+<logos/Logo-UANDES.png, id=144, 369.38pt x 486.81876pt>
 File: logos/Logo-UANDES.png Graphic file (type png)
 <use logos/Logo-UANDES.png>
 Package pdftex.def Info: logos/Logo-UANDES.png  used on input line 49.
@@ -1351,28 +1351,26 @@ Chapter 3.
 
 ] [13] [14] [15] [16]) [17] (chapters/chapter04.tex
 Chapter 4.
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 3.
 [18
 
 
 ]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 37.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 35.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 37.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 35.
  [19]
-Overfull \hbox (36.0338pt too wide) detected at line 61
+Overfull \hbox (36.0338pt too wide) detected at line 59
 []
  []
 
-[20] [21] [22]
-Overfull \hbox (28.21968pt too wide) detected at line 223
+[20] [21]
+Overfull \hbox (28.21968pt too wide) detected at line 221
 []
  []
 
-[23] [24]
-Overfull \hbox (12.85101pt too wide) detected at line 269
+[22] [23]
+Overfull \hbox (12.85101pt too wide) detected at line 267
 \OML/cmm/b/it/12 n[] \OT1/cmr/m/n/12 = [][] ([] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/b
 /it/12 p\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  \OML/cmm/b/it/12 n[] \OT1/cmr/m/n/
 12 = [][] ([] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/b/it/12 p[]\OT1/cmr/m/n/12 )\OML/cm
@@ -1380,54 +1378,83 @@ m/m/it/12 ;  \OML/cmm/b/it/12 n[] \OT1/cmr/m/n/12 = [][] ([] \OMS/cmsy/m/n/12 ^
 ^@ \OML/cmm/b/it/12 p[]\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 :
  []
 
-[25]
-Overfull \hbox (0.5816pt too wide) in paragraph at lines 278--278
+[24]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 276.
+
+Overfull \hbox (0.5816pt too wide) in paragraph at lines 276--276
 \OT1/cmr/m/n/12 source.[]  
  []
 
 
-Overfull \hbox (0.5816pt too wide) in paragraph at lines 278--278
+Overfull \hbox (0.5816pt too wide) in paragraph at lines 276--276
 \OT1/cmr/m/n/12 source.[]  
  []
 
-[26]
-<Histogram of portfolio returns.png, id=533, 618.31pt x 388.45125pt>
+[25] [26]
+<Histogram of portfolio returns.png, id=553, 618.31pt x 388.45125pt>
 File: Histogram of portfolio returns.png Graphic file (type png)
 <use Histogram of portfolio returns.png>
 Package pdftex.def Info: Histogram of portfolio returns.png  used on input line
- 298.
+ 296.
 (pdftex.def)             Requested size: 411.93767pt x 258.80879pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+[27 <./Histogram of portfolio returns.png>] [28] [29]) [30]
+(chapters/chapter05.tex
+Chapter 5.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27] [28 <./Histogram of portfolio returns.png>] [29]) [30]
-(chapters/chapter05.tex
-Chapter 5.
-) [31
+[31
 
 
-] [32
+]
+
+LaTeX Warning: Citation 'abugri2024bullbear' on page 32 undefined on input line
+ 43.
+
+[32]) [33] [34
 
 
-] [33]
+] [35]
 Overfull \hbox (19.97122pt too wide) in paragraph at lines 130--130
 [][]\OT1/cmr/m/n/12 S^^?oderstr^^?om, T. (2002). \OT1/cmr/m/it/12 Discrete-time
  stochas-tic sys-tems: Es-ti-ma-tion and con-trol\OT1/cmr/m/n/12 . Springer. 
  []
 
-[34] (attachements/anexo_a.tex
+[36] (attachements/anexo_a.tex
 Appendix A.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [35
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-] [36] (memoria.aux)
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) [37
+
+
+] [38] [39] [40] [41] [42] [43] [44] (memoria.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1561,17 +1588,25 @@ chapters/chapter05.tex
 attachements/anexo_a.tex
  ***********
 
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 55F0C3A0D79B174AA120E2322ADBB0B8;5174.
+(rerunfilecheck)             Checksum: EABB072DAC3820187AFC20365BFC295A;5358.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                memoria
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41520 strings out of 475247
- 945681 string characters out of 5758263
- 1943785 words of memory out of 5000000
- 62226 multiletter control sequences out of 15000+600000
+ 41541 strings out of 475247
+ 945896 string characters out of 5758263
+ 1960785 words of memory out of 5000000
+ 62230 multiletter control sequences out of 15000+600000
  573784 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,22n,106p,1345b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1598,9 +1633,9 @@ s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USE
 R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on memoria.pdf (47 pages, 485976 bytes).
+Output written on memoria.pdf (55 pages, 506585 bytes).
 PDF statistics:
- 735 PDF objects out of 1000 (max. 8388607)
- 163 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 796 PDF objects out of 1000 (max. 8388607)
+ 180 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
 

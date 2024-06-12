@@ -1,21 +1,24 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'memoria.blg'
-[139] biber-MSWIN64:340> INFO - === 
-[195] Biber.pm:419> INFO - Reading 'memoria.bcf'
-[365] Biber.pm:979> INFO - Found 34 citekeys in bib section 0
-[388] Biber.pm:4419> INFO - Processing section 0
-[401] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
-[478] bibtex.pm:1713> INFO - LaTeX decoding ...
-[532] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
-[789] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[789] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[789] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[789] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[861] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[861] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[861] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
-[861] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[903] bbl.pm:660> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
-[945] bbl.pm:763> INFO - Output to memoria.bbl
-[945] Biber.pm:131> WARN - legacy month field 'March' in entry 'NBERw26816' is not an integer - this will probably not sort properly.
-[945] Biber.pm:133> INFO - WARNINGS: 1
+[142] biber-MSWIN64:340> INFO - === 
+[200] Biber.pm:419> INFO - Reading 'memoria.bcf'
+[381] Biber.pm:979> INFO - Found 35 citekeys in bib section 0
+[417] Biber.pm:4419> INFO - Processing section 0
+[433] Biber.pm:4610> INFO - Looking for bibtex file 'bibliografia.bib' for section 0
+[516] bibtex.pm:1713> INFO - LaTeX decoding ...
+[574] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliografia.bib'
+[741] Utils.pm:410> ERROR - Name "Mella, Abugri, Anand," has too many commas, skipping entry 'abugri2024bullbear'
+[825] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[825] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[825] Biber.pm:4239> INFO - Sorting list 'apa/apasortcite//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[825] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[899] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[899] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[899] Biber.pm:4239> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'en-US'
+[899] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[940] bbl.pm:660> INFO - Writing 'memoria.bbl' with encoding 'UTF-8'
+[983] bbl.pm:763> INFO - Output to memoria.bbl
+[983] Biber.pm:131> WARN - legacy month field 'March' in entry 'NBERw26816' is not an integer - this will probably not sort properly.
+[983] Biber.pm:131> WARN - Entry with key 'abugri2024bullbear' in section '0' is cited and found but not created (likely due to sourcemap)
+[983] Biber.pm:133> INFO - WARNINGS: 2
+[983] Biber.pm:136> INFO - ERRORS: 1
