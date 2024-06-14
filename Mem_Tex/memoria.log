@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  14 JUN 2024 14:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  14 JUN 2024 14:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1432,6 +1432,10 @@ Overfull \hbox (19.97122pt too wide) in paragraph at lines 133--133
 
 [40] (attachements/anexo_a.tex
 Appendix A.
+[41
+
+
+]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1453,13 +1457,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-) [41
-
-
-] [42] [43] [44] [45] [46] [47] [48] (memoria.aux)
+) [42] [43] [44] [45] [46] [47] [48] [49] (memoria.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1609,10 +1607,10 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41572 strings out of 475247
- 946549 string characters out of 5758263
- 1960785 words of memory out of 5000000
- 62250 multiletter control sequences out of 15000+600000
+ 41575 strings out of 475247
+ 946581 string characters out of 5758263
+ 1956785 words of memory out of 5000000
+ 62251 multiletter control sequences out of 15000+600000
  573784 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,22n,106p,1345b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1639,9 +1637,9 @@ s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USE
 R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on memoria.pdf (59 pages, 518233 bytes).
+Output written on memoria.pdf (60 pages, 520474 bytes).
 PDF statistics:
- 837 PDF objects out of 1000 (max. 8388607)
- 188 named destinations out of 1000 (max. 500000)
+ 843 PDF objects out of 1000 (max. 8388607)
+ 190 named destinations out of 1000 (max. 500000)
  327 words of extra memory for PDF output out of 10000 (max. 10000000)
 
