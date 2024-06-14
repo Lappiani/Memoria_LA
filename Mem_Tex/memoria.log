@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  11 JUN 2024 20:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  14 JUN 2024 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1269,7 +1269,7 @@ Package hyperref Info: Link coloring OFF on input line 101.
 \openout5 = `memoria.out'.
 
  (core/primeras_paginas.tex
-<logos/Logo-UANDES.png, id=144, 369.38pt x 486.81876pt>
+<logos/Logo-UANDES.png, id=156, 369.38pt x 486.81876pt>
 File: logos/Logo-UANDES.png Graphic file (type png)
 <use logos/Logo-UANDES.png>
 Package pdftex.def Info: logos/Logo-UANDES.png  used on input line 49.
@@ -1356,21 +1356,21 @@ Chapter 4.
 
 ]
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 35.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
-(Font)              Font shape `U/lasy/m/n' tried instead on input line 35.
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 36.
  [19]
-Overfull \hbox (36.0338pt too wide) detected at line 59
+Overfull \hbox (36.0338pt too wide) detected at line 60
 []
  []
 
 [20] [21]
-Overfull \hbox (28.21968pt too wide) detected at line 221
+Overfull \hbox (28.21968pt too wide) detected at line 222
 []
  []
 
 [22] [23]
-Overfull \hbox (12.85101pt too wide) detected at line 267
+Overfull \hbox (12.85101pt too wide) detected at line 268
 \OML/cmm/b/it/12 n[] \OT1/cmr/m/n/12 = [][] ([] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/b
 /it/12 p\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  \OML/cmm/b/it/12 n[] \OT1/cmr/m/n/
 12 = [][] ([] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/b/it/12 p[]\OT1/cmr/m/n/12 )\OML/cm
@@ -1380,23 +1380,23 @@ m/m/it/12 ;  \OML/cmm/b/it/12 n[] \OT1/cmr/m/n/12 = [][] ([] \OMS/cmsy/m/n/12 ^
 
 [24]
 Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 276.
+ine 277.
 
-Overfull \hbox (0.5816pt too wide) in paragraph at lines 276--276
+Overfull \hbox (0.5816pt too wide) in paragraph at lines 277--277
 \OT1/cmr/m/n/12 source.[]  
  []
 
 
-Overfull \hbox (0.5816pt too wide) in paragraph at lines 276--276
+Overfull \hbox (0.5816pt too wide) in paragraph at lines 277--277
 \OT1/cmr/m/n/12 source.[]  
  []
 
 [25] [26]
-<Histogram of portfolio returns.png, id=553, 618.31pt x 388.45125pt>
+<Histogram of portfolio returns.png, id=568, 618.31pt x 388.45125pt>
 File: Histogram of portfolio returns.png Graphic file (type png)
 <use Histogram of portfolio returns.png>
 Package pdftex.def Info: Histogram of portfolio returns.png  used on input line
- 296.
+ 297.
 (pdftex.def)             Requested size: 411.93767pt x 258.80879pt.
 
 
@@ -1416,16 +1416,21 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 LaTeX Warning: Citation 'abugri2024bullbear' on page 32 undefined on input line
  43.
 
-[32]) [33] [34
+[32] [33]) [34] (chapters/chapter06.tex
+Chapter 6.
+[35
 
 
-] [35]
-Overfull \hbox (19.97122pt too wide) in paragraph at lines 130--130
+] [36]) [37] [38
+
+
+] [39]
+Overfull \hbox (19.97122pt too wide) in paragraph at lines 133--133
 [][]\OT1/cmr/m/n/12 S^^?oderstr^^?om, T. (2002). \OT1/cmr/m/it/12 Discrete-time
  stochas-tic sys-tems: Es-ti-ma-tion and con-trol\OT1/cmr/m/n/12 . Springer. 
  []
 
-[36] (attachements/anexo_a.tex
+[40] (attachements/anexo_a.tex
 Appendix A.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1451,10 +1456,10 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [37
+) [41
 
 
-] [38] [39] [40] [41] [42] [43] [44] (memoria.aux)
+] [42] [43] [44] [45] [46] [47] [48] (memoria.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1585,6 +1590,7 @@ chapters/chapter03.tex
 chapters/chapter04.tex
 Histogram of portfolio returns.png    Graphic file (type png)
 chapters/chapter05.tex
+chapters/chapter06.tex
 attachements/anexo_a.tex
  ***********
 
@@ -1592,7 +1598,7 @@ attachements/anexo_a.tex
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: EABB072DAC3820187AFC20365BFC295A;5358.
+(rerunfilecheck)             Checksum: 87EF8398796B93BD7BD8724AAE843D6E;5800.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                memoria
@@ -1603,10 +1609,10 @@ Package logreq Info: Writing requests to 'memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41541 strings out of 475247
- 945896 string characters out of 5758263
+ 41572 strings out of 475247
+ 946549 string characters out of 5758263
  1960785 words of memory out of 5000000
- 62230 multiletter control sequences out of 15000+600000
+ 62250 multiletter control sequences out of 15000+600000
  573784 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,22n,106p,1345b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1633,9 +1639,9 @@ s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USE
 R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on memoria.pdf (55 pages, 506585 bytes).
+Output written on memoria.pdf (59 pages, 518233 bytes).
 PDF statistics:
- 796 PDF objects out of 1000 (max. 8388607)
- 180 named destinations out of 1000 (max. 500000)
- 303 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 837 PDF objects out of 1000 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
+ 327 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -4,7 +4,7 @@ For the testing of the model the methods presented in previous chapters were uti
 \begin{table}[h!]
 	\centering
 	\captionsetup{skip=0.5\baselineskip}
-	\caption{Fama Mac-Beth results for all the dataset.}
+	\caption{Fama Mac-Beth results for all the dataset}
 	\begin{tabular}{|c|c|}
 		\hline
 		\textbf{Factor} & \textbf{CAPM-model} \\ \hline
@@ -43,6 +43,16 @@ To put into perspective the sample in said study included 1,827 coins; and in th
 Continuing with the data, another aspect is that the sample period could be affecting the results, meaning that the model might perform better during certain periods. To test this hypothesis, the model was evaluated on various time periods, particularly on dates when the cryptocurrency market was in a bull state, following the findings of \parencite{abugri2024bullbear}\todo{Check this citation}. The results for these time periods can be found in Appendix \ref{app: bull-res}.
 
 Although there is a difference in the model's results using the Fama-MacBeth methodology, none of the time periods fulfill all the requirements presented in section \ref{c44} to obtain an ideal outcome. Additionally, it may seem that the model results are being selected based on time periods that could generate favorable outcomes. However, if the model effectively explained the variability in cryptocurrency returns, selecting a specific time frame for testing would not be necessary.
+
+Another important aspect that could explain the lack of performance is the theoretical foundation of the model. When asset pricing models are tested with real data, the empirical models usually have better performances in comparison to CAPM, that has a theoretical derivation.
+
+In \parencite{jiang2022comparison} they conclude that the CAPM does not explain the cryptocurrency market well due to the reason that said model does not take other factors into account like a size factor, which is relatively important in the cryptocurrency market as stated in \parencite{liu2022common}. Other important factors mentioned in \parencite{liu2022common} are cryptocurrency market and momentum, from which the model tested in this dissertation only includes the first one mentioned, which is the market.
+
+Continuing the same idea, \parencite{Shen2020} does a comparison between a three factor model, that contains the market, size and reversal factors, using the cryptocurrency CAPM as a benchmark. The findings are that the three factor model mentioned earlier strongly dominates the cryptocurrency CAPM.
+
+The cases presented earlier, show strong evidence that the performance of empirical models that include several factors, usually outperforms the CAPM. So, as it was already mentioned, evidence exists that usually CAPM does not perform well when tested with real data, leading to believe that, although the derivation of the model is very interesting because the theory behind is well-founded, it does not correlate with good performance.
+
+To conclude, there is no correct explanation as to why the model performed as it did, but the reasons talked about in this chapter may be some of the most relevant, to help explain the lack of performance. Furthermore, it might have been a combination of the reasons, or simply one could be more impactful, but the recognition of said reasons will help provide insights in upcoming chapters to help future studies that want to derive a model with theoretical foundations, to better the results of this dissertation.
 
 
 

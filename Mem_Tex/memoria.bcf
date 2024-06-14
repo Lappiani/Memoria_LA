@@ -3115,7 +3115,12 @@
     <bcf:citekey order="54" intorder="1">fama2004capital</bcf:citekey>
     <bcf:citekey order="55" intorder="1">liu2022common</bcf:citekey>
     <bcf:citekey order="56" intorder="1">abugri2024bullbear</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">Intro-prob-roussas</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">jiang2022comparison</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">liu2022common</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">liu2022common</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">Shen2020</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">luo2017social</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">Intro-prob-roussas</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
