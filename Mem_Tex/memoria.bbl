@@ -845,6 +845,48 @@
       \field{title}{Options, futures , and other derivatives}
       \field{year}{2012}
     \endentry
+    \entry{jiang2022comparison}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=557a2fdee81876ca1f8932b488408b42}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Diwen},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c89d190b2d21dea88072325e07cca7f8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Junxiao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b0ee9228cbf142e1734d45b6f5d8d7a}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Nanjing, China}%
+      }
+      \strng{namehash}{51743c4f15b3e0f216b2f23a8698186e}
+      \strng{fullhash}{007354a0352a2861010dec27a2a07154}
+      \strng{bibnamehash}{007354a0352a2861010dec27a2a07154}
+      \strng{authorbibnamehash}{007354a0352a2861010dec27a2a07154}
+      \strng{authornamehash}{51743c4f15b3e0f216b2f23a8698186e}
+      \strng{authorfullhash}{007354a0352a2861010dec27a2a07154}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EUDL Proceedings of the 4th International Conference on Economic Management and Model Engineering, ICEMME 2022}
+      \field{month}{11}
+      \field{title}{The Comparison of Pricing Models for Cryptocurrency}
+      \field{year}{2022}
+    \endentry
     \entry{kahneman1979prospect}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
@@ -1274,7 +1316,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Finance Research Letters}
       \field{source}{Scopus}
-      \field{title}{A three-factor pricing model for cryptocurrencies}
+      \field{title}{A -factor pricing model for cryptocurrencies}
       \field{type}{Article}
       \field{volume}{34}
       \field{year}{2020}
@@ -2258,6 +2300,48 @@
       \field{title}{Options, futures , and other derivatives}
       \field{year}{2012}
     \endentry
+    \entry{jiang2022comparison}{article}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=557a2fdee81876ca1f8932b488408b42}{%
+           family={Jiang},
+           familyi={J\bibinitperiod},
+           given={Diwen},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=c89d190b2d21dea88072325e07cca7f8}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Junxiao},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b0ee9228cbf142e1734d45b6f5d8d7a}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Ming},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Nanjing, China}%
+      }
+      \strng{namehash}{51743c4f15b3e0f216b2f23a8698186e}
+      \strng{fullhash}{007354a0352a2861010dec27a2a07154}
+      \strng{bibnamehash}{007354a0352a2861010dec27a2a07154}
+      \strng{authorbibnamehash}{007354a0352a2861010dec27a2a07154}
+      \strng{authornamehash}{51743c4f15b3e0f216b2f23a8698186e}
+      \strng{authorfullhash}{007354a0352a2861010dec27a2a07154}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EUDL Proceedings of the 4th International Conference on Economic Management and Model Engineering, ICEMME 2022}
+      \field{month}{11}
+      \field{title}{The Comparison of Pricing Models for Cryptocurrency}
+      \field{year}{2022}
+    \endentry
     \entry{kahneman1979prospect}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
@@ -2687,7 +2771,7 @@
       \field{labeltitlesource}{title}
       \field{journaltitle}{Finance Research Letters}
       \field{source}{Scopus}
-      \field{title}{A three-factor pricing model for cryptocurrencies}
+      \field{title}{A -factor pricing model for cryptocurrencies}
       \field{type}{Article}
       \field{volume}{34}
       \field{year}{2020}

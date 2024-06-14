@@ -27,10 +27,13 @@
 \contentsline {section}{\numberline {4.3}Portfolio Building}{28}{section.4.3}%
 \contentsline {section}{\numberline {4.4}Fama Mac-Beth Regressions}{29}{section.4.4}%
 \contentsline {chapter}{\numberline {5}Results}{31}{chapter.5}%
-\contentsline {chapter}{References}{34}{chapter*.12}%
-\contentsline {chapter}{Appendix}{37}{chapter*.12}%
-\contentsline {chapter}{\numberline {A}Technical details, tables, and others}{37}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Covariance Definition}{37}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Stein's Lemma}{37}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Popular Portfolio}{37}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Bull time period results}{37}{section.A.4}%
+\contentsline {chapter}{\numberline {6}Conclusions and Recommendations}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Conclusions}{35}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Recommendations}{36}{section.6.2}%
+\contentsline {chapter}{References}{38}{chapter*.12}%
+\contentsline {chapter}{Appendix}{41}{chapter*.12}%
+\contentsline {chapter}{\numberline {A}Technical details, tables, and others}{41}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Covariance Definition}{41}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Stein's Lemma}{41}{section.A.2}%
+\contentsline {section}{\numberline {A.3}Popular Portfolio}{41}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Bull time period results}{41}{section.A.4}%
