@@ -35,5 +35,5 @@
 \contentsline {chapter}{\numberline {A}Technical details, tables, and others}{41}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Covariance Definition}{41}{section.A.1}%
 \contentsline {section}{\numberline {A.2}Stein's Lemma}{41}{section.A.2}%
-\contentsline {section}{\numberline {A.3}Popular Portfolio}{41}{section.A.3}%
-\contentsline {section}{\numberline {A.4}Bull time period results}{41}{section.A.4}%
+\contentsline {section}{\numberline {A.3}Popular Portfolio}{42}{section.A.3}%
+\contentsline {section}{\numberline {A.4}Bull time period results}{42}{section.A.4}%

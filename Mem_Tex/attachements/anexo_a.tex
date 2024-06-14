@@ -12,7 +12,13 @@ The definition used in the derivation of the model is the one that is presented 
 
 \section{Stein's Lemma}
 \label{app: steins lemma}
+The following definition is retrieved from \parencite{balvers2001}. ``Stein's Lemma'' provides a linearization result for covariances under normality assumption when one argument is a (possible) non-linear function of a normal variable. As such it is potentially of great value in many finance applications.
 
+It states the following:
+\begin{equation}
+	Cov\left[X, h\left(Y\right)\right] = E\left[h_{Y}\right]Cov\left(X,Y\right)\;,
+\end{equation}
+where $X$ and $Y$ are bivariate normal; $h(\cdot)$ is a differentiable function; and the subscript $Y$ indicates the partial derivative.
 \section{Popular Portfolio}
 \begin{table}[h!]
 	\centering
@@ -29,7 +35,7 @@ The definition used in the derivation of the model is the one that is presented 
 		Chainlink & LINK-USD \\ \hline
 		Polygon & MATIC-USD \\ \hline
 	\end{tabular}
-	\caption{List of Popular Cryptocurrencies and their Symbols}
+	\caption{List of Popular Cryptocurrencies portfolio and their Symbols}
 	\label{tab:cryptos}
 \end{table}
 
