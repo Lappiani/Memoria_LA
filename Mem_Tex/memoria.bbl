@@ -1140,6 +1140,38 @@
       \field{pages}{365\bibrangedash 399}
       \range{pages}{35}
     \endentry
+    \entry{mella2024bullbear}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b747727cd5720f9288f8458612027206}{%
+           family={Mella},
+           familyi={M\bibinitperiod},
+           given={Abugri},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53d094581d5a9020d2e7754d24f512ba}{%
+           family={Anand},
+           familyi={A\bibinitperiod},
+           given={Dutta},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \strng{fullhash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \strng{bibnamehash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \strng{authorbibnamehash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \strng{authornamehash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \strng{authorfullhash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Working paper}
+      \field{title}{Bull and Bear Regime Timings: Analysis of Equity Markets and Cryptocurrency Assets}
+      \field{year}{2024}
+    \endentry
     \entry{mossin1966equilibrium}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c62853668bdb2e78376578bdeb97ab6d}{%
@@ -1409,6 +1441,35 @@
       \field{year}{2002}
       \field{pages}{165\bibrangedash 166}
       \range{pages}{2}
+    \endentry
+    \entry{solactive_crypto200_2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b01c9027c2c7ce7efa2f92e89314ca17}{%
+           family={{Solactive}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \strng{fullhash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \strng{bibnamehash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \strng{authorbibnamehash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \strng{authornamehash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \strng{authorfullhash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-06-14}
+      \field{title}{Crypto200 ex BTC Index by Solactive}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.solactive.com/Indices/?index=DE000SLA7P17
+      \endverb
+      \verb{url}
+      \verb https://www.solactive.com/Indices/?index=DE000SLA7P17
+      \endverb
     \endentry
     \entry{song2023size}{article}{}
       \name{author}{1}{}{%
@@ -2595,6 +2656,38 @@
       \field{pages}{365\bibrangedash 399}
       \range{pages}{35}
     \endentry
+    \entry{mella2024bullbear}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b747727cd5720f9288f8458612027206}{%
+           family={Mella},
+           familyi={M\bibinitperiod},
+           given={Abugri},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=53d094581d5a9020d2e7754d24f512ba}{%
+           family={Anand},
+           familyi={A\bibinitperiod},
+           given={Dutta},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \strng{fullhash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \strng{bibnamehash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \strng{authorbibnamehash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \strng{authornamehash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \strng{authorfullhash}{46102bccb90d7f06c9e23c5a2115e9c1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Working paper}
+      \field{title}{Bull and Bear Regime Timings: Analysis of Equity Markets and Cryptocurrency Assets}
+      \field{year}{2024}
+    \endentry
     \entry{mossin1966equilibrium}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=c62853668bdb2e78376578bdeb97ab6d}{%
@@ -2864,6 +2957,35 @@
       \field{year}{2002}
       \field{pages}{165\bibrangedash 166}
       \range{pages}{2}
+    \endentry
+    \entry{solactive_crypto200_2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b01c9027c2c7ce7efa2f92e89314ca17}{%
+           family={{Solactive}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \strng{fullhash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \strng{bibnamehash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \strng{authorbibnamehash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \strng{authornamehash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \strng{authorfullhash}{b01c9027c2c7ce7efa2f92e89314ca17}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2024-06-14}
+      \field{title}{Crypto200 ex BTC Index by Solactive}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.solactive.com/Indices/?index=DE000SLA7P17
+      \endverb
+      \verb{url}
+      \verb https://www.solactive.com/Indices/?index=DE000SLA7P17
+      \endverb
     \endentry
     \entry{song2023size}{article}{}
       \name{author}{1}{}{%

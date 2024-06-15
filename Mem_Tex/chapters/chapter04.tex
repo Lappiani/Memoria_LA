@@ -1,8 +1,9 @@
 \chapter{Methodological Development}
 \label{c4}
-As it was already mentioned in previous sections of this dissertation, the investigation corresponds to an empirical finance study of a model that is derived from a theoretical formulation that was already presented in \ref{c322}. The investigation was developed in the year 2024, in \textit{Universidad de los Andes} from \textit{Santiago, Chile}. In the following sections more detail will be presented as to every step showcased in the \nameref{32} relating the research itself.
+As it was already mentioned in previous sections of this dissertation, the investigation corresponds to an empirical finance study of a model that is derived from a theoretical formulation that was already presented in \ref{c322}. The investigation was developed in the year 2024, in \textit{Universidad de los Andes} from \textit{Santiago, Chile}. In the following sections more detail will be presented as to every step showcased in section \ref{32} relating the research itself.
 
 \section{Mathematical Formulation}
+\label{c411}
 Although the optimization problem was already presented in \ref{c322}, it was the following.
  \begin{equation}
  	\max_{\bm{n}_{j}}E\left[U(w_{j})\right]\;.
@@ -22,7 +23,6 @@ Where in summary the variables represent:
 An important aspect is that this model derivation is done originally in \parencite{luo2017social}. The model formulated in this dissertation is based on said paper, but in this case it is applied to cryptocurrencies. Also, in the paper the detail of the math is given, but there are some steps that are not shown in a level of detail that allows for a full understanding of the process, so in those cases mathematical intuition was required to obtain the required results in order to derive the model. Said steps will be mentioned in this section.
 
 \subsection{Math Detail}
-\label{c411}
 For the model there are two types of investors: the unrestricted investors ($U$), and the restricted investors ($R$). In this case, the restricted investors invest solely in cryptocurrencies that hold a dominant position in terms of popularity and market capitalization.
 
 In the traditional Capital Asset Pricing Model, the unrestricted investor fully consumes terminal wealth, with $w_{U}$ being terminal wealth of the unrestricted investor. For the said investor, the problem is as follows,
@@ -274,7 +274,7 @@ As it was already mentioned on \ref{321}, the source of the data corresponds to 
 Regarding the universe and the sample, the initial set comprised 250 cryptocurrencies. Stablecoins were excluded from this set, resulting in a total of 226 cryptocurrencies paired with the US Dollar. An attempt was made to eliminate stablecoins using a criterion based on the standard deviation and mean of their returns. However, for accuracy, the identification and removal of these stablecoins were ultimately done manually. Conversely the sample, like it was already mentioned in \ref{321}, were 250 cryptocurrencies ordered by intraday market capitalization. The dates ranges of the data are from September, 2014 till March, 2024.
 
 \subsection{Market Index}
-A crypto market index was utilized in order to have a the market factor in the model. Said factor was the \textit{Crypto200 ex BTC Index by Solactive}, that is comprised by a volume weighted average price\footnote{Trading metric that calculates the average price of an asset based on both the trading volume and the price. It gives more weight to trades with higher volume. It provides a more accurate representation of the average price considering the trading activity.}\todo{Add source.} on the top 200 cryptocurrencies except for Bitcoin and stablecoins, by market capitalization, in USD.
+A crypto market index was utilized in order to have a the market factor in the model. Said factor was the \textit{Crypto200 ex BTC Index by Solactive}, that is comprised by a volume weighted average price\footnote{Trading metric that calculates the average price of an asset based on both the trading volume and the price. It gives more weight to trades with higher volume. It provides a more accurate representation of the average price considering the trading activity \parencite{solactive_crypto200_2024}.} on the top 200 cryptocurrencies except for Bitcoin and stablecoins, by market capitalization, in USD.
 
 One important detail is that the data for this index has been available only from 2019 onward. This limitation affected the sample size, necessitating a reduction to conduct the respective regressions.
 
