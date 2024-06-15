@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  14 JUN 2024 14:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.11.16)  14 JUN 2024 20:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1160,24 +1160,24 @@ Package biblatex Warning: Load 'inputenc' before biblatex.
 (memoria.aux)
 \openout1 = `memoria.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 101.
-LaTeX Font Info:    ... okay on input line 101.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
@@ -1211,13 +1211,13 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
 ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
 your preamble.
- on input line 101.
+ on input line 88.
 
 
 Package todonotes Warning: The length marginparwidth is less than 2cm and will 
 most likely cause issues with the appearance of inserted todonotes. The issue c
 an be solved by adding a line like \setlength {\marginparwidth }{2cm} prior to 
-loading the todonotes package. on input line 101.
+loading the todonotes package. on input line 88.
 
 Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
 Package biblatex Info: ... file 'english-apa.lbx' found.
@@ -1257,13 +1257,13 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'memoria.bbl' found.
  (memoria.bbl)
-Package biblatex Info: Reference section=0 on input line 101.
-Package biblatex Info: Reference segment=0 on input line 101.
+Package biblatex Info: Reference section=0 on input line 88.
+Package biblatex Info: Reference segment=0 on input line 88.
 
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/fmtcount\fc-english.def
 File: fc-english.def 2016/01/12
 )
-Package hyperref Info: Link coloring OFF on input line 101.
+Package hyperref Info: Link coloring OFF on input line 88.
 (memoria.out) (memoria.out)
 \@outlinefile=\write5
 \openout5 = `memoria.out'.
@@ -1278,20 +1278,20 @@ Package pdftex.def Info: logos/Logo-UANDES.png  used on input line 49.
 
 {C:/Users/USER/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logos/Logo-
 UANDES.png>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 105
-.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 99.
+
 
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 105
-.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 99.
+
 
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 10
-5.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 99
+.
 
 (C:\Users\USER\AppData\Local\Programs\MiKTeX\tex/latex/base\ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
@@ -1300,7 +1300,13 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ]
 [3
 
-] [4
+]
+Overfull \hbox (12.64066pt too wide) in paragraph at lines 126--126
+[]\OT1/cmr/m/n/12 The main ob-jec-tive of this dis-ser-ta-tion is to cre-ate an
+d con-firm a Port-fo-lio Markowitz-
+ []
+
+[4
 
 ] [5
 
@@ -1324,34 +1330,28 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 \tf@lot=\write8
 \openout8 = `memoria.lot'.
 
+ [11
 
+
+])
+(chapters/chapter01.tex
+Chapter 1.
+[1
+
+
+]) [2] (chapters/chapter02.tex
+Chapter 2.
+[3
+
+
+] [4] [5] [6] [7] [8] [9]) [10] (chapters/chapter03.tex
+Chapter 3.
 [11
 
 
-]) (memoria.tdo)
-\tf@tdo=\write9
-\openout9 = `memoria.tdo'.
-
- (chapters/chapter01.tex [1
-
-
-]
-Chapter 1.
-[2
-
-]) [3] (chapters/chapter02.tex
-Chapter 2.
-[4
-
-
-] [5] [6] [7] [8] [9] [10]) [11] (chapters/chapter03.tex
-Chapter 3.
-[12
-
-
-] [13] [14] [15] [16]) [17] (chapters/chapter04.tex
+] [12] [13] [14] [15]) [16] (chapters/chapter04.tex
 Chapter 4.
-[18
+[17
 
 
 ]
@@ -1359,17 +1359,17 @@ LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
 (Font)              Font shape `U/lasy/m/n' tried instead on input line 36.
- [19]
+ [18]
 Overfull \hbox (36.0338pt too wide) detected at line 60
 []
  []
 
-[20] [21]
+[19] [20]
 Overfull \hbox (28.21968pt too wide) detected at line 222
 []
  []
 
-[22] [23]
+[21] [22]
 Overfull \hbox (12.85101pt too wide) detected at line 268
 \OML/cmm/b/it/12 n[] \OT1/cmr/m/n/12 = [][] ([] \OMS/cmsy/m/n/12 ^^@ \OML/cmm/b
 /it/12 p\OT1/cmr/m/n/12 )\OML/cmm/m/it/12 ;  \OML/cmm/b/it/12 n[] \OT1/cmr/m/n/
@@ -1378,21 +1378,8 @@ m/m/it/12 ;  \OML/cmm/b/it/12 n[] \OT1/cmr/m/n/12 = [][] ([] \OMS/cmsy/m/n/12 ^
 ^@ \OML/cmm/b/it/12 p[]\OT1/cmr/m/n/12 ) \OML/cmm/m/it/12 :
  []
 
-[24]
-Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
-ine 277.
-
-Overfull \hbox (0.5816pt too wide) in paragraph at lines 277--277
-\OT1/cmr/m/n/12 source.[]  
- []
-
-
-Overfull \hbox (0.5816pt too wide) in paragraph at lines 277--277
-\OT1/cmr/m/n/12 source.[]  
- []
-
-[25] [26]
-<Histogram of portfolio returns.png, id=568, 618.31pt x 388.45125pt>
+[23] [24] [25]
+<Histogram of portfolio returns.png, id=560, 618.31pt x 388.45125pt>
 File: Histogram of portfolio returns.png Graphic file (type png)
 <use Histogram of portfolio returns.png>
 Package pdftex.def Info: Histogram of portfolio returns.png  used on input line
@@ -1402,37 +1389,32 @@ Package pdftex.def Info: Histogram of portfolio returns.png  used on input line
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[27 <./Histogram of portfolio returns.png>] [28] [29]) [30]
+[26 <./Histogram of portfolio returns.png>] [27] [28]) [29]
 (chapters/chapter05.tex
 Chapter 5.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[31
+[30
 
 
-]
-
-LaTeX Warning: Citation 'abugri2024bullbear' on page 32 undefined on input line
- 43.
-
-[32] [33]) [34] (chapters/chapter06.tex
+] [31] [32]) [33] (chapters/chapter06.tex
 Chapter 6.
-[35
+[34
 
 
-] [36]) [37] [38
+] [35]) [36] [37
 
 
-] [39]
-Overfull \hbox (19.97122pt too wide) in paragraph at lines 133--133
+] [38]
+Overfull \hbox (19.97122pt too wide) in paragraph at lines 120--120
 [][]\OT1/cmr/m/n/12 S^^?oderstr^^?om, T. (2002). \OT1/cmr/m/it/12 Discrete-time
  stochas-tic sys-tems: Es-ti-ma-tion and con-trol\OT1/cmr/m/n/12 . Springer. 
  []
 
-[40] (attachements/anexo_a.tex
+[39] (attachements/anexo_a.tex
 Appendix A.
-[41
+[40
 
 
 ]
@@ -1457,7 +1439,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [42] [43] [44] [45] [46] [47] [48] [49] (memoria.aux)
+) [41] [42] [43] [44] [45] [46] [47] [48] (memoria.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1592,25 +1574,17 @@ chapters/chapter06.tex
 attachements/anexo_a.tex
  ***********
 
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `memoria.out' has not changed.
-(rerunfilecheck)             Checksum: 87EF8398796B93BD7BD8724AAE843D6E;5800.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                memoria
-(biblatex)                and rerun LaTeX afterwards.
-
+(rerunfilecheck)             Checksum: 392C0592990B30D5469D6F6DF34E66BD;5798.
 Package logreq Info: Writing requests to 'memoria.run.xml'.
 \openout1 = `memoria.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41575 strings out of 475247
- 946581 string characters out of 5758263
- 1956785 words of memory out of 5000000
- 62251 multiletter control sequences out of 15000+600000
+ 41464 strings out of 475247
+ 944274 string characters out of 5758263
+ 1954785 words of memory out of 5000000
+ 62145 multiletter control sequences out of 15000+600000
  573784 words of font info for 97 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  104i,22n,106p,1345b,5183s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1637,9 +1611,9 @@ s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/USER/AppData/Local
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/USE
 R/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 
-Output written on memoria.pdf (60 pages, 520474 bytes).
+Output written on memoria.pdf (59 pages, 521066 bytes).
 PDF statistics:
- 843 PDF objects out of 1000 (max. 8388607)
- 190 named destinations out of 1000 (max. 500000)
+ 840 PDF objects out of 1000 (max. 8388607)
+ 188 named destinations out of 1000 (max. 500000)
  327 words of extra memory for PDF output out of 10000 (max. 10000000)
 

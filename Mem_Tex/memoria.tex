@@ -33,8 +33,8 @@
 \newcommand{\anio}{\the\year}
 \newcommand{\titulo}{Formulation of an asset pricing model for cryptocurrencies}
 \newcommand{\nombreprofuno}{Javier Mella}
-\newcommand{\nombreprofdos}{Nombre Representante del Decano}
-\newcommand{\nombreproftres}{Nombre Profesor Invitado}
+\newcommand{\nombreprofdos}{Name of the Dean's Representative}
+\newcommand{\nombreproftres}{Name of the Visiting Professor}
 \newcommand{\codigo}{ING-IN-001/11}
 
 % LAS SIGUIENTES DEFINICIONES TAMBIEN SON NECESARIAS.
@@ -42,28 +42,15 @@
 % PARENTESIS DE LLAVE.
 
 \newcommand{\resumen}{
-% El resumen no debe ocupar más de una página y se escribe
-% al igual que el resto de la memoria en primera persona plural
-% (``en este estudio hemos desarrollado...'', ``consideramos...'')
-% o en voz pasiva (``el modelo ha sido analizado...'', ``será simulado...''),
-% tratando de ser consistente en el uso de una de estas opciones.
+Cryptocurrency has gained significant popularity in recent years due to various factors, including attractive returns and new investment opportunities. Additionally, the technologies underlying these assets are highly interesting to investors worldwide. Therefore, research aimed at identifying the factors driving cryptocurrency returns can be highly beneficial for both individual investors and financial institutions, which currently hold substantial investments in this type of assets.
 
-% El resumen debe ser simple, fácilmente leible por cualquier persona.
-% Se recomienda no incluir siglas (aún aquellas de uso habitual),
-% símbolos matemáticos, ecuaciones o palabras en otro idioma.
+The main objective of this dissertation is to create and confirm a Portfolio Markowitz-inspired model to evaluate cryptocurrency returns in order to improve comprehension and assist in making informed investment choices.
 
-% La estructura de la memoria ha de ser la siguiente:
-% páginas de título, resumen, índice, listas de ilustraciones
-% y tablas, capítulos, anexos y bibliografía.
+The methodology is comprised of five main steps. First, the mathematical formulation of the model was done, which was inspired by the research of \parencite{luo2017social}. The procedure is similar, although there were some steps that were not detailed in the original paper, but in this case the interpretation of various variables is changed, in order to fit the cryptocurrency focus. Then, a dataset of returns from cryptocurrencies was built, and to ensure the validity of said returns, some statistical tests were conducted. 
 
-% El formato mínimo especifica cuatro márgenes de 2.5 cm,
-% tipo de letra Times de tamaño 12 puntos y un espaciado entre líneas
-% parecido a 0.6 cm (1.5 veces el espaciado normal).
+Following this, statistical tests were conducted, including Fama-MacBeth regressions and the Gibbons, Ross, and Shanken (GRS) test, to evaluate the model's capacity and validity in explaining the cross-section of cryptocurrency returns. Subsequently, conclusions and recommendations were drawn from these tests.
 
-% Se recomienda vivamente usar esta plantilla \LaTeX{}
-% ya que con ella el autor puede despreocuparse de muchos detalles
-% de la edición y concentrarse en el contenido de la memoria y
-% en la claridad de la exposición.
+The most important results include the model passing the GRS test at a 5\% significance level, but not at 1\%. The Fama-MacBeth regressions yielded poor results, with factors not statistically significant and an average R-squared of 33\%. Principal conclusions indicate that while theory-based models may explain asset returns, empirical models with more factors outperform them when tested with real data.
 }
 
 \newcommand{\agradecimientos}{
@@ -107,7 +94,7 @@ I dedicate this work to ...
 % No es necesario modificar
 
 \input{core/primeras_paginas.tex}
-\listoftodos
+%\listoftodos
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \input{chapters/chapter01.tex}  
